@@ -43,7 +43,7 @@ export function Footer() {
           
           {/* Services */}
           <div>
-            <h4 className="font-semibold mb-4 text-white">Servicios</h4>
+            <h3 className="font-semibold mb-4 text-white">Servicios</h3>
             <ul className="space-y-2 text-sm text-white">
               {serviceLinks.map((link) => (
                 <li key={link.name}>
@@ -61,7 +61,7 @@ export function Footer() {
           
           {/* Contact Info (NAP) */}
           <div>
-            <h4 className="font-semibold mb-4 text-white">Contacto</h4>
+            <h3 className="font-semibold mb-4 text-white">Contacto</h3>
             <div className="space-y-3 text-sm text-white">
               <div className="flex items-center gap-2" data-testid="contact-location">
                 <MapPin className="w-5 h-5 text-white" />
@@ -93,7 +93,7 @@ export function Footer() {
           
           {/* Legal */}
           <div>
-            <h4 className="font-semibold mb-4 text-white">Legal</h4>
+            <h3 className="font-semibold mb-4 text-white">Legal</h3>
             <ul className="space-y-2 text-sm text-white">
               {legalLinks.map((link) => (
                 <li key={link.name}>

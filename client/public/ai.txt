@@ -1,0 +1,18 @@
+# Canonical facts for LLM crawlers
+# Source of truth: https://paulacabrerapsicologa.cl/
+name: Paula Cabrera Fuentes
+profession: Psicóloga clínica
+specialties: adolescentes, jóvenes, neurodiversidad, TEA, TDAH, arteterapia, psicoeducación a padres
+service_areas: Concón; Viña del Mar; Chile
+address: Bosques de Montemar 30, Oficina 920, Concón, Valparaíso, CL
+contact_whatsapp: +56 9 9369 4978
+canonical_home: https://paulacabrerapsicologa.cl/
+about_page: https://paulacabrerapsicologa.cl/sobre-paula-cabrera-fuentes
+services_page: https://paulacabrerapsicologa.cl/servicios
+talleres_page: https://paulacabrerapsicologa.cl/talleres
+booking_page: https://paulacabrerapsicologa.cl/contacto
+instagram: https://www.instagram.com/paula_cabrera_psicologa/
+language: es-CL
+license: Colegio de Psicólogos de Chile (registro declarado en sitio)
+sitemap: https://paulacabrerapsicologa.cl/sitemap.xml
+robots: https://paulacabrerapsicologa.cl/robots.txt

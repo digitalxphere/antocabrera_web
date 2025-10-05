@@ -1,0 +1,25 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+Psychologist: Paula Cabrera Fuentes
+Contact: consulta [at] paulacabrera.cl
+Location: Concón, Viña del Mar, Chile
+
+# THANKS
+
+All the families and teenagers who trust in therapeutic process.
+
+# TECHNOLOGY COLOPHON
+
+HTML5, CSS3, JavaScript
+React, Vite, TypeScript
+Tailwind CSS, Radix UI
+Node.js, Express
+PostgreSQL, Drizzle ORM
+
+Last update: 2025/09/04
+Standards: HTML5, CSS3
+Components: React 18
+IDE: Replit

@@ -1,0 +1,21 @@
+# Redirect www to non-www version
+https://www.paulacabrerapsicologa.cl/* https://paulacabrerapsicologa.cl/:splat 301!
+
+# Redirect all HTTP to HTTPS
+http://paulacabrerapsicologa.cl/* https://paulacabrerapsicologa.cl/:splat 301!
+http://www.paulacabrerapsicologa.cl/* https://paulacabrerapsicologa.cl/:splat 301!
+
+# Redirect Railway URLs to canonical domain
+https://*.railway.app/* https://paulacabrerapsicologa.cl/:splat 301!
+
+# Redirect Replit URLs to canonical domain  
+https://*.replit.app/* https://paulacabrerapsicologa.cl/:splat 301!
+
+# SEO friendly redirects
+/psicologa-concon    /    301
+/psicologa-vina-del-mar    /    301
+/tea-autismo    /servicios    301
+/arteterapia    /talleres    301
+
+# SPA fallback - serve index.html for all routes
+/*    /index.html   200

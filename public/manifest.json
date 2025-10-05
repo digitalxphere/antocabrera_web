@@ -1,0 +1,86 @@
+{
+  "name": "Paula Cabrera Fuentes - Psicóloga",
+  "short_name": "Paula Cabrera",
+  "description": "Psicóloga especialista en adolescentes y jóvenes TEA con talleres de arteterapia en Concón y Viña del Mar",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FDF8F6",
+  "theme_color": "#E47B3B",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "es-CL",
+  "categories": ["health", "medical", "psychology", "therapy"],
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png", 
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-wide.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/screenshot-narrow.png",
+      "sizes": "720x1280", 
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Agendar Consulta",
+      "short_name": "Agendar",
+      "description": "Programa una consulta con Paula Cabrera",
+      "url": "/contacto",
+      "icons": [
+        {
+          "src": "/icon-calendar.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Talleres de Arteterapia",
+      "short_name": "Talleres",
+      "description": "Ver talleres disponibles",
+      "url": "/talleres-arte-terapia",
+      "icons": [
+        {
+          "src": "/icon-art.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Contacto WhatsApp",
+      "short_name": "WhatsApp",
+      "description": "Contactar por WhatsApp",
+      "url": "https://wa.me/56xxxxxxxxx",
+      "icons": [
+        {
+          "src": "/icon-whatsapp.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
+}

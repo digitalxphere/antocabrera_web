@@ -1,0 +1,333 @@
+{
+  "@context": "https://schema.org",
+  "@type": "PsychologistPractice",
+  "version": "1.0",
+  "lastUpdated": "2025-10-05",
+  "practice": {
+    "name": "Paula Cabrera Fuentes",
+    "profession": "Psicóloga Clínica",
+    "specialization": [
+      "Adolescentes",
+      "Jóvenes",
+      "TEA (Trastorno del Espectro Autista)",
+      "TDAH",
+      "Neurodiversidad",
+      "Arteterapia"
+    ],
+    "experience_years": 25,
+    "education": [
+      {
+        "degree": "Máster en Psicoterapia",
+        "institution": "Universidad de Chile"
+      },
+      {
+        "specialization": "Modelo MMIDA, IFS, Focalización corporal y técnicas integrativas"
+      }
+    ],
+    "approach": "Acompañamiento centrado en el vínculo y la confianza con enfoque en neurodiversidad, integración familiar y arteterapia",
+    "languages": ["Español"],
+    "website": "https://paulacabrerapsicologa.cl",
+    "contact": {
+      "phone": "+569 9369 4978",
+      "whatsapp": "56993694978",
+      "locations": [
+        {
+          "name": "Consulta Principal",
+          "address": "Av. Bosques de Montemar 30, Oficina 920, Concón, Valparaíso, Chile",
+          "city": "Concón",
+          "region": "Valparaíso",
+          "country": "Chile",
+          "type": "presencial"
+        },
+        {
+          "name": "Atención Online",
+          "type": "virtual",
+          "coverage": "Mundial"
+        }
+      ],
+      "schedule": {
+        "weekdays": "Lunes a Viernes: 10:00 - 19:00",
+        "saturday": "Sábados: 10:00 - 14:00",
+        "sunday": "Cerrado"
+      }
+    }
+  },
+  "services": [
+    {
+      "id": "individual",
+      "name": "Consulta Individual - Psicoterapia",
+      "type": "Psicoterapia Individual",
+      "target_audience": [
+        "Adolescentes (12-18 años)",
+        "Jóvenes (18-30 años)",
+        "Adultos"
+      ],
+      "specialties": [
+        "Ansiedad",
+        "Trauma",
+        "Apego",
+        "Neurodivergencia",
+        "TEA",
+        "TDAH",
+        "Regulación emocional"
+      ],
+      "objectives": [
+        "Autorregulación emocional",
+        "Desarrollo de habilidades sociales",
+        "Construcción de identidad",
+        "Mejora de comunicación"
+      ],
+      "duration": "70 minutos",
+      "modality": [
+        "Presencial en Concón",
+        "Online mundial"
+      ],
+      "techniques": [
+        "Modelo MMIDA",
+        "IFS (Internal Family Systems)",
+        "Focalización corporal",
+        "Técnicas integrativas",
+        "Psicodiagnóstico"
+      ]
+    },
+    {
+      "id": "parents",
+      "name": "Psicoeducación para Padres y Cuidadores",
+      "type": "Orientación Familiar",
+      "target_audience": [
+        "Padres de adolescentes",
+        "Padres de jóvenes con TEA",
+        "Cuidadores",
+        "Familia extendida"
+      ],
+      "objectives": [
+        "Favorecer integración sin perder la esencia",
+        "Mejorar comunicación familiar",
+        "Establecer acuerdos",
+        "Coordinación escolar"
+      ],
+      "duration": "60 minutos",
+      "modality": [
+        "Presencial en Concón",
+        "Online"
+      ],
+      "includes": [
+        "Material visual",
+        "Plan de apoyo personalizado",
+        "Estrategias para hogar y colegio"
+      ]
+    },
+    {
+      "id": "workshops",
+      "name": "Talleres de Arteterapia",
+      "type": "Taller Grupal",
+      "target_audience": [
+        "Adolescentes con TEA",
+        "Jóvenes con neurodiversidad"
+      ],
+      "objectives": [
+        "Regulación emocional",
+        "Comunicación no verbal",
+        "Habilidades sociales en contexto cuidado",
+        "Pertenencia grupal"
+      ],
+      "format": {
+        "group_size": "4-6 participantes",
+        "duration": "90-120 minutos",
+        "modality": "Solo presencial en Concón",
+        "features": [
+          "Grupos pequeños",
+          "Apoyos visuales",
+          "Pausas programadas",
+          "Ambiente predecible"
+        ]
+      },
+      "access": "Por invitación tras evaluación clínica individual",
+      "location": "Av. Bosques de Montemar 30, Oficina 920, Concón"
+    }
+  ],
+  "workshops": [
+    {
+      "id": "1",
+      "title": "Expresión Emocional Creativa",
+      "description": "Taller grupal para desarrollar la expresión emocional y habilidades de comunicación a través del arte",
+      "duration": "2 horas",
+      "capacity": 6,
+      "location": "Consulta Concón",
+      "modality": "Presencial",
+      "tags": ["Expresión emocional", "Arte", "Comunicación"]
+    },
+    {
+      "id": "2",
+      "title": "Habilidades Sociales Artísticas",
+      "description": "Desarrollo de habilidades sociales a través de proyectos artísticos colaborativos y expresión creativa",
+      "duration": "2.5 horas",
+      "capacity": 8,
+      "location": "Modalidad Online + Presencial",
+      "modality": "Híbrida",
+      "tags": ["Habilidades sociales", "Colaborativo", "Arte"]
+    },
+    {
+      "id": "3",
+      "title": "Mindfulness y Regulación",
+      "description": "Técnicas de mindfulness y autorregulación emocional combinadas con expresión artística",
+      "duration": "4 horas",
+      "capacity": 6,
+      "location": "Consulta Viña del Mar",
+      "modality": "Presencial",
+      "tags": ["Mindfulness", "Regulación emocional", "Intensivo"]
+    }
+  ],
+  "blog_articles": [
+    {
+      "id": "1",
+      "title": "Adolescentes y padres: un distanciamiento necesario para crecer",
+      "slug": "adolescentes-padres-distanciamiento-necesario-crecer",
+      "category": "Desarrollo Adolescente",
+      "excerpt": "Muchos padres viven con dolor y desconcierto el momento en que sus hijos comienzan a alejarse de ellos en la adolescencia. Descubre por qué este proceso es natural y necesario.",
+      "date": "2025-09-05",
+      "read_time": "6 minutos",
+      "url": "https://paulacabrerapsicologa.cl/blog/adolescentes-padres-distanciamiento-necesario-crecer",
+      "keywords": [
+        "adolescencia",
+        "distanciamiento",
+        "padres",
+        "desarrollo",
+        "identidad",
+        "autonomía"
+      ],
+      "key_concepts": [
+        "Erik Erikson y búsqueda de identidad",
+        "Apego al grupo de pares",
+        "Autonomía psicológica",
+        "Transformación familiar"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Adolescencia: un viaje de transformación y acompañamiento",
+      "slug": "adolescencia-viaje-transformacion-acompanamiento",
+      "category": "Acompañamiento Terapéutico",
+      "excerpt": "La adolescencia es una etapa vital de cambios profundos, donde cada joven se enfrenta a la construcción de su identidad, a la gestión de nuevas emociones y a la búsqueda de pertenencia.",
+      "date": "2025-09-03",
+      "read_time": "8 minutos",
+      "url": "https://paulacabrerapsicologa.cl/blog/adolescencia-viaje-transformacion-acompanamiento",
+      "keywords": [
+        "adolescencia",
+        "transformación",
+        "identidad",
+        "acompañamiento",
+        "terapia"
+      ],
+      "key_concepts": [
+        "Ansiedad adolescente",
+        "Alexitimia",
+        "Individualidad en el proceso terapéutico",
+        "Potencialidad del adolescente"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "id": "1",
+      "question": "¿Cómo puede ayudar la arteterapia a adolescentes con TEA?",
+      "answer": "La arteterapia proporciona un medio no verbal de expresión que puede ser especialmente beneficioso para adolescentes con TEA. A través del arte, pueden comunicar emociones, desarrollar habilidades de autorregulación y mejorar su bienestar emocional de manera natural y sin presión.",
+      "category": "Arteterapia"
+    },
+    {
+      "id": "2",
+      "question": "¿Cuánto dura el proceso terapéutico?",
+      "answer": "La duración del proceso varía según las necesidades individuales. Generalmente, recomendamos un mínimo de 12 sesiones para observar cambios significativos, pero cada caso es único y evaluamos el progreso de forma continua.",
+      "category": "Proceso terapéutico"
+    },
+    {
+      "id": "3",
+      "question": "¿Ofrecen sesiones online?",
+      "answer": "Sí, ofrecemos tanto sesiones presenciales en Concón, como sesiones online. La modalidad se elige según las necesidades y preferencias de cada familia, manteniendo siempre la calidad del acompañamiento terapéutico.",
+      "category": "Modalidades"
+    },
+    {
+      "id": "4",
+      "question": "¿Qué edad tienen los participantes de los talleres?",
+      "answer": "Nuestros talleres están diseñados para adolescentes (16-18 años) y jóvenes (18-30 años). Adaptamos las actividades según el grupo etario y las necesidades específicas de cada participante.",
+      "category": "Talleres"
+    },
+    {
+      "id": "5",
+      "question": "¿Cómo puedo saber si mi hijo/a necesita acompañamiento psicológico?",
+      "answer": "Algunas señales incluyen cambios en el comportamiento, dificultades en la regulación emocional, problemas de comunicación o adaptación social.",
+      "category": "Consultas generales"
+    },
+    {
+      "id": "6",
+      "question": "¿Los talleres requieren experiencia previa en arte?",
+      "answer": "No es necesaria experiencia previa. El foco está en la expresión y el proceso creativo, no en el resultado artístico. Proporcionamos todos los materiales y guiamos cada actividad paso a paso.",
+      "category": "Talleres"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "1",
+      "author": "Madre de participante",
+      "service": "Arteterapia",
+      "context": "Taller de Expresión Emocional",
+      "quote": "Paula creó un ambiente donde mi hijo pudo expresarse sin juicios. Los talleres de arteterapia le dieron herramientas que usa en su día a día para manejar la ansiedad."
+    },
+    {
+      "id": "2",
+      "author": "Familia participante",
+      "service": "Terapia Familiar",
+      "context": "Terapia familiar",
+      "quote": "La psicoeducación nos ayudó a entender mejor a nuestra hija y mejorar nuestra comunicación familiar. El enfoque de Paula es cálido y profesional."
+    },
+    {
+      "id": "3",
+      "author": "Padre de adolescente",
+      "service": "Talleres",
+      "context": "Habilidades Sociales",
+      "quote": "Los talleres ayudaron a mi hijo a conectar con otros jóvenes y desarrollar confianza. Paula tiene una manera especial de trabajar con adolescentes TEA."
+    }
+  ],
+  "seo_keywords": [
+    "psicóloga Concón",
+    "psicóloga Viña del Mar",
+    "psicoterapia adolescentes TEA",
+    "talleres arteterapia TEA",
+    "psicóloga adolescentes Viña del Mar",
+    "arteterapia Concón",
+    "terapia neurodiversidad",
+    "psicóloga TEA Chile",
+    "TDAH adolescentes",
+    "regulación emocional jóvenes"
+  ],
+  "target_conditions": [
+    "TEA (Trastorno del Espectro Autista)",
+    "TDAH",
+    "Ansiedad",
+    "Trauma",
+    "Problemas de apego",
+    "Dificultades de regulación emocional",
+    "Alexitimia",
+    "Alteraciones conductuales",
+    "Dificultades de comunicación",
+    "Problemas de adaptación social"
+  ],
+  "therapeutic_approaches": [
+    "Modelo MMIDA",
+    "IFS (Internal Family Systems)",
+    "Focalización corporal",
+    "Técnicas integrativas",
+    "Arteterapia",
+    "Mindfulness",
+    "Psicoeducación familiar",
+    "Terapia basada en el vínculo"
+  ],
+  "meta": {
+    "sitemap_url": "https://paulacabrerapsicologa.cl/sitemap.xml",
+    "robots_url": "https://paulacabrerapsicologa.cl/robots.txt",
+    "json_ld_available": true,
+    "accessibility_compliant": true,
+    "responsive_design": true,
+    "ssl_enabled": true
+  }
+}

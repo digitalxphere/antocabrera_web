@@ -1,0 +1,33 @@
+{
+  "name": "Paula Cabrera Fuentes - Psicóloga Especialista en Jóvenes y Adolescentes",
+  "short_name": "Paula Cabrera",
+  "description": "Psicóloga clínica especialista en adolescentes, TEA y neurodiversidad en Concón y Viña del Mar",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FEF7ED",
+  "theme_color": "#E47B3B",
+  "orientation": "portrait-primary",
+  "categories": ["health", "medical", "education"],
+  "lang": "es-CL",
+  "icons": [
+    {
+      "src": "/attached_assets/Paula_cabrera_psicologa_logo_1757014528141.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/attached_assets/Paula_cabrera_psicologa_logo_1757014528141.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/attached_assets/Paula_cabrera_psicologa_logo_1757014528141.png",
+      "sizes": "1280x720",
+      "type": "image/png"
+    }
+  ]
+}

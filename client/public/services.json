@@ -1,0 +1,222 @@
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalBusiness",
+  "name": "Paula Cabrera Fuentes - Psicóloga",
+  "description": "Psicóloga clínica especializada en adolescentes y jóvenes con TEA, TDAH y neurodiversidad. Más de 25 años de experiencia en Concón y Viña del Mar, Chile.",
+  "url": "https://paulacabrerapsicologa.cl",
+  "telephone": "+56993694978",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Av. Bosques de Montemar 30, Oficina 920",
+    "addressLocality": "Concón",
+    "addressRegion": "Valparaíso",
+    "postalCode": "",
+    "addressCountry": "CL"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "-32.9253",
+    "longitude": "-71.5117"
+  },
+  "openingHours": [
+    "Mo-Fr 10:00-19:00",
+    "Sa 10:00-14:00"
+  ],
+  "priceRange": "$$",
+  "medicalSpecialty": [
+    "Psicología Clínica",
+    "Psicoterapia Adolescente",
+    "Arteterapia",
+    "Terapia TEA",
+    "Terapia TDAH"
+  ],
+  "availableService": [
+    {
+      "@type": "MedicalTherapy",
+      "name": "Consulta Individual - Psicoterapia",
+      "description": "Acompañamiento terapéutico centrado en el vínculo y la confianza con especialización en ansiedad, trauma, apego, neurodivergencia, TEA y TDAH. Uso de técnicas integrativas como Modelo MMIDA, IFS y focalización corporal.",
+      "serviceType": "Psicoterapia Individual",
+      "audience": "Adolescentes (12-18 años), Jóvenes (18-30 años), Adultos",
+      "availableChannel": [
+        {
+          "@type": "ServiceChannel",
+          "serviceLocation": {
+            "@type": "Place",
+            "name": "Consulta Presencial Concón",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Concón",
+              "addressRegion": "Valparaíso",
+              "addressCountry": "CL"
+            }
+          }
+        },
+        {
+          "@type": "ServiceChannel",
+          "serviceType": "Consulta Online",
+          "serviceUrl": "https://paulacabrerapsicologa.cl/contacto"
+        }
+      ],
+      "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "availabilityStarts": "2025-01-01"
+      }
+    },
+    {
+      "@type": "MedicalTherapy",
+      "name": "Psicoeducación para Padres y Cuidadores",
+      "description": "Orientación familiar para mejorar comunicación, establecer acuerdos y coordinación escolar. Estrategias prácticas para el hogar y colegio con material visual y plan de apoyo personalizado.",
+      "serviceType": "Orientación Familiar",
+      "audience": "Padres de adolescentes, Padres de jóvenes con TEA, Cuidadores",
+      "availableChannel": [
+        {
+          "@type": "ServiceChannel",
+          "serviceLocation": {
+            "@type": "Place",
+            "name": "Consulta Presencial Concón",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Concón",
+              "addressRegion": "Valparaíso",
+              "addressCountry": "CL"
+            }
+          }
+        },
+        {
+          "@type": "ServiceChannel",
+          "serviceType": "Consulta Online",
+          "serviceUrl": "https://paulacabrerapsicologa.cl/contacto"
+        }
+      ],
+      "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    {
+      "@type": "MedicalTherapy",
+      "name": "Talleres de Arteterapia",
+      "description": "Talleres grupales pequeños (4-6 participantes) para desarrollo de regulación emocional, habilidades sociales y comunicación a través del arte. Ambiente cuidado con apoyos visuales y pausas programadas.",
+      "serviceType": "Taller Grupal",
+      "audience": "Adolescentes con TEA, Jóvenes con neurodiversidad",
+      "availableChannel": {
+        "@type": "ServiceChannel",
+        "serviceLocation": {
+          "@type": "Place",
+          "name": "Consulta Presencial Concón",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Av. Bosques de Montemar 30, Oficina 920",
+            "addressLocality": "Concón",
+            "addressRegion": "Valparaíso",
+            "addressCountry": "CL"
+          }
+        }
+      },
+      "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/LimitedAvailability"
+      }
+    }
+  ],
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Concón",
+      "containedInPlace": {
+        "@type": "State",
+        "name": "Valparaíso"
+      }
+    },
+    {
+      "@type": "City",
+      "name": "Viña del Mar",
+      "containedInPlace": {
+        "@type": "State",
+        "name": "Valparaíso"
+      }
+    },
+    {
+      "@type": "City",
+      "name": "Valparaíso",
+      "containedInPlace": {
+        "@type": "State",
+        "name": "Valparaíso"
+      }
+    }
+  ],
+  "knowsAbout": [
+    "Trastorno del Espectro Autista (TEA)",
+    "TDAH",
+    "Neurodiversidad",
+    "Ansiedad adolescente",
+    "Trauma",
+    "Problemas de apego",
+    "Regulación emocional",
+    "Arteterapia",
+    "Terapia familiar",
+    "Psicoeducación"
+  ],
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "telephone": "+56993694978",
+      "contactType": "Atención al cliente",
+      "availableLanguage": "Spanish",
+      "areaServed": "CL"
+    }
+  ],
+  "sameAs": [
+    "https://paulacabrerapsicologa.cl"
+  ],
+  "image": "https://paulacabrerapsicologa.cl/attached_assets/Paula_cabrera_psicologa_logo_1756657755055.webp",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Servicios de Psicoterapia",
+    "itemListElement": [
+      {
+        "@type": "OfferCatalog",
+        "name": "Psicoterapia Individual",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Consulta Individual Adolescentes y Jóvenes",
+              "description": "Sesiones de 70 minutos presenciales u online"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "OfferCatalog",
+        "name": "Orientación Familiar",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Psicoeducación para Padres",
+              "description": "Sesiones de 60 minutos con material visual y plan de apoyo"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "OfferCatalog",
+        "name": "Talleres Grupales",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Talleres de Arteterapia",
+              "description": "Grupos pequeños de 90-120 minutos, solo presencial"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

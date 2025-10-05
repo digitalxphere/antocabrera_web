@@ -1,10 +1,17 @@
 User-agent: *
 Disallow: /admin/
 Disallow: /api/
+Allow: /api/services.json
 Allow: /api/site-data
 
-# Structured data for AI/LLM indexing
-# JSON endpoint: https://paulacabrerapsicologa.cl/api/site-data
-# Static file: https://paulacabrerapsicologa.cl/site-data.json
+# Structured data endpoints
+
+# SEO and Search Engines (Schema.org optimized):
+# - https://paulacabrerapsicologa.cl/api/services.json
+# - https://paulacabrerapsicologa.cl/services.json
+
+# AI/LLM Indexing (comprehensive semantic data):
+# - https://paulacabrerapsicologa.cl/api/site-data
+# - https://paulacabrerapsicologa.cl/site-data.json
 
 Sitemap: https://paulacabrerapsicologa.cl/sitemap.xml

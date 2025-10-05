@@ -122,8 +122,8 @@ export async function registerRoutes(app: Express): Promise<Server> {
     }
   });
 
-  // Get services data for SEO and search engines
-  app.get("/api/services.json", async (req, res) => {
+  // Get services data for SEO and search engines (Schema.org optimized)
+  app.get("/api/services", async (req, res) => {
     try {
       const fs = await import('fs/promises');
       const path = await import('path');

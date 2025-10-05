@@ -1,13 +1,13 @@
 User-agent: *
 Disallow: /admin/
 Disallow: /api/
-Allow: /api/services.json
+Allow: /api/services
 Allow: /api/site-data
 
 # Structured data endpoints
 
 # SEO and Search Engines (Schema.org optimized):
-# - https://paulacabrerapsicologa.cl/api/services.json
+# - https://paulacabrerapsicologa.cl/api/services
 # - https://paulacabrerapsicologa.cl/services.json
 
 # AI/LLM Indexing (comprehensive semantic data):

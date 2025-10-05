@@ -122,6 +122,24 @@ export async function registerRoutes(app: Express): Promise<Server> {
     }
   });
 
+  // Get services data for SEO and search engines
+  app.get("/api/services.json", async (req, res) => {
+    try {
+      const fs = await import('fs/promises');
+      const path = await import('path');
+      const servicesPath = path.join(process.cwd(), 'client', 'public', 'services.json');
+      const servicesData = await fs.readFile(servicesPath, 'utf-8');
+      res.setHeader('Content-Type', 'application/json');
+      res.setHeader('Access-Control-Allow-Origin', '*');
+      res.send(servicesData);
+    } catch (error) {
+      res.status(500).json({ 
+        success: false, 
+        error: "Error al obtener datos de servicios" 
+      });
+    }
+  });
+
   // Get structured site data for LLMs and AI indexing
   app.get("/api/site-data", async (req, res) => {
     try {

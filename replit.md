@@ -42,8 +42,14 @@ Preferred communication style: Simple, everyday language.
 ## SEO and Performance Optimization
 - **Meta Management**: Dynamic SEO head component for page-specific metadata
 - **Structured Data**: Schema.org markup for local business, services, and content
+- **LLM/AI Indexing**: Comprehensive structured JSON data for AI assistants (ChatGPT, Perplexity, etc.)
+  - **Endpoint**: `/api/site-data` - Dynamic API endpoint serving complete site information
+  - **Static File**: `/site-data.json` - Public JSON file with all practice information
+  - **Content**: Practice details, services, workshops, blog articles, FAQs, testimonials, therapeutic approaches, and target conditions
+  - **Format**: Schema.org compatible JSON-LD for semantic understanding
+- **Canonical URLs**: Proper canonical tags on all pages to prevent duplicate content indexing
 - **Internationalization**: Spanish (Chile) locale with proper hreflang attributes
-- **Performance**: Optimized images, lazy loading, and minimal bundle size
+- **Performance**: Optimized images (WebP format with 80% quality), lazy loading, and minimal bundle size
 - **PWA Features**: Web app manifest for mobile installation capabilities
 
 ## Content Management

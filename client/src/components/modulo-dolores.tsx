@@ -6,53 +6,22 @@ export default function ModuloDolores() {
     <section className="mx-auto max-w-6xl px-4 py-6 sm:py-12" aria-labelledby="dolores-title" data-testid="modulo-dolores-section">
       <header className="mb-8">
         <h2 id="dolores-title" className="text-3xl font-semibold tracking-tight text-foreground" data-testid="dolores-title">
-          Lo que viven hoy jóvenes y padres: Apoyo clínico y psicoeducación
+          Lo que viven hoy niños, adolescentes y familias: Apoyo clínico y psicoeducación
         </h2>
       </header>
 
       <div className="space-y-8">
-        <article className="rounded-2xl border border-border bg-card p-8 shadow-sm" data-testid="card-jovenes">
-          <div className="flex flex-col lg:flex-row gap-6 items-start">
+        <article className="rounded-2xl border border-border bg-card p-8 shadow-sm" data-testid="card-ninos-adolescentes">
+          <div className="flex flex-col gap-6">
             <div className="flex-1">
-              <h3 className="text-2xl font-semibold text-foreground mb-4">Jóvenes</h3>
-              <p className="text-muted-foreground text-justify leading-relaxed">
-                Los jóvenes sienten dificultad para encajar, se comparan y autoperciben como insuficientes cuando las redes sociales muestran ideales inexistentes pero influyentes. Existe mucha ansiedad, tensión interna, sobrecarga sensorial y poco autoconocimiento propio de la edad y en donde además están en constante cambio frente a los desafíos de lo que se espera logren en un futuro. Trabajo la identificación, expresión <strong className="text-foreground">regulación emocional</strong>, la <strong className="text-foreground">autoaceptación</strong> y las
-                <strong className="text-foreground"> habilidades sociales</strong> desde un espacio seguro y creativo.
-              </p>
-            </div>
-            <div className="w-full lg:w-80 flex-shrink-0">
-              <div className="overflow-hidden rounded-xl bg-gray-50">
-                <OptimizedImage 
-                  src="/attached_assets/image_1757122664972.png" 
-                  alt="Sesión de terapia con joven, mostrando apoyo familiar"
-                  width="400"
-                  height="300"
-                  className="w-full h-64 object-contain"
-                  objectFit="contain"
-                />
-              </div>
-            </div>
-          </div>
-        </article>
-
-        <article className="rounded-2xl border border-border bg-card p-8 shadow-sm" data-testid="card-padres">
-          <div className="flex flex-col lg:flex-row-reverse gap-6 items-start">
-            <div className="flex-1">
-              <h3 className="text-2xl font-semibold text-foreground mb-4">Padres</h3>
-              <p className="text-muted-foreground text-justify leading-relaxed">
-                Esfuerzos constantes por aceptar a sus hijos tal cual son y por otra parte cumplir con las exigencias sociales impuestas. Tienen dudas, angustias y requieren mayor información acerca de las distintas <strong className="text-foreground">condiciones del neurodesarrollo</strong>, <strong className="text-foreground">estilos de personalidad</strong>, intereses, habilidades y potencial de los jóvenes para contribuir a su crecimiento y salud mental.
-              </p>
-            </div>
-            <div className="w-full lg:w-80 flex-shrink-0">
-              <div className="overflow-hidden rounded-xl bg-gray-50">
-                <OptimizedImage 
-                  src="/attached_assets/image_1757124841455.png" 
-                  alt="Padres en sesión de mindfulness y relajación"
-                  width="400"
-                  height="300"
-                  className="w-full h-64 object-contain"
-                  objectFit="contain"
-                />
+              <h3 className="text-2xl font-semibold text-foreground mb-4">Niños y adolescentes</h3>
+              <div className="text-muted-foreground text-justify leading-relaxed space-y-4">
+                <p>
+                  En la infancia y adolescencia surgen desafíos ligados al desarrollo emocional y social: dificultad para expresar lo que sienten, inseguridad, rabia, ansiedad y cambios propios de la etapa. Muchos niños y jóvenes enfrentan sobrecarga sensorial, presión académica, comparaciones constantes y dificultades para encontrar un espacio donde se sientan validados y comprendidos.
+                </p>
+                <p>
+                  En este proceso, el arte y el juego se transforman en puentes que permiten comunicar lo que no siempre puede decirse con palabras. Desde un enfoque terapéutico seguro y creativo, trabajo en la <strong className="text-foreground">expresión y regulación emocional</strong>, el fortalecimiento de la <strong className="text-foreground">autoestima</strong>, la <strong className="text-foreground">autoaceptación</strong> y el desarrollo de <strong className="text-foreground">habilidades sociales</strong>, siempre considerando el contexto familiar y escolar que los rodea.
+                </p>
               </div>
             </div>
           </div>

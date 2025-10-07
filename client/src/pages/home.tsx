@@ -433,57 +433,75 @@ export default function Home() {
       </section>
 
       {/* Formación Académica Section */}
-      <section className="py-12 bg-gradient-to-r from-emerald-50 to-teal-50" data-testid="formation-section">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100">
-            <h2 className="text-2xl lg:text-3xl font-bold text-center text-gray-900 mb-8" data-testid="formation-title">
-              Formación Académica
-            </h2>
+      <section className="py-16 bg-gradient-to-r from-emerald-50 to-teal-50" data-testid="formation-section">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl lg:text-4xl font-bold text-center text-gray-900 mb-12" data-testid="formation-title">
+            Formación Académica
+          </h2>
+          
+          <div className="grid sm:grid-cols-2 gap-6 max-w-4xl mx-auto">
+            {/* Psicóloga */}
+            <div className="bg-white rounded-2xl p-6 shadow-md hover:shadow-lg transition-shadow border border-gray-100">
+              <div className="flex items-start gap-4">
+                <div className="w-14 h-14 bg-emerald-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                  <GraduationCap className="w-7 h-7 text-emerald-600" />
+                </div>
+                <div className="flex-1 text-left">
+                  <h3 className="font-bold text-gray-900 mb-1.5 text-lg">Psicóloga</h3>
+                  <p className="text-gray-600 text-sm leading-relaxed">Universidad de Valparaíso</p>
+                </div>
+              </div>
+            </div>
             
-            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
-              {/* Psicóloga */}
-              <div className="text-center">
-                <div className="w-16 h-16 bg-emerald-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <GraduationCap className="w-8 h-8 text-emerald-600" />
+            {/* Diploma */}
+            <div className="bg-white rounded-2xl p-6 shadow-md hover:shadow-lg transition-shadow border border-gray-100">
+              <div className="flex items-start gap-4">
+                <div className="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                  <Award className="w-7 h-7 text-blue-600" />
                 </div>
-                <h3 className="font-bold text-gray-900 mb-2">Psicóloga</h3>
-                <p className="text-gray-600 text-sm">Universidad de Valparaíso</p>
+                <div className="flex-1 text-left">
+                  <h3 className="font-bold text-gray-900 mb-1.5 text-lg">Diploma Intervención Infanto-Juvenil</h3>
+                  <p className="text-gray-600 text-sm leading-relaxed">Universidad de Valparaíso</p>
+                </div>
               </div>
-              
-              {/* Diploma */}
-              <div className="text-center">
-                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Award className="w-8 h-8 text-blue-600" />
+            </div>
+            
+            {/* Arteterapia */}
+            <div className="bg-white rounded-2xl p-6 shadow-md hover:shadow-lg transition-shadow border border-gray-100">
+              <div className="flex items-start gap-4">
+                <div className="w-14 h-14 bg-purple-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                  <Palette className="w-7 h-7 text-purple-600" />
                 </div>
-                <h3 className="font-bold text-gray-900 mb-2">Diploma en Estrategias de Intervención Infanto-Juvenil</h3>
-                <p className="text-gray-600 text-sm">Universidad de Valparaíso</p>
+                <div className="flex-1 text-left">
+                  <h3 className="font-bold text-gray-900 mb-1.5 text-lg">Arteterapia y Terapia de Juego</h3>
+                  <p className="text-gray-600 text-sm leading-relaxed">Cursos aplicados a población infantil y juvenil</p>
+                </div>
               </div>
-              
-              {/* Arteterapia */}
-              <div className="text-center">
-                <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Palette className="w-8 h-8 text-purple-600" />
+            </div>
+            
+            {/* Enfoque Sistémico */}
+            <div className="bg-white rounded-2xl p-6 shadow-md hover:shadow-lg transition-shadow border border-gray-100">
+              <div className="flex items-start gap-4">
+                <div className="w-14 h-14 bg-orange-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                  <Users className="w-7 h-7 text-orange-600" />
                 </div>
-                <h3 className="font-bold text-gray-900 mb-2">Formación en Arteterapia y Terapia de Juego</h3>
-                <p className="text-gray-600 text-sm">Cursos y talleres aplicados a población infantil y juvenil</p>
+                <div className="flex-1 text-left">
+                  <h3 className="font-bold text-gray-900 mb-1.5 text-lg">Enfoque Sistémico</h3>
+                  <p className="text-gray-600 text-sm leading-relaxed">Práctica clínica con visión relacional y familiar</p>
+                </div>
               </div>
-              
-              {/* Enfoque Sistémico */}
-              <div className="text-center">
-                <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Users className="w-8 h-8 text-orange-600" />
+            </div>
+            
+            {/* Neurodivergencias - centrado en la última fila */}
+            <div className="bg-white rounded-2xl p-6 shadow-md hover:shadow-lg transition-shadow border border-gray-100 sm:col-span-2 sm:max-w-md sm:mx-auto">
+              <div className="flex items-start gap-4">
+                <div className="w-14 h-14 bg-teal-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                  <Brain className="w-7 h-7 text-teal-600" />
                 </div>
-                <h3 className="font-bold text-gray-900 mb-2">Enfoque Sistémico</h3>
-                <p className="text-gray-600 text-sm">Práctica clínica con visión relacional y de contexto familiar</p>
-              </div>
-              
-              {/* Neurodivergencias */}
-              <div className="text-center">
-                <div className="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Brain className="w-8 h-8 text-teal-600" />
+                <div className="flex-1 text-left">
+                  <h3 className="font-bold text-gray-900 mb-1.5 text-lg">Acompañamiento Neurodivergencias</h3>
+                  <p className="text-gray-600 text-sm leading-relaxed">Experiencia con niños y adolescentes TDAH y TEA</p>
                 </div>
-                <h3 className="font-bold text-gray-900 mb-2">Acompañamiento en Neurodivergencias</h3>
-                <p className="text-gray-600 text-sm">Experiencia en apoyo a niños y adolescentes con TDAH y TEA</p>
               </div>
             </div>
           </div>

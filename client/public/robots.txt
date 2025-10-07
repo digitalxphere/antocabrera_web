@@ -7,11 +7,11 @@ Allow: /api/site-data
 # Structured data endpoints
 
 # SEO and Search Engines (Schema.org optimized):
-# - https://paulacabrerapsicologa.cl/api/services
-# - https://paulacabrerapsicologa.cl/services.json
+# - https://antoniacabrerapsicologa.cl/api/services
+# - https://antoniacabrerapsicologa.cl/services.json
 
 # AI/LLM Indexing (comprehensive semantic data):
-# - https://paulacabrerapsicologa.cl/api/site-data
-# - https://paulacabrerapsicologa.cl/site-data.json
+# - https://antoniacabrerapsicologa.cl/api/site-data
+# - https://antoniacabrerapsicologa.cl/site-data.json
 
-Sitemap: https://paulacabrerapsicologa.cl/sitemap.xml
+Sitemap: https://antoniacabrerapsicologa.cl/sitemap.xml

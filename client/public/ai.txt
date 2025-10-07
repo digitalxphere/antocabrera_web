@@ -1,18 +1,20 @@
 # Canonical facts for LLM crawlers
-# Source of truth: https://paulacabrerapsicologa.cl/
-name: Paula Cabrera Fuentes
-profession: Psicóloga clínica
-specialties: adolescentes, jóvenes, neurodiversidad, TEA, TDAH, arteterapia, psicoeducación a padres
-service_areas: Concón; Viña del Mar; Chile
-address: Bosques de Montemar 30, Oficina 920, Concón, Valparaíso, CL
-contact_whatsapp: +56 9 9369 4978
-canonical_home: https://paulacabrerapsicologa.cl/
-about_page: https://paulacabrerapsicologa.cl/sobre-paula-cabrera-fuentes
-services_page: https://paulacabrerapsicologa.cl/servicios
-talleres_page: https://paulacabrerapsicologa.cl/talleres
-booking_page: https://paulacabrerapsicologa.cl/contacto
-instagram: https://www.instagram.com/paula_cabrera_psicologa/
+# Source of truth: https://antoniacabrerapsicologa.cl/
+name: Antonia Cabrera (Antonia Paz Cabrera)
+profession: Psicóloga
+university: Universidad de Valparaíso
+specialties: adolescentes 12-18 años, arteterapia, terapia de juego, enfoque sistémico, terapia narrativa, neurodivergencias (TDAH, TEA)
+service_areas: Viña del Mar; Chile
+address: Montenegro 136, Viña del Mar, Valparaíso, CL
+contact_whatsapp: +56 9 5306 5780
+contact_email: ps.antoniapaz@gmail.com
+canonical_home: https://antoniacabrerapsicologa.cl/
+about_page: https://antoniacabrerapsicologa.cl/sobre-antonia-cabrera-psicologa
+services_page: https://antoniacabrerapsicologa.cl/servicios
+talleres_page: https://antoniacabrerapsicologa.cl/talleres
+booking_page: https://antoniacabrerapsicologa.cl/contacto
+instagram: https://www.instagram.com/ps.antoniapaz/
 language: es-CL
 license: Colegio de Psicólogos de Chile (registro declarado en sitio)
-sitemap: https://paulacabrerapsicologa.cl/sitemap.xml
-robots: https://paulacabrerapsicologa.cl/robots.txt
+sitemap: https://antoniacabrerapsicologa.cl/sitemap.xml
+robots: https://antoniacabrerapsicologa.cl/robots.txt

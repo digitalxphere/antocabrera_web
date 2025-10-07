@@ -16,8 +16,6 @@ import Contacto from "@/pages/contacto";
 import PoliticaPrivacidad from "@/pages/politica-privacidad";
 import Terminos from "@/pages/terminos";
 import NotFound from "@/pages/not-found";
-import BlogIndex from "@/pages/blog-index";
-import BlogArticle from "@/pages/blog-article";
 
 // Layout components
 import { Navbar } from "@/components/layout/navbar";
@@ -39,8 +37,6 @@ function Router() {
           <Route path="/sobre-mi" component={SobrePaula} />
           <Route path="/sobre-antonia-cabrera-psicologa" component={SobrePaula} />
           <Route path="/sobre-paula-cabrera-fuentes-psicologa" component={SobrePaula} />
-          <Route path="/blog" component={BlogIndex} />
-          <Route path="/blog/:slug" component={BlogArticle} />
           <Route path="/contacto" component={Contacto} />
           <Route path="/politica-privacidad" component={PoliticaPrivacidad} />
           <Route path="/terminos" component={Terminos} />

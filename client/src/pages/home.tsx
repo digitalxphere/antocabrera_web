@@ -10,7 +10,6 @@ import { WorkshopCard } from "@/components/workshop-card";
 import { workshopsData } from "@/data/workshops";
 import { FAQAccordion } from "@/components/faq-accordion";
 import { TestimonialCarousel } from "@/components/testimonial-carousel";
-import { BlogPreviewSection } from "@/components/blog-preview-section";
 import { SEOHead } from "@/components/seo-head";
 import { ImagePreloader } from "@/components/image-preloader";
 import { SERVICES, WHATSAPP_NUMBER, WHATSAPP_MESSAGE } from "@/lib/constants";
@@ -21,7 +20,6 @@ export default function Home() {
   const servicesRef = useScrollAnimation();
   const aboutRef = useScrollAnimation();
   const workshopsRef = useScrollAnimation();
-  const blogRef = useScrollAnimation();
   const faqRef = useScrollAnimation();
   const testimonialsRef = useScrollAnimation();
   const [imageLoaded, setImageLoaded] = useState(false);
@@ -987,11 +985,6 @@ export default function Home() {
           </div>
           
         </div>
-      </section>
-
-      {/* Blog Section */}
-      <section ref={blogRef} className="py-8 sm:py-16 scroll-animation" data-testid="blog-preview-section">
-        <BlogPreviewSection />
       </section>
 
       {/* FAQ Section */}

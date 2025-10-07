@@ -9,7 +9,6 @@ import { WHATSAPP_NUMBER, WHATSAPP_MESSAGE } from "@/lib/constants";
 const navigation = [
   { name: "Inicio", href: "/" },
   { name: "Sobre mí", href: "/sobre-antonia-cabrera-psicologa" },
-  { name: "Blog", href: "/blog" },
   { name: "FAQ", href: "/preguntas-frecuentes" },
   { name: "Contacto", href: "/contacto" },
 ];

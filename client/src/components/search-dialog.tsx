@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useLocation } from "wouter";
-import { Search, FileText, Calendar, MapPin, X } from "lucide-react";
+import { Search, Calendar, MapPin, X } from "lucide-react";
 import {
   Dialog,
   DialogContent,
@@ -9,7 +9,6 @@ import {
 } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { blogArticles } from "@/data/blog-articles";
 import { workshopsData } from "@/data/workshops";
 import { format } from "date-fns";
 import { es } from "date-fns/locale";
@@ -18,11 +17,10 @@ interface SearchResult {
   id: string;
   title: string;
   description: string;
-  type: "blog" | "taller";
+  type: "taller";
   url: string;
   date?: string;
   location?: string;
-  category?: string;
 }
 
 interface SearchDialogProps {
@@ -43,28 +41,6 @@ export function SearchDialog({ open, onOpenChange }: SearchDialogProps) {
 
     const query = searchQuery.toLowerCase();
     const searchResults: SearchResult[] = [];
-
-    // Buscar en artículos del blog
-    blogArticles.forEach((article) => {
-      const articleDate = format(article.createdAt, "d 'de' MMMM, yyyy", { locale: es });
-      const matchTitle = article.title.toLowerCase().includes(query);
-      const matchExcerpt = article.excerpt.toLowerCase().includes(query);
-      const matchCategory = article.category.toLowerCase().includes(query);
-      const matchDate = articleDate.toLowerCase().includes(query);
-      const matchContent = article.content.toLowerCase().includes(query);
-      
-      if (matchTitle || matchExcerpt || matchCategory || matchDate || matchContent) {
-        searchResults.push({
-          id: article.id,
-          title: article.title,
-          description: article.excerpt,
-          type: "blog",
-          url: `/blog/${article.slug}`,
-          date: articleDate,
-          category: article.category
-        });
-      }
-    });
 
     // Buscar en talleres
     workshopsData.forEach((workshop) => {
@@ -107,7 +83,7 @@ export function SearchDialog({ open, onOpenChange }: SearchDialogProps) {
             <Input
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              placeholder="Buscar artículos, talleres, ubicaciones..."
+              placeholder="Buscar talleres, ubicaciones..."
               className="pl-10 pr-10 h-12 text-base"
               autoFocus
               data-testid="input-search"
@@ -132,13 +108,13 @@ export function SearchDialog({ open, onOpenChange }: SearchDialogProps) {
           {!searchQuery && (
             <div className="text-center py-12 text-muted-foreground">
               <Search className="h-12 w-12 mx-auto mb-4 opacity-50" />
-              <p className="text-sm">Comienza a escribir para buscar artículos y talleres</p>
+              <p className="text-sm">Comienza a escribir para buscar talleres</p>
             </div>
           )}
 
           {searchQuery && results.length === 0 && (
             <div className="text-center py-12 text-muted-foreground">
-              <FileText className="h-12 w-12 mx-auto mb-4 opacity-50" />
+              <Calendar className="h-12 w-12 mx-auto mb-4 opacity-50" />
               <p className="text-sm">No se encontraron resultados para "{searchQuery}"</p>
             </div>
           )}
@@ -157,11 +133,7 @@ export function SearchDialog({ open, onOpenChange }: SearchDialogProps) {
                 >
                   <div className="flex items-start gap-3">
                     <div className="p-2 rounded-lg bg-primary/10 text-primary group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
-                      {result.type === "blog" ? (
-                        <FileText className="h-4 w-4" />
-                      ) : (
-                        <Calendar className="h-4 w-4" />
-                      )}
+                      <Calendar className="h-4 w-4" />
                     </div>
                     <div className="flex-1 min-w-0">
                       <h3 className="font-semibold text-foreground group-hover:text-primary transition-colors">
@@ -171,11 +143,6 @@ export function SearchDialog({ open, onOpenChange }: SearchDialogProps) {
                         {result.description}
                       </p>
                       <div className="flex flex-wrap items-center gap-3 mt-2 text-xs text-muted-foreground">
-                        {result.category && (
-                          <span className="px-2 py-1 rounded-full bg-accent/20 text-accent-foreground">
-                            {result.category}
-                          </span>
-                        )}
                         {result.date && (
                           <span className="flex items-center gap-1">
                             <Calendar className="h-3 w-3" />

@@ -67,47 +67,60 @@ export default function SobrePaula() {
             
             {/* Biography Module */}
             <div className="mb-20" data-testid="about-biography">
-              <div className="max-w-4xl mx-auto">
+              <div className="max-w-6xl mx-auto">
                 <h3 className="text-3xl font-bold text-foreground mb-12 text-center">
-                  Mi camino profesional
+                  Sobre mí
                 </h3>
                 
-                <div className="space-y-8 text-muted-foreground text-lg leading-relaxed text-justify">
-                  <p data-testid="about-description-1">
-                    Soy Antonia Cabrera, psicóloga titulada de la Universidad de Valparaíso, con formación en estrategias de intervención infanto-juvenil y conocimientos en arteterapia y terapia de juego.
-                  </p>
-                  
-                  <p data-testid="about-description-2">
-                    Mi enfoque principal integra el Arteterapia y el Enfoque Sistémico, lo que me permite acompañar a niños, adolescentes y adultos jóvenes desde una mirada relacional, considerando siempre el contexto familiar y social.
-                  </p>
-                  
-                  <p data-testid="about-description-3">
-                    Creo firmemente en el poder del arte y del juego como puentes para expresar emociones, comprender el mundo interno y generar cambios positivos. Estas herramientas me permiten establecer una comunicación cálida y cercana, especialmente con niños y jóvenes que encuentran en la creatividad una forma natural de expresarse.
-                  </p>
-                  
-                  <p data-testid="about-description-4">
-                    También brindo apoyo a personas con neurodivergencias como TDAH y TEA, entregando un espacio respetuoso, comprensivo y adaptado a sus necesidades.
-                  </p>
-                  
-                  <p data-testid="about-description-5" className="font-medium text-foreground">
-                    Mi propósito es acompañar procesos de crecimiento y bienestar, ofreciendo un espacio seguro donde cada persona pueda sentirse escuchada, comprendida y validada.
-                  </p>
-                  
-                  {/* Imágenes de arteterapia */}
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-12">
-                    <img 
-                      src="/attached_assets/Captura de pantalla 2025-10-07 a la(s) 11.56.28_1759848991767.png"
-                      alt="Ejemplo de trabajo de arteterapia"
-                      className="rounded-2xl shadow-lg w-full h-auto object-cover"
-                      data-testid="about-art-image-1"
-                    />
-                    <img 
-                      src="/attached_assets/Captura de pantalla 2025-10-07 a la(s) 11.57.00_1759849023729.png"
-                      alt="Ejemplo de trabajo creativo en terapia"
-                      className="rounded-2xl shadow-lg w-full h-auto object-cover"
-                      data-testid="about-art-image-2"
+                <div className="grid lg:grid-cols-[400px,1fr] gap-12 items-start">
+                  <div className="flex justify-center lg:justify-start">
+                    <OptimizedImage 
+                      src="/attached_assets/antonia_cabrera_psicologa.webp" 
+                      alt="Antonia Cabrera, psicóloga especialista en arteterapia y terapia de juego"
+                      width="400"
+                      height="600"
+                      className="rounded-3xl shadow-2xl w-full max-w-md h-auto"
+                      data-testid="about-bio-image"
+                      priority={true}
+                      objectFit="cover"
                     />
                   </div>
+                  
+                  <div className="space-y-6">
+                    <h4 className="text-2xl font-semibold text-primary" data-testid="about-bio-subtitle">
+                      Psicóloga especialista en Arteterapia y Terapia de Juego con adolescentes
+                    </h4>
+                    
+                    <div className="space-y-6 text-muted-foreground text-lg leading-relaxed text-justify">
+                      <p data-testid="about-description-1">
+                        Soy Antonia Cabrera, psicóloga especializada en el trabajo con adolescentes de 12 a 18 años. Mi enfoque integra el Arteterapia y el Enfoque Sistémico para acompañar procesos de crecimiento desde una mirada relacional.
+                      </p>
+                      
+                      <p data-testid="about-description-2">
+                        Creo firmemente en el poder del arte y del juego como puentes para expresar emociones y generar cambios positivos. Estas herramientas me permiten establecer una comunicación cálida y cercana con adolescentes que encuentran en la creatividad una forma natural de expresarse.
+                      </p>
+                      
+                      <p data-testid="about-description-3">
+                        También brindo apoyo a personas con neurodivergencias como TDAH y TEA, ofreciendo un espacio seguro, respetuoso y adaptado a sus necesidades.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                
+                {/* Imágenes de arteterapia */}
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-16">
+                  <img 
+                    src="/attached_assets/Captura de pantalla 2025-10-07 a la(s) 11.56.28_1759848991767.png"
+                    alt="Ejemplo de trabajo de arteterapia"
+                    className="rounded-2xl shadow-lg w-full h-auto object-cover"
+                    data-testid="about-art-image-1"
+                  />
+                  <img 
+                    src="/attached_assets/Captura de pantalla 2025-10-07 a la(s) 11.57.00_1759849023729.png"
+                    alt="Ejemplo de trabajo creativo en terapia"
+                    className="rounded-2xl shadow-lg w-full h-auto object-cover"
+                    data-testid="about-art-image-2"
+                  />
                 </div>
               </div>
             </div>

@@ -59,9 +59,12 @@ export default function Contacto() {
               <h2 className="text-xl lg:text-2xl text-primary mb-6 font-semibold" data-testid="contact-subtitle">
                 Viña del Mar y modalidad online
               </h2>
-              <p className="text-lg text-muted-foreground max-w-3xl mx-auto" data-testid="contact-description">
+              <p className="text-lg text-muted-foreground max-w-3xl mx-auto mb-4" data-testid="contact-description">
                 Estoy aquí para acompañarte en tu proceso. Elige la modalidad que mejor se adapte a tus necesidades 
                 y comencemos este camino juntos hacia el bienestar emocional.
+              </p>
+              <p className="text-xl font-semibold text-foreground max-w-2xl mx-auto" data-testid="contact-booking-info">
+                📱 Agenda tu hora por WhatsApp
               </p>
             </div>
           </section>

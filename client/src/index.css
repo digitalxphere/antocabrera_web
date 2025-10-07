@@ -42,9 +42,9 @@
   --glass-border: rgba(255, 255, 255, 0.18);
   --glass-backdrop: blur(10px);
   
-  /* Header glass morphism verde */
-  --header-glass-bg: rgba(95, 160, 129, 0.85);
-  --header-glass-border: rgba(95, 160, 129, 0.3);
+  /* Header glass morphism naranja */
+  --header-glass-bg: rgba(217, 119, 6, 0.85);
+  --header-glass-border: rgba(217, 119, 6, 0.3);
   
   /* Typography */
   --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
@@ -128,11 +128,11 @@
   }
   
   .header-glass {
-    background: rgba(46, 139, 87, 0.95);
+    background: rgba(217, 119, 6, 0.95);
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
-    border-bottom: 1px solid rgba(46, 139, 87, 0.4);
-    box-shadow: 0 4px 16px 0 rgba(46, 139, 87, 0.25);
+    border-bottom: 1px solid rgba(217, 119, 6, 0.4);
+    box-shadow: 0 4px 16px 0 rgba(217, 119, 6, 0.25);
   }
   
   .nav-blur {

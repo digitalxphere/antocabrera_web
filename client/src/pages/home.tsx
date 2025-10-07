@@ -236,7 +236,7 @@ export default function Home() {
     <>
       {/* Preload critical images */}
       <ImagePreloader images={[
-        "/attached_assets/image_1759849561201.webp"
+        "/attached_assets/hero-adolescente-mobile.webp"
       ]} />
       <SEOHead 
         title="Psicóloga en Viña del Mar | Arteterapia y Terapia de Juego para Adolescentes 12-18 años"
@@ -258,9 +258,18 @@ export default function Home() {
       >
         {/* Background Image with Optimized Loading */}
         <picture>
+          <source 
+            media="(min-width: 768px)" 
+            srcSet="/attached_assets/hero-adolescente-desktop.webp"
+            type="image/webp"
+          />
+          <source 
+            srcSet="/attached_assets/hero-adolescente-mobile.webp"
+            type="image/webp"
+          />
           <img 
-            src="/attached_assets/image_1759849561201.webp"
-            alt="Antonia Cabrera - Psicóloga especialista en arteterapia"
+            src="/attached_assets/hero-adolescente-mobile.webp"
+            alt="Adolescente pintando arcoíris - Ilustración que representa la terapia creativa y expresión emocional"
             width="1920"
             height="1080"
             className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-300 ${imageLoaded ? 'opacity-100' : 'opacity-0'}`}

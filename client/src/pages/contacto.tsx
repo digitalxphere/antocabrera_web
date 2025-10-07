@@ -4,6 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { ContactForm } from "@/components/contact-form";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { SEOHead } from "@/components/seo-head";
+import { OptimizedImage } from "@/components/ui/optimized-image";
 import { CONTACT_INFO } from "@/lib/constants";
 import { useScrollAnimation } from "@/lib/animations";
 
@@ -149,11 +150,13 @@ export default function Contacto() {
                       onClick={() => window.open('https://maps.app.goo.gl/XhMBVTEdMJJFCnCm9', '_blank')}
                       className="relative w-full h-96 overflow-hidden rounded-2xl cursor-pointer group"
                     >
-                      <img 
+                      <OptimizedImage
                         src="/attached_assets/Captura de pantalla 2025-10-07 a la(s) 12.44.33_1759851876535.png"
                         alt="Mapa ubicación Montenegro 136, Viña del Mar"
+                        width="1200"
+                        height="600"
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                        loading="lazy"
+                        objectFit="cover"
                       />
                       <div className="absolute inset-0 bg-primary/0 group-hover:bg-primary/10 transition-colors duration-300 flex items-center justify-center">
                         <div className="bg-white dark:bg-gray-900 px-6 py-3 rounded-full shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">

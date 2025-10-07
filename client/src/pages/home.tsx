@@ -327,19 +327,19 @@ export default function Home() {
           <div className="w-full rounded-[20px] p-5 sm:p-6 lg:p-6 bg-white/20 backdrop-blur-xl border border-white/30 shadow-[0_20px_60px_rgba(0,0,0,0.15)] lg:glass-card lg:bg-[rgba(247,248,245,0.25)]">
             {/* Diseño unificado SEO-optimizado */}
             <div className="text-center lg:text-left">
-              <h1 className="text-2xl sm:text-2xl lg:text-3xl xl:text-4xl font-bold text-gray-900 mb-3 lg:mb-3 leading-tight" data-testid="hero-title" style={{textShadow: '0 2px 6px rgba(255,255,255,0.9)'}}>
+              <h1 className="text-2xl sm:text-2xl lg:text-3xl xl:text-4xl font-bold text-gray-900 mb-3 lg:mb-3 leading-tight" data-testid="hero-title" style={{textShadow: '0 2px 8px rgba(255,255,255,1)'}}>
                 Psicóloga en Viña del Mar – Antonia Cabrera
               </h1>
               
-              <h2 className="text-lg sm:text-lg lg:text-xl xl:text-2xl font-bold text-gray-900 mb-2 lg:mb-2 leading-relaxed" data-testid="hero-subtitle" style={{textShadow: '0 1px 4px rgba(255,255,255,0.8)'}}>
+              <h2 className="text-lg sm:text-lg lg:text-xl xl:text-2xl font-bold text-gray-900 mb-2 lg:mb-2 leading-relaxed" data-testid="hero-subtitle" style={{textShadow: '0 2px 6px rgba(255,255,255,1)'}}>
                 Especialista en adolescentes (12 a 18 años)
               </h2>
               
-              <h2 className="text-base sm:text-base lg:text-lg xl:text-xl font-semibold text-gray-800 mb-3 lg:mb-4 leading-relaxed" data-testid="hero-subtitle-2" style={{textShadow: '0 1px 4px rgba(255,255,255,0.8)'}}>
+              <h2 className="text-base sm:text-base lg:text-lg xl:text-xl font-semibold text-gray-900 mb-3 lg:mb-4 leading-relaxed" data-testid="hero-subtitle-2" style={{textShadow: '0 2px 6px rgba(255,255,255,1)'}}>
                 Arteterapia y Terapia de Juego con Enfoque Sistémico
               </h2>
               
-              <p className="text-sm sm:text-sm lg:text-base text-gray-600 mb-3 lg:mb-5 font-medium" data-testid="hero-location" style={{textShadow: '0 1px 2px rgba(255,255,255,0.6)'}}>
+              <p className="text-sm sm:text-sm lg:text-base text-gray-900 mb-3 lg:mb-5 font-semibold" data-testid="hero-location" style={{textShadow: '0 2px 4px rgba(255,255,255,1)'}}>
                 📍 Consulta en Montenegro 136, Viña del Mar
               </p>
               

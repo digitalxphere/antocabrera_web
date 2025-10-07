@@ -111,22 +111,6 @@ export default function SobrePaula() {
                     </div>
                   </div>
                 </div>
-                
-                {/* Imágenes de arteterapia */}
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-16">
-                  <img 
-                    src="/attached_assets/Captura de pantalla 2025-10-07 a la(s) 11.56.28_1759848991767.png"
-                    alt="Ejemplo de trabajo de arteterapia"
-                    className="rounded-2xl shadow-lg w-full h-auto object-cover"
-                    data-testid="about-art-image-1"
-                  />
-                  <img 
-                    src="/attached_assets/Captura de pantalla 2025-10-07 a la(s) 11.57.00_1759849023729.png"
-                    alt="Ejemplo de trabajo creativo en terapia"
-                    className="rounded-2xl shadow-lg w-full h-auto object-cover"
-                    data-testid="about-art-image-2"
-                  />
-                </div>
               </div>
             </div>
 

@@ -10,7 +10,6 @@ import { useScrollToTop } from "@/hooks/use-scroll-to-top";
 import Home from "@/pages/home";
 import SobrePaula from "@/pages/sobre-paula";
 import Servicios from "@/pages/servicios";
-import Talleres from "@/pages/talleres";
 import PreguntasFrecuentes from "@/pages/preguntas-frecuentes";
 import Contacto from "@/pages/contacto";
 import PoliticaPrivacidad from "@/pages/politica-privacidad";
@@ -32,7 +31,6 @@ function Router() {
         <Switch>
           <Route path="/" component={Home} />
           <Route path="/servicios" component={Servicios} />
-          <Route path="/talleres" component={Talleres} />
           <Route path="/preguntas-frecuentes" component={PreguntasFrecuentes} />
           <Route path="/sobre-mi" component={SobrePaula} />
           <Route path="/sobre-antonia-cabrera-psicologa" component={SobrePaula} />

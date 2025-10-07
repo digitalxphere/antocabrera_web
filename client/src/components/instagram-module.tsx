@@ -10,11 +10,11 @@ export default function InstagramModule() {
   const recentPosts = [
     {
       id: 1,
-      image: "/attached_assets/Captura de pantalla 2025-10-07 a la(s) 12.59.58_1759852802378.png"
+      image: "/attached_assets/instagram_post_taller_musica.webp"
     },
     {
       id: 2,
-      image: "/attached_assets/Captura de pantalla 2025-10-07 a la(s) 13.00.27_1759852830972.png"
+      image: "/attached_assets/instagram_post_avistamiento.webp"
     }
   ];
 
@@ -35,7 +35,7 @@ export default function InstagramModule() {
                 <div className="w-24 h-24 bg-gradient-to-br from-pink-500 via-purple-500 to-orange-500 rounded-full p-1 mx-auto lg:mx-0 mb-4">
                   <div className="w-full h-full bg-white rounded-full flex items-center justify-center overflow-hidden">
                     <img 
-                      src="/attached_assets/image_1759852771376.png"
+                      src="/attached_assets/instagram_profile.webp"
                       alt="Antonia Cabrera - Psicóloga"
                       className="w-20 h-20 rounded-full object-cover"
                       loading="lazy"

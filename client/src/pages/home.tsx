@@ -431,18 +431,21 @@ export default function Home() {
       {/* Formación Académica Section */}
       <section className="py-16 bg-gradient-to-r from-emerald-50 to-teal-50" data-testid="formation-section">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl lg:text-4xl font-bold text-center text-gray-900 mb-12" data-testid="formation-title">
+          <h2 className="text-3xl lg:text-4xl font-bold text-center text-gray-900 mb-4" data-testid="formation-title">
             Formación Académica
           </h2>
+          <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
+            Títulos y diplomados que respaldan mi práctica profesional
+          </p>
           
-          <div className="grid sm:grid-cols-2 gap-6 max-w-4xl mx-auto">
+          <div className="grid sm:grid-cols-3 gap-6 max-w-4xl mx-auto mb-16">
             {/* Psicóloga */}
             <div className="bg-white rounded-2xl p-6 shadow-md hover:shadow-lg transition-shadow border border-gray-100">
-              <div className="flex items-start gap-4">
+              <div className="flex flex-col items-center text-center gap-4">
                 <div className="w-14 h-14 bg-emerald-100 rounded-xl flex items-center justify-center flex-shrink-0">
                   <GraduationCap className="w-7 h-7 text-emerald-600" />
                 </div>
-                <div className="flex-1 text-left">
+                <div>
                   <h3 className="font-bold text-gray-900 mb-1.5 text-lg">Psicóloga</h3>
                   <p className="text-gray-600 text-sm leading-relaxed">Universidad de Valparaíso</p>
                 </div>
@@ -451,12 +454,12 @@ export default function Home() {
             
             {/* Diploma Intervención */}
             <div className="bg-white rounded-2xl p-6 shadow-md hover:shadow-lg transition-shadow border border-gray-100">
-              <div className="flex items-start gap-4">
+              <div className="flex flex-col items-center text-center gap-4">
                 <div className="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center flex-shrink-0">
                   <Award className="w-7 h-7 text-blue-600" />
                 </div>
-                <div className="flex-1 text-left">
-                  <h3 className="font-bold text-gray-900 mb-1.5 text-lg">Diplomado Estrategias de Intervención Infantil Juvenil</h3>
+                <div>
+                  <h3 className="font-bold text-gray-900 mb-1.5 text-lg">Diplomado Intervención Infantil Juvenil</h3>
                   <p className="text-gray-600 text-sm leading-relaxed">Universidad de Valparaíso</p>
                 </div>
               </div>
@@ -464,52 +467,63 @@ export default function Home() {
             
             {/* Diplomado Terapia Narrativa */}
             <div className="bg-white rounded-2xl p-6 shadow-md hover:shadow-lg transition-shadow border border-gray-100">
-              <div className="flex items-start gap-4">
+              <div className="flex flex-col items-center text-center gap-4">
                 <div className="w-14 h-14 bg-rose-100 rounded-xl flex items-center justify-center flex-shrink-0">
                   <Award className="w-7 h-7 text-rose-600" />
                 </div>
-                <div className="flex-1 text-left">
-                  <h3 className="font-bold text-gray-900 mb-1.5 text-lg">Diplomado en Terapia Narrativa</h3>
+                <div>
+                  <h3 className="font-bold text-gray-900 mb-1.5 text-lg">Diplomado Terapia Narrativa</h3>
                   <p className="text-gray-600 text-sm leading-relaxed">Pranas Chile</p>
                 </div>
               </div>
             </div>
+          </div>
+
+          <div className="border-t border-gray-200 pt-12">
+            <h3 className="text-2xl lg:text-3xl font-bold text-center text-gray-900 mb-4">
+              Enfoques y Especialidades
+            </h3>
+            <p className="text-center text-gray-600 mb-10 max-w-2xl mx-auto">
+              Herramientas terapéuticas que integro en mi práctica clínica
+            </p>
             
-            {/* Arteterapia */}
-            <div className="bg-white rounded-2xl p-6 shadow-md hover:shadow-lg transition-shadow border border-gray-100">
-              <div className="flex items-start gap-4">
-                <div className="w-14 h-14 bg-purple-100 rounded-xl flex items-center justify-center flex-shrink-0">
-                  <Palette className="w-7 h-7 text-purple-600" />
-                </div>
-                <div className="flex-1 text-left">
-                  <h3 className="font-bold text-gray-900 mb-1.5 text-lg">Arteterapia y Terapia de Juego</h3>
-                  <p className="text-gray-600 text-sm leading-relaxed">Cursos aplicados a población infantil y juvenil</p>
+            <div className="grid sm:grid-cols-3 gap-6 max-w-4xl mx-auto">
+              {/* Arteterapia */}
+              <div className="bg-white rounded-2xl p-6 shadow-md hover:shadow-lg transition-shadow border border-gray-100">
+                <div className="flex flex-col items-center text-center gap-4">
+                  <div className="w-14 h-14 bg-purple-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                    <Palette className="w-7 h-7 text-purple-600" />
+                  </div>
+                  <div>
+                    <h3 className="font-bold text-gray-900 mb-1.5 text-lg">Arteterapia y Terapia de Juego</h3>
+                    <p className="text-gray-600 text-sm leading-relaxed">Herramientas creativas aplicadas a adolescentes</p>
+                  </div>
                 </div>
               </div>
-            </div>
-            
-            {/* Enfoque Sistémico */}
-            <div className="bg-white rounded-2xl p-6 shadow-md hover:shadow-lg transition-shadow border border-gray-100">
-              <div className="flex items-start gap-4">
-                <div className="w-14 h-14 bg-orange-100 rounded-xl flex items-center justify-center flex-shrink-0">
-                  <Users className="w-7 h-7 text-orange-600" />
-                </div>
-                <div className="flex-1 text-left">
-                  <h3 className="font-bold text-gray-900 mb-1.5 text-lg">Enfoque Sistémico</h3>
-                  <p className="text-gray-600 text-sm leading-relaxed">Práctica clínica con visión relacional y familiar</p>
+              
+              {/* Enfoque Sistémico */}
+              <div className="bg-white rounded-2xl p-6 shadow-md hover:shadow-lg transition-shadow border border-gray-100">
+                <div className="flex flex-col items-center text-center gap-4">
+                  <div className="w-14 h-14 bg-orange-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                    <Users className="w-7 h-7 text-orange-600" />
+                  </div>
+                  <div>
+                    <h3 className="font-bold text-gray-900 mb-1.5 text-lg">Enfoque Sistémico</h3>
+                    <p className="text-gray-600 text-sm leading-relaxed">Visión relacional y trabajo con familias</p>
+                  </div>
                 </div>
               </div>
-            </div>
-            
-            {/* Neurodivergencias - centrado en la última fila */}
-            <div className="bg-white rounded-2xl p-6 shadow-md hover:shadow-lg transition-shadow border border-gray-100 sm:col-span-2 sm:max-w-md sm:mx-auto">
-              <div className="flex items-start gap-4">
-                <div className="w-14 h-14 bg-teal-100 rounded-xl flex items-center justify-center flex-shrink-0">
-                  <Brain className="w-7 h-7 text-teal-600" />
-                </div>
-                <div className="flex-1 text-left">
-                  <h3 className="font-bold text-gray-900 mb-1.5 text-lg">Acompañamiento Neurodivergencias</h3>
-                  <p className="text-gray-600 text-sm leading-relaxed">Experiencia con niños y adolescentes TDAH y TEA</p>
+              
+              {/* Neurodivergencias */}
+              <div className="bg-white rounded-2xl p-6 shadow-md hover:shadow-lg transition-shadow border border-gray-100">
+                <div className="flex flex-col items-center text-center gap-4">
+                  <div className="w-14 h-14 bg-teal-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                    <Brain className="w-7 h-7 text-teal-600" />
+                  </div>
+                  <div>
+                    <h3 className="font-bold text-gray-900 mb-1.5 text-lg">Neurodivergencias</h3>
+                    <p className="text-gray-600 text-sm leading-relaxed">Acompañamiento TDAH y TEA</p>
+                  </div>
                 </div>
               </div>
             </div>

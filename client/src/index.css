@@ -219,23 +219,11 @@
     animation: float-3 18s cubic-bezier(0.68, -0.55, 0.265, 1.55) infinite 4s;
   }
 
-  /* Forma de hojas con líneas */
-  .leaf-shape {
-    border-radius: 50% 0 50% 0;
+  /* Círculos de colores */
+  .circle-shape {
+    border-radius: 50%;
     background: currentColor;
-    border: 1px solid rgba(139, 69, 19, 0.3);
     position: relative;
-  }
-  
-  .leaf-shape::before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 0;
-    right: 0;
-    height: 1px;
-    background: currentColor;
-    transform: translateY(-50%) rotate(45deg);
   }
   
   /* Respetar preferencias de accesibilidad */

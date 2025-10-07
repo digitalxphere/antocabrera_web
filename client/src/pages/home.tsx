@@ -300,24 +300,24 @@ export default function Home() {
             }}
           ></div>
         )}
-        {/* Hojas volando animadas */}
+        {/* Círculos de colores flotantes */}
         <div className="absolute inset-0 pointer-events-none overflow-hidden">
-          {/* Hojas flotantes principales con líneas */}
-          <div className="absolute top-20 left-1/3 w-4 h-4 text-orange-400 opacity-70 animate-float-1 leaf-shape"></div>
-          <div className="absolute top-32 right-1/4 w-3 h-3 text-orange-500 opacity-60 animate-float-2 leaf-shape"></div>
-          <div className="absolute top-40 left-2/3 w-2 h-2 text-orange-600 opacity-50 animate-float-3 leaf-shape"></div>
-          <div className="absolute top-60 right-1/3 w-3 h-3 text-orange-400 opacity-40 animate-float-1 leaf-shape"></div>
-          <div className="absolute top-80 left-1/2 w-2 h-2 text-orange-500 opacity-60 animate-float-2 leaf-shape"></div>
+          {/* Círculos flotantes principales */}
+          <div className="absolute top-20 left-1/3 w-4 h-4 text-orange-500 opacity-70 animate-float-1 circle-shape"></div>
+          <div className="absolute top-32 right-1/4 w-3 h-3 text-emerald-500 opacity-60 animate-float-2 circle-shape"></div>
+          <div className="absolute top-40 left-2/3 w-2 h-2 text-blue-500 opacity-50 animate-float-3 circle-shape"></div>
+          <div className="absolute top-60 right-1/3 w-3 h-3 text-pink-500 opacity-40 animate-float-1 circle-shape"></div>
+          <div className="absolute top-80 left-1/2 w-2 h-2 text-purple-500 opacity-60 animate-float-2 circle-shape"></div>
           
-          {/* Hojas más dispersas */}
-          <div className="absolute top-24 right-1/2 w-3 h-3 text-orange-300 opacity-50 animate-float-3 leaf-shape"></div>
-          <div className="absolute top-52 left-3/4 w-2 h-2 text-orange-400 opacity-45 animate-float-1 leaf-shape"></div>
-          <div className="absolute top-72 right-1/5 w-4 h-4 text-orange-500 opacity-35 animate-float-2 leaf-shape"></div>
-          <div className="absolute top-96 left-1/4 w-3 h-3 text-orange-300 opacity-55 animate-float-3 leaf-shape"></div>
+          {/* Círculos más dispersos */}
+          <div className="absolute top-24 right-1/2 w-3 h-3 text-amber-400 opacity-50 animate-float-3 circle-shape"></div>
+          <div className="absolute top-52 left-3/4 w-2 h-2 text-teal-500 opacity-45 animate-float-1 circle-shape"></div>
+          <div className="absolute top-72 right-1/5 w-4 h-4 text-rose-500 opacity-35 animate-float-2 circle-shape"></div>
+          <div className="absolute top-96 left-1/4 w-3 h-3 text-indigo-500 opacity-55 animate-float-3 circle-shape"></div>
           
-          {/* Hojas en la parte superior */}
-          <div className="absolute top-16 right-3/5 w-2 h-2 text-orange-400 opacity-40 animate-float-1 leaf-shape"></div>
-          <div className="absolute top-12 left-2/5 w-3 h-3 text-orange-500 opacity-50 animate-float-2 leaf-shape"></div>
+          {/* Círculos en la parte superior */}
+          <div className="absolute top-16 right-3/5 w-2 h-2 text-cyan-500 opacity-40 animate-float-1 circle-shape"></div>
+          <div className="absolute top-12 left-2/5 w-3 h-3 text-lime-500 opacity-50 animate-float-2 circle-shape"></div>
         </div>
         
         {/* Overlay sutil para mejorar legibilidad del texto */}

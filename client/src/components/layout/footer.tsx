@@ -8,7 +8,6 @@ const serviceLinks = [
   { name: "Psicoterapia Individual", href: "/servicios#individual" },
   { name: "Familia y Pareja", href: "/servicios#family" },
   { name: "Psicoeducación Padres", href: "/servicios#psychoeducation" },
-  { name: "Talleres Arteterapia", href: "/talleres" },
 ];
 
 const legalLinks = [
@@ -111,10 +110,7 @@ export function Footer() {
                 © 2025 Antonia Cabrera. Todos los derechos reservados.
               </p>
               <p className="text-xs text-white/80 mt-2">
-                75908 Registro Ministerio de Salud
-              </p>
-              <p className="text-xs text-white/80">
-                Folio 80884 Secretaría Ministerial de Educación
+                Registro Nacional Prestadores de Salud N° 769855
               </p>
             </div>
           </div>

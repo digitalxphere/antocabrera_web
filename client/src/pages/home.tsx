@@ -724,7 +724,7 @@ export default function Home() {
                   className="relative w-full h-96 overflow-hidden rounded-2xl cursor-pointer group"
                 >
                   <img
-                    src="/attached_assets/Captura de pantalla 2025-10-07 a la(s) 12.44.33_1759851876535.png"
+                    src="/attached_assets/mapa_ubicacion_vina_del_mar.webp"
                     alt="Mapa ubicación Montenegro 136, Viña del Mar"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />

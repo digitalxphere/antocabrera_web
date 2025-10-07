@@ -1,51 +1,51 @@
 {
   "@context": "https://schema.org",
   "@type": "MedicalBusiness",
-  "name": "Paula Cabrera Fuentes - Psicóloga",
-  "description": "Psicóloga clínica especializada en adolescentes y jóvenes con TEA, TDAH y neurodiversidad. Más de 25 años de experiencia en Concón y Viña del Mar, Chile.",
-  "url": "https://paulacabrerapsicologa.cl",
-  "telephone": "+56993694978",
+  "name": "Antonia Cabrera - Psicóloga",
+  "description": "Psicóloga especialista en adolescentes de 12 a 18 años. Arteterapia, Terapia de Juego y Enfoque Sistémico en Viña del Mar, Chile.",
+  "url": "https://antoniacabrerapsicologa.cl",
+  "telephone": "+56953065780",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "Av. Bosques de Montemar 30, Oficina 920",
-    "addressLocality": "Concón",
+    "streetAddress": "Montenegro 136",
+    "addressLocality": "Viña del Mar",
     "addressRegion": "Valparaíso",
     "postalCode": "",
     "addressCountry": "CL"
   },
   "geo": {
     "@type": "GeoCoordinates",
-    "latitude": "-32.9253",
-    "longitude": "-71.5117"
+    "latitude": "-33.0245",
+    "longitude": "-71.5516"
   },
   "openingHours": [
-    "Mo-Fr 10:00-19:00",
-    "Sa 10:00-14:00"
+    "Mo-Fr 11:00-19:00"
   ],
   "priceRange": "$$",
   "medicalSpecialty": [
     "Psicología Clínica",
     "Psicoterapia Adolescente",
     "Arteterapia",
-    "Terapia TEA",
-    "Terapia TDAH"
+    "Terapia de Juego",
+    "Terapia Sistémica"
   ],
   "availableService": [
     {
       "@type": "MedicalTherapy",
-      "name": "Consulta Individual - Psicoterapia",
-      "description": "Acompañamiento terapéutico centrado en el vínculo y la confianza con especialización en ansiedad, trauma, apego, neurodivergencia, TEA y TDAH. Uso de técnicas integrativas como Modelo MMIDA, IFS y focalización corporal.",
+      "name": "Terapia Individual Infantojuvenil",
+      "description": "Acompañamiento terapéutico utilizando el arte y el juego como vías principales para la comunicación amable y la expresión de emociones. Especialización en adolescentes de 12 a 18 años con enfoque sistémico.",
       "serviceType": "Psicoterapia Individual",
-      "audience": "Adolescentes (12-18 años), Jóvenes (18-30 años), Adultos",
+      "audience": "Adolescentes (12-18 años)",
       "availableChannel": [
         {
           "@type": "ServiceChannel",
           "serviceLocation": {
             "@type": "Place",
-            "name": "Consulta Presencial Concón",
+            "name": "Consulta Presencial Viña del Mar",
             "address": {
               "@type": "PostalAddress",
-              "addressLocality": "Concón",
+              "streetAddress": "Montenegro 136",
+              "addressLocality": "Viña del Mar",
               "addressRegion": "Valparaíso",
               "addressCountry": "CL"
             }
@@ -54,39 +54,7 @@
         {
           "@type": "ServiceChannel",
           "serviceType": "Consulta Online",
-          "serviceUrl": "https://paulacabrerapsicologa.cl/contacto"
-        }
-      ],
-      "offers": {
-        "@type": "Offer",
-        "availability": "https://schema.org/InStock",
-        "availabilityStarts": "2025-01-01"
-      }
-    },
-    {
-      "@type": "MedicalTherapy",
-      "name": "Psicoeducación para Padres y Cuidadores",
-      "description": "Orientación familiar para mejorar comunicación, establecer acuerdos y coordinación escolar. Estrategias prácticas para el hogar y colegio con material visual y plan de apoyo personalizado.",
-      "serviceType": "Orientación Familiar",
-      "audience": "Padres de adolescentes, Padres de jóvenes con TEA, Cuidadores",
-      "availableChannel": [
-        {
-          "@type": "ServiceChannel",
-          "serviceLocation": {
-            "@type": "Place",
-            "name": "Consulta Presencial Concón",
-            "address": {
-              "@type": "PostalAddress",
-              "addressLocality": "Concón",
-              "addressRegion": "Valparaíso",
-              "addressCountry": "CL"
-            }
-          }
-        },
-        {
-          "@type": "ServiceChannel",
-          "serviceType": "Consulta Online",
-          "serviceUrl": "https://paulacabrerapsicologa.cl/contacto"
+          "serviceUrl": "https://antoniacabrerapsicologa.cl/contacto"
         }
       ],
       "offers": {
@@ -96,19 +64,51 @@
     },
     {
       "@type": "MedicalTherapy",
-      "name": "Talleres de Arteterapia",
-      "description": "Talleres grupales pequeños (4-6 participantes) para desarrollo de regulación emocional, habilidades sociales y comunicación a través del arte. Ambiente cuidado con apoyos visuales y pausas programadas.",
+      "name": "Acompañamiento Neurodivergencias",
+      "description": "Soporte especializado para adolescentes neurodivergentes (12-18 años) con TDAH, TEA y otras condiciones. Estrategias de intervención infantojuvenil adaptadas a cada necesidad.",
+      "serviceType": "Terapia Especializada",
+      "audience": "Adolescentes neurodivergentes (TDAH, TEA)",
+      "availableChannel": [
+        {
+          "@type": "ServiceChannel",
+          "serviceLocation": {
+            "@type": "Place",
+            "name": "Consulta Presencial Viña del Mar",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Montenegro 136",
+              "addressLocality": "Viña del Mar",
+              "addressRegion": "Valparaíso",
+              "addressCountry": "CL"
+            }
+          }
+        },
+        {
+          "@type": "ServiceChannel",
+          "serviceType": "Consulta Online",
+          "serviceUrl": "https://antoniacabrerapsicologa.cl/contacto"
+        }
+      ],
+      "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    {
+      "@type": "MedicalTherapy",
+      "name": "Talleres de Arteterapia y Juego",
+      "description": "Espacios grupales donde el arte y el juego son los puentes para la expresión y conexión. Enfoque sistémico que considera el contexto relacional de cada participante.",
       "serviceType": "Taller Grupal",
-      "audience": "Adolescentes con TEA, Jóvenes con neurodiversidad",
+      "audience": "Adolescentes (12-18 años)",
       "availableChannel": {
         "@type": "ServiceChannel",
         "serviceLocation": {
           "@type": "Place",
-          "name": "Consulta Presencial Concón",
+          "name": "Consulta Presencial Viña del Mar",
           "address": {
             "@type": "PostalAddress",
-            "streetAddress": "Av. Bosques de Montemar 30, Oficina 920",
-            "addressLocality": "Concón",
+            "streetAddress": "Montenegro 136",
+            "addressLocality": "Viña del Mar",
             "addressRegion": "Valparaíso",
             "addressCountry": "CL"
           }
@@ -121,14 +121,6 @@
     }
   ],
   "areaServed": [
-    {
-      "@type": "City",
-      "name": "Concón",
-      "containedInPlace": {
-        "@type": "State",
-        "name": "Valparaíso"
-      }
-    },
     {
       "@type": "City",
       "name": "Viña del Mar",
@@ -147,58 +139,61 @@
     }
   ],
   "knowsAbout": [
-    "Trastorno del Espectro Autista (TEA)",
+    "Arteterapia",
+    "Terapia de Juego",
+    "Enfoque Sistémico",
+    "Terapia Narrativa",
     "TDAH",
+    "TEA (Trastorno del Espectro Autista)",
     "Neurodiversidad",
     "Ansiedad adolescente",
-    "Trauma",
-    "Problemas de apego",
-    "Regulación emocional",
-    "Arteterapia",
-    "Terapia familiar",
-    "Psicoeducación"
+    "Depresión",
+    "Violencia de género",
+    "Autoestima",
+    "Identidad auténtica"
   ],
   "contactPoint": [
     {
       "@type": "ContactPoint",
-      "telephone": "+56993694978",
+      "telephone": "+56953065780",
       "contactType": "Atención al cliente",
       "availableLanguage": "Spanish",
-      "areaServed": "CL"
+      "areaServed": "CL",
+      "email": "ps.antoniapaz@gmail.com"
     }
   ],
   "sameAs": [
-    "https://paulacabrerapsicologa.cl"
+    "https://www.instagram.com/ps.antoniapaz",
+    "https://antoniacabrerapsicologa.cl"
   ],
-  "image": "https://paulacabrerapsicologa.cl/attached_assets/Paula_cabrera_psicologa_logo_1756657755055.webp",
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
     "name": "Servicios de Psicoterapia",
     "itemListElement": [
       {
         "@type": "OfferCatalog",
-        "name": "Psicoterapia Individual",
+        "name": "Terapia Individual",
         "itemListElement": [
           {
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
-              "name": "Consulta Individual Adolescentes y Jóvenes",
-              "description": "Sesiones de 70 minutos presenciales u online"
+              "name": "Terapia Individual Adolescentes",
+              "description": "Sesiones de 60 minutos presenciales u online"
             }
           }
         ]
       },
       {
         "@type": "OfferCatalog",
-        "name": "Orientación Familiar",
+        "name": "Terapia Familiar",
         "itemListElement": [
           {
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
-              "name": "Psicoeducación para Padres",
-              "description": "Sesiones de 60 minutos con material visual y plan de apoyo"
+              "name": "Orientación Familiar",
+              "description": "Sesiones familiares con enfoque sistémico"
             }
           }
         ]
@@ -212,7 +207,7 @@
             "itemOffered": {
               "@type": "Service",
               "name": "Talleres de Arteterapia",
-              "description": "Grupos pequeños de 90-120 minutos, solo presencial"
+              "description": "Grupos pequeños de 90 minutos, solo presencial"
             }
           }
         ]

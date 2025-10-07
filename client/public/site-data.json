@@ -1,40 +1,47 @@
 {
   "@context": "https://schema.org",
   "@type": "PsychologistPractice",
-  "version": "1.0",
-  "lastUpdated": "2025-10-05",
+  "version": "2.0",
+  "lastUpdated": "2025-10-07",
   "practice": {
-    "name": "Paula Cabrera Fuentes",
-    "profession": "Psicóloga Clínica",
+    "name": "Antonia Cabrera",
+    "fullName": "Antonia Paz Cabrera",
+    "profession": "Psicóloga",
     "specialization": [
-      "Adolescentes",
-      "Jóvenes",
-      "TEA (Trastorno del Espectro Autista)",
-      "TDAH",
-      "Neurodiversidad",
-      "Arteterapia"
+      "Adolescentes (12-18 años)",
+      "Arteterapia",
+      "Terapia de Juego",
+      "Enfoque Sistémico",
+      "Terapia Narrativa",
+      "Neurodiversidad (TDAH, TEA)"
     ],
-    "experience_years": 25,
     "education": [
       {
-        "degree": "Máster en Psicoterapia",
-        "institution": "Universidad de Chile"
+        "degree": "Psicóloga",
+        "institution": "Universidad de Valparaíso"
       },
       {
-        "specialization": "Modelo MMIDA, IFS, Focalización corporal y técnicas integrativas"
+        "specialization": "Terapia Narrativa",
+        "institution": "Pranas Chile"
+      },
+      {
+        "specialization": "Estrategias de Intervención Infantil Juvenil",
+        "institution": "Universidad de Valparaíso"
       }
     ],
-    "approach": "Acompañamiento centrado en el vínculo y la confianza con enfoque en neurodiversidad, integración familiar y arteterapia",
+    "approach": "Acompañamiento terapéutico utilizando el arte y el juego como vías principales para la comunicación amable y la expresión de emociones. Enfoque sistémico que considera el contexto relacional y familiar de cada adolescente.",
     "languages": ["Español"],
-    "website": "https://paulacabrerapsicologa.cl",
+    "website": "https://antoniacabrerapsicologa.cl",
     "contact": {
-      "phone": "+569 9369 4978",
-      "whatsapp": "56993694978",
+      "phone": "+56 9 5306 5780",
+      "whatsapp": "56953065780",
+      "email": "ps.antoniapaz@gmail.com",
+      "instagram": "@ps.antoniapaz",
       "locations": [
         {
           "name": "Consulta Principal",
-          "address": "Av. Bosques de Montemar 30, Oficina 920, Concón, Valparaíso, Chile",
-          "city": "Concón",
+          "address": "Montenegro 136, Viña del Mar, Valparaíso, Chile",
+          "city": "Viña del Mar",
           "region": "Valparaíso",
           "country": "Chile",
           "type": "presencial"
@@ -42,289 +49,241 @@
         {
           "name": "Atención Online",
           "type": "virtual",
-          "coverage": "Mundial"
+          "coverage": "Nacional e Internacional"
         }
       ],
       "schedule": {
-        "weekdays": "Lunes a Viernes: 10:00 - 19:00",
-        "saturday": "Sábados: 10:00 - 14:00",
-        "sunday": "Cerrado"
+        "weekdays": "Lunes a Viernes: 11:00 - 19:00",
+        "notes": "Agendar por WhatsApp"
       }
     }
   },
   "services": [
     {
       "id": "individual",
-      "name": "Consulta Individual - Psicoterapia",
-      "type": "Psicoterapia Individual",
+      "name": "Terapia Individual Infantojuvenil",
+      "type": "Psicoterapia Individual con Arteterapia y Terapia de Juego",
       "target_audience": [
-        "Adolescentes (12-18 años)",
-        "Jóvenes (18-30 años)",
-        "Adultos"
+        "Adolescentes (12-18 años)"
       ],
       "specialties": [
         "Ansiedad",
-        "Trauma",
-        "Apego",
+        "Depresión",
+        "Autoestima",
+        "Identidad auténtica",
         "Neurodivergencia",
-        "TEA",
         "TDAH",
+        "TEA (Trastorno del Espectro Autista)",
+        "Violencia de género - recuperación",
         "Regulación emocional"
       ],
       "objectives": [
-        "Autorregulación emocional",
-        "Desarrollo de habilidades sociales",
-        "Construcción de identidad",
-        "Mejora de comunicación"
-      ],
-      "duration": "70 minutos",
-      "modality": [
-        "Presencial en Concón",
-        "Online mundial"
-      ],
-      "techniques": [
-        "Modelo MMIDA",
-        "IFS (Internal Family Systems)",
-        "Focalización corporal",
-        "Técnicas integrativas",
-        "Psicodiagnóstico"
-      ]
-    },
-    {
-      "id": "parents",
-      "name": "Psicoeducación para Padres y Cuidadores",
-      "type": "Orientación Familiar",
-      "target_audience": [
-        "Padres de adolescentes",
-        "Padres de jóvenes con TEA",
-        "Cuidadores",
-        "Familia extendida"
-      ],
-      "objectives": [
-        "Favorecer integración sin perder la esencia",
-        "Mejorar comunicación familiar",
-        "Establecer acuerdos",
-        "Coordinación escolar"
+        "Expresión emocional a través del arte y el juego",
+        "Bienestar integral",
+        "Desarrollo de identidad auténtica",
+        "Mejora de comunicación y relaciones"
       ],
       "duration": "60 minutos",
       "modality": [
-        "Presencial en Concón",
+        "Presencial en Montenegro 136, Viña del Mar",
         "Online"
       ],
-      "includes": [
-        "Material visual",
-        "Plan de apoyo personalizado",
-        "Estrategias para hogar y colegio"
+      "techniques": [
+        "Arteterapia",
+        "Terapia de Juego",
+        "Enfoque Sistémico",
+        "Terapia Narrativa"
+      ]
+    },
+    {
+      "id": "neurodiversity",
+      "name": "Acompañamiento Neurodivergencias",
+      "type": "Terapia Especializada",
+      "target_audience": [
+        "Adolescentes neurodivergentes (12-18 años)"
+      ],
+      "specialties": [
+        "TDAH",
+        "TEA (Trastorno del Espectro Autista)",
+        "Otras neurodivergencias"
+      ],
+      "objectives": [
+        "Apoyo integral y desarrollo de habilidades",
+        "Estrategias adaptadas a cada necesidad",
+        "Fortalecimiento de identidad neurodivergente"
+      ],
+      "duration": "60 minutos",
+      "modality": [
+        "Presencial en Viña del Mar",
+        "Online"
+      ],
+      "techniques": [
+        "Estrategias de Intervención Infantojuvenil",
+        "Enfoque Sistémico",
+        "Arteterapia adaptada"
+      ]
+    },
+    {
+      "id": "family",
+      "name": "Terapia Familiar",
+      "type": "Orientación Familiar con Enfoque Sistémico",
+      "target_audience": [
+        "Familias de adolescentes",
+        "Padres y cuidadores"
+      ],
+      "objectives": [
+        "Mejorar comunicación familiar",
+        "Fortalecer vínculos",
+        "Comprender dinámicas relacionales"
+      ],
+      "duration": "60 minutos",
+      "modality": [
+        "Presencial en Viña del Mar",
+        "Online"
       ]
     },
     {
       "id": "workshops",
-      "name": "Talleres de Arteterapia",
+      "name": "Talleres de Arteterapia y Juego",
       "type": "Taller Grupal",
       "target_audience": [
-        "Adolescentes con TEA",
-        "Jóvenes con neurodiversidad"
+        "Adolescentes (12-18 años)"
       ],
       "objectives": [
-        "Regulación emocional",
-        "Comunicación no verbal",
-        "Habilidades sociales en contexto cuidado",
-        "Pertenencia grupal"
+        "Expresión creativa",
+        "Habilidades sociales",
+        "Conexión grupal a través del arte y el juego"
       ],
       "format": {
         "group_size": "4-6 participantes",
-        "duration": "90-120 minutos",
-        "modality": "Solo presencial en Concón",
+        "duration": "90 minutos",
+        "modality": "Solo presencial en Viña del Mar",
         "features": [
-          "Grupos pequeños",
-          "Apoyos visuales",
-          "Pausas programadas",
-          "Ambiente predecible"
+          "Actividades lúdicas",
+          "Expresión artística",
+          "Enfoque sistémico grupal"
         ]
       },
-      "access": "Por invitación tras evaluación clínica individual",
-      "location": "Av. Bosques de Montemar 30, Oficina 920, Concón"
+      "location": "Montenegro 136, Viña del Mar"
     }
   ],
   "workshops": [
     {
       "id": "1",
       "title": "Expresión Emocional Creativa",
-      "description": "Taller grupal para desarrollar la expresión emocional y habilidades de comunicación a través del arte",
-      "duration": "2 horas",
+      "description": "Taller grupal para desarrollar la expresión emocional y habilidades de comunicación a través del arte y el juego",
+      "duration": "90 minutos",
       "capacity": 6,
-      "location": "Consulta Concón",
+      "location": "Montenegro 136, Viña del Mar",
       "modality": "Presencial",
-      "tags": ["Expresión emocional", "Arte", "Comunicación"]
+      "tags": ["Expresión emocional", "Arte", "Juego", "Comunicación"]
     },
     {
       "id": "2",
       "title": "Habilidades Sociales Artísticas",
-      "description": "Desarrollo de habilidades sociales a través de proyectos artísticos colaborativos y expresión creativa",
-      "duration": "2.5 horas",
-      "capacity": 8,
-      "location": "Modalidad Online + Presencial",
-      "modality": "Híbrida",
-      "tags": ["Habilidades sociales", "Colaborativo", "Arte"]
-    },
-    {
-      "id": "3",
-      "title": "Mindfulness y Regulación",
-      "description": "Técnicas de mindfulness y autorregulación emocional combinadas con expresión artística",
-      "duration": "4 horas",
+      "description": "Desarrollo de habilidades sociales a través de proyectos artísticos colaborativos y juego terapéutico",
+      "duration": "90 minutos",
       "capacity": 6,
-      "location": "Consulta Viña del Mar",
+      "location": "Montenegro 136, Viña del Mar",
       "modality": "Presencial",
-      "tags": ["Mindfulness", "Regulación emocional", "Intensivo"]
-    }
-  ],
-  "blog_articles": [
-    {
-      "id": "1",
-      "title": "Adolescentes y padres: un distanciamiento necesario para crecer",
-      "slug": "adolescentes-padres-distanciamiento-necesario-crecer",
-      "category": "Desarrollo Adolescente",
-      "excerpt": "Muchos padres viven con dolor y desconcierto el momento en que sus hijos comienzan a alejarse de ellos en la adolescencia. Descubre por qué este proceso es natural y necesario.",
-      "date": "2025-09-05",
-      "read_time": "6 minutos",
-      "url": "https://paulacabrerapsicologa.cl/blog/adolescentes-padres-distanciamiento-necesario-crecer",
-      "keywords": [
-        "adolescencia",
-        "distanciamiento",
-        "padres",
-        "desarrollo",
-        "identidad",
-        "autonomía"
-      ],
-      "key_concepts": [
-        "Erik Erikson y búsqueda de identidad",
-        "Apego al grupo de pares",
-        "Autonomía psicológica",
-        "Transformación familiar"
-      ]
-    },
-    {
-      "id": "2",
-      "title": "Adolescencia: un viaje de transformación y acompañamiento",
-      "slug": "adolescencia-viaje-transformacion-acompanamiento",
-      "category": "Acompañamiento Terapéutico",
-      "excerpt": "La adolescencia es una etapa vital de cambios profundos, donde cada joven se enfrenta a la construcción de su identidad, a la gestión de nuevas emociones y a la búsqueda de pertenencia.",
-      "date": "2025-09-03",
-      "read_time": "8 minutos",
-      "url": "https://paulacabrerapsicologa.cl/blog/adolescencia-viaje-transformacion-acompanamiento",
-      "keywords": [
-        "adolescencia",
-        "transformación",
-        "identidad",
-        "acompañamiento",
-        "terapia"
-      ],
-      "key_concepts": [
-        "Ansiedad adolescente",
-        "Alexitimia",
-        "Individualidad en el proceso terapéutico",
-        "Potencialidad del adolescente"
-      ]
+      "tags": ["Habilidades sociales", "Colaborativo", "Arte", "Juego"]
     }
   ],
   "faqs": [
     {
       "id": "1",
-      "question": "¿Cómo puede ayudar la arteterapia a adolescentes con TEA?",
-      "answer": "La arteterapia proporciona un medio no verbal de expresión que puede ser especialmente beneficioso para adolescentes con TEA. A través del arte, pueden comunicar emociones, desarrollar habilidades de autorregulación y mejorar su bienestar emocional de manera natural y sin presión.",
-      "category": "Arteterapia"
+      "question": "¿Desde qué edad atiende Antonia Cabrera?",
+      "answer": "Atiende a niños desde los 7 años, adolescentes y adultos jóvenes.",
+      "category": "Generales"
     },
     {
       "id": "2",
-      "question": "¿Cuánto dura el proceso terapéutico?",
-      "answer": "La duración del proceso varía según las necesidades individuales. Generalmente, recomendamos un mínimo de 12 sesiones para observar cambios significativos, pero cada caso es único y evaluamos el progreso de forma continua.",
-      "category": "Proceso terapéutico"
+      "question": "¿Qué tipo de terapias utiliza?",
+      "answer": "Su enfoque principal es la Arteterapia y la Terapia de Juego, complementadas con un Enfoque Sistémico y Terapia Narrativa.",
+      "category": "Enfoques terapéuticos"
     },
     {
       "id": "3",
-      "question": "¿Ofrecen sesiones online?",
-      "answer": "Sí, ofrecemos tanto sesiones presenciales en Concón, como sesiones online. La modalidad se elige según las necesidades y preferencias de cada familia, manteniendo siempre la calidad del acompañamiento terapéutico.",
-      "category": "Modalidades"
+      "question": "¿Cuál es la diferencia entre Arteterapia y Terapia de Juego?",
+      "answer": "Arteterapia utiliza la expresión artística como medio para explorar emociones. Terapia de Juego emplea dinámicas lúdicas como vía de comunicación y exploración emocional, especialmente con niños y adolescentes.",
+      "category": "Enfoques terapéuticos"
     },
     {
       "id": "4",
-      "question": "¿Qué edad tienen los participantes de los talleres?",
-      "answer": "Nuestros talleres están diseñados para adolescentes (16-18 años) y jóvenes (18-30 años). Adaptamos las actividades según el grupo etario y las necesidades específicas de cada participante.",
-      "category": "Talleres"
+      "question": "¿Las sesiones son individuales o familiares?",
+      "answer": "Principalmente son individuales, pero se incluye a la familia cuando es necesario fortalecer el vínculo y la comunicación.",
+      "category": "Modalidades"
     },
     {
       "id": "5",
-      "question": "¿Cómo puedo saber si mi hijo/a necesita acompañamiento psicológico?",
-      "answer": "Algunas señales incluyen cambios en el comportamiento, dificultades en la regulación emocional, problemas de comunicación o adaptación social.",
-      "category": "Consultas generales"
+      "question": "¿Cuál es la duración de una sesión?",
+      "answer": "Entre 50 y 60 minutos, según la edad y modalidad de la atención.",
+      "category": "Sesiones"
     },
     {
       "id": "6",
-      "question": "¿Los talleres requieren experiencia previa en arte?",
-      "answer": "No es necesaria experiencia previa. El foco está en la expresión y el proceso creativo, no en el resultado artístico. Proporcionamos todos los materiales y guiamos cada actividad paso a paso.",
-      "category": "Talleres"
+      "question": "¿La atención es presencial u online?",
+      "answer": "Se ofrecen ambas modalidades: presencial en Viña del Mar y online para quienes lo necesiten.",
+      "category": "Modalidades"
     }
   ],
   "testimonials": [
     {
       "id": "1",
-      "author": "Madre de participante",
+      "author": "Madre de adolescente",
       "service": "Arteterapia",
-      "context": "Taller de Expresión Emocional",
-      "quote": "Paula creó un ambiente donde mi hijo pudo expresarse sin juicios. Los talleres de arteterapia le dieron herramientas que usa en su día a día para manejar la ansiedad."
+      "context": "Terapia Individual",
+      "quote": "Antonia creó un ambiente donde mi hijo pudo expresarse libremente a través del arte. Los cambios han sido evidentes en su autoestima y comunicación."
     },
     {
       "id": "2",
       "author": "Familia participante",
       "service": "Terapia Familiar",
-      "context": "Terapia familiar",
-      "quote": "La psicoeducación nos ayudó a entender mejor a nuestra hija y mejorar nuestra comunicación familiar. El enfoque de Paula es cálido y profesional."
+      "context": "Enfoque Sistémico",
+      "quote": "El trabajo familiar nos ayudó a entender mejor a nuestra hija y mejorar nuestra forma de comunicarnos. El enfoque de Antonia es cálido y profesional."
     },
     {
       "id": "3",
       "author": "Padre de adolescente",
       "service": "Talleres",
-      "context": "Habilidades Sociales",
-      "quote": "Los talleres ayudaron a mi hijo a conectar con otros jóvenes y desarrollar confianza. Paula tiene una manera especial de trabajar con adolescentes TEA."
+      "context": "Taller de Juego",
+      "quote": "Los talleres ayudaron a mi hijo a conectar con otros adolescentes y desarrollar más confianza. Antonia tiene una manera especial de trabajar con jóvenes."
     }
   ],
   "seo_keywords": [
-    "psicóloga Concón",
     "psicóloga Viña del Mar",
-    "psicoterapia adolescentes TEA",
-    "talleres arteterapia TEA",
     "psicóloga adolescentes Viña del Mar",
-    "arteterapia Concón",
-    "terapia neurodiversidad",
-    "psicóloga TEA Chile",
-    "TDAH adolescentes",
-    "regulación emocional jóvenes"
+    "arteterapia adolescentes",
+    "terapia de juego Viña del Mar",
+    "psicóloga infantojuvenil",
+    "neurodivergencias TDAH TEA",
+    "terapia sistémica adolescentes",
+    "terapia narrativa Chile",
+    "psicóloga Montenegro Viña del Mar"
   ],
   "target_conditions": [
-    "TEA (Trastorno del Espectro Autista)",
-    "TDAH",
     "Ansiedad",
-    "Trauma",
-    "Problemas de apego",
+    "Depresión",
+    "Baja autoestima",
+    "Dificultades de identidad",
+    "TDAH",
+    "TEA (Trastorno del Espectro Autista)",
+    "Neurodiversidad",
+    "Violencia de género - recuperación",
     "Dificultades de regulación emocional",
-    "Alexitimia",
-    "Alteraciones conductuales",
-    "Dificultades de comunicación",
-    "Problemas de adaptación social"
+    "Problemas de comunicación",
+    "Dificultades de adaptación social"
   ],
   "therapeutic_approaches": [
-    "Modelo MMIDA",
-    "IFS (Internal Family Systems)",
-    "Focalización corporal",
-    "Técnicas integrativas",
     "Arteterapia",
-    "Mindfulness",
-    "Psicoeducación familiar",
-    "Terapia basada en el vínculo"
+    "Terapia de Juego",
+    "Enfoque Sistémico",
+    "Terapia Narrativa",
+    "Estrategias de Intervención Infantil Juvenil"
   ],
   "meta": {
-    "sitemap_url": "https://paulacabrerapsicologa.cl/sitemap.xml",
-    "robots_url": "https://paulacabrerapsicologa.cl/robots.txt",
+    "sitemap_url": "https://antoniacabrerapsicologa.cl/sitemap.xml",
+    "robots_url": "https://antoniacabrerapsicologa.cl/robots.txt",
     "json_ld_available": true,
     "accessibility_compliant": true,
     "responsive_design": true,

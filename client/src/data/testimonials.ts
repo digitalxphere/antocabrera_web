@@ -17,13 +17,6 @@ export const testimonials: TestimonialType[] = [
   },
   {
     id: "3",
-    name: "Padre de joven con TEA",
-    role: "Acompañamiento psicoeducativo",
-    content: "Mi hijo tenía dificultades para expresarse con palabras. A través del juego y el arte logró mostrarnos lo que sentía. Antonia tiene una manera cercana y respetuosa de conectar con adolescentes neurodivergentes.",
-    service: "Psicoeducación"
-  },
-  {
-    id: "4",
     name: "Adolescente participante",
     role: "Consulta individual",
     content: "Al principio no quería hablar, pero dibujar y crear me ayudó a soltar lo que me pasaba. Ahora siento que tengo un lugar donde puedo ser yo mismo sin miedo a que me juzguen.",

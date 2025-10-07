@@ -19,7 +19,7 @@ export function WhatsAppButton() {
         data-testid="button-whatsapp-float"
       >
         <MessageCircle className="w-6 h-6" />
-        <span className="font-semibold">Reservar</span>
+        <span className="font-semibold">Reserva - WhatsApp</span>
       </Button>
     </div>
   );

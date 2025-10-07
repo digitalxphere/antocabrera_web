@@ -9,15 +9,15 @@ export default function SobrePaula() {
   const contentRef = useScrollAnimation();
 
   const breadcrumbItems = [
-    { label: "Sobre Paula", href: "/sobre-paula-cabrera-fuentes-psicologa" }
+    { label: "Sobre Antonia", href: "/sobre-antonia-cabrera-psicologa" }
   ];
 
   return (
     <>
       <SEOHead 
-        title="Paula Cabrera Fuentes - Psicóloga en Viña del Mar y Concón | Especialista TEA, TDAH y Arteterapia para Adolescentes"
-        description="Paula Cabrera Fuentes, psicóloga en Concón y Viña del Mar con Máster en Psicoterapia. +25 años especializándose en adolescentes, TEA, TDAH, neurodiversidad y arteterapia. Atención presencial y online."
-        canonical="https://paulacabrerapsicologa.cl/sobre-paula-cabrera-fuentes-psicologa"
+        title="Antonia Cabrera - Psicóloga en Viña del Mar y Concón | Especialista en Arteterapia y Terapia de Juego Infantojuvenil"
+        description="Antonia Cabrera, psicóloga en Concón y Viña del Mar con diploma en estrategias de intervención infantojuvenil. Especialista en arteterapia, terapia de juego y acompañamiento a neurodivergencias. Atención presencial y online."
+        canonical="https://antoniacabrerapsicologa.cl/sobre-antonia-cabrera-psicologa"
       />
 
       <div className="min-h-screen bg-background">
@@ -32,23 +32,23 @@ export default function SobrePaula() {
               <div className="space-y-8">
                 <div>
                   <h1 className="text-4xl lg:text-6xl font-bold text-foreground mb-6" data-testid="about-title">
-                    Paula Cabrera Fuentes
+                    Antonia Cabrera
                   </h1>
                   
                   <h2 className="text-2xl lg:text-3xl text-primary mb-8 font-semibold" data-testid="about-subtitle">
-                    Psicóloga especialista en terapia adolescente
+                    Psicóloga especialista en Arteterapia y Terapia de Juego
                   </h2>
                   
                   <h3 className="text-xl text-muted-foreground leading-relaxed" data-testid="about-hero-description">
-                    Bosques de Montemar Concón, Viña del Mar
+                    Montenegro 136, Viña del Mar
                   </h3>
                 </div>
               </div>
               
               <div className="flex justify-center lg:justify-end">
                 <OptimizedImage 
-                  src="/attached_assets/Paula_Cabrera_Fuentes_psicologa_concon_vina_del_mar_1756665062563.jpeg" 
-                  alt="Paula Cabrera Fuentes, psicóloga especialista en TEA"
+                  src="/attached_assets/PHOTO-2025-10-05-18-22-05_1759848903714.jpg" 
+                  alt="Antonia Cabrera, psicóloga especialista en arteterapia y terapia de juego"
                   width="400"
                   height="600"
                   className="rounded-3xl shadow-2xl w-full max-w-md h-auto"
@@ -69,74 +69,43 @@ export default function SobrePaula() {
             <div className="mb-20" data-testid="about-biography">
               <div className="max-w-4xl mx-auto">
                 <h3 className="text-3xl font-bold text-foreground mb-12 text-center">
-                  Mi historia profesional
+                  Mi camino profesional
                 </h3>
                 
                 <div className="space-y-8 text-muted-foreground text-lg leading-relaxed text-justify">
                   <p data-testid="about-description-1">
-                    Curiosa, estudiosa y creativamente, recibo a cada paciente con genuino interés, consciente de que construimos juntos las herramientas necesarias para estar mejor.
+                    Soy Antonia Cabrera, psicóloga titulada de la Universidad de Valparaíso, con formación en estrategias de intervención infanto-juvenil y conocimientos en arteterapia y terapia de juego.
                   </p>
                   
                   <p data-testid="about-description-2">
-                    Soy madre de dos jóvenes, por lo que entiendo la perspectiva de ellos y la mía, lo que ayuda sin duda a tener siempre presente un sentido común que puede ser un poderoso aporte.
+                    Mi enfoque principal integra el Arteterapia y el Enfoque Sistémico, lo que me permite acompañar a niños, adolescentes y adultos jóvenes desde una mirada relacional, considerando siempre el contexto familiar y social.
                   </p>
                   
                   <p data-testid="about-description-3">
-                    Decidí armar este sitio con información más actualizada respecto de quien soy y mi perfil académico ya que el tiempo pasa y vamos cambiando. Mi grado de Psicóloga lo obtuve en la Universidad de Valparaíso, en donde elegí el área Humanista, que tiene que ver con aplicar la psicología subrayando el vínculo que tengo con mis pacientes. Por ende, mi consulta me identifica y me genera calidez, esperando que quien entre en mi espacio lo perciba también.
+                    Creo firmemente en el poder del arte y del juego como puentes para expresar emociones, comprender el mundo interno y generar cambios positivos. Estas herramientas me permiten establecer una comunicación cálida y cercana, especialmente con niños y jóvenes que encuentran en la creatividad una forma natural de expresarse.
                   </p>
                   
                   <p data-testid="about-description-4">
-                    Tu opinión importa, por lo que es regla que después de la primera sesión, tú eliges si deseas seguir el proceso. Asimismo, si eres mayor de 18 años, la participación de tu familia es voluntaria siempre y cuando no te encuentres en riesgo.
+                    También brindo apoyo a personas con neurodivergencias como TDAH y TEA, entregando un espacio respetuoso, comprensivo y adaptado a sus necesidades.
                   </p>
                   
-                  <p data-testid="about-description-5">
-                    Tengo registro en el Ministerio de Salud y en el de Educación. En mis post-títulos me fortalecí con conocimientos y práctica en terapia familiar y mediación para aportar en términos psicoeducativos en los ámbitos clínicos, educacionales, judiciales y comunitarios.
+                  <p data-testid="about-description-5" className="font-medium text-foreground">
+                    Mi propósito es acompañar procesos de crecimiento y bienestar, ofreciendo un espacio seguro donde cada persona pueda sentirse escuchada, comprendida y validada.
                   </p>
                   
-                  <p data-testid="about-description-6">
-                    Si tuviera que reconocer lo que más me marcó como psicoterapeuta, es sin duda la participación en distintas organizaciones de protección de derechos y responsabilización en jóvenes. En ellas aprendí la importancia del trabajo clínico sumado al trabajo social.
-                  </p>
-                  
-                  <p data-testid="about-description-7">
-                    El año pasado además me acredité en Intervención especializada en TEA, ya que muchos de los jóvenes que atiendo son neurodivergentes y es importante para mí estar aprendiendo constantemente para ayudar de la mejor manera. Un detalle no tan "random" es que uno de mis mellizos es del espectro y es mi mayor maestro.
-                  </p>
-                  
-                  <p data-testid="about-description-8">
-                    En la actualidad soy Máster en Psicoterapia, logré estudiar en Barcelona y renovar estrategias y técnicas que reflejan lo que quiero transmitir en mis sesiones; conectar en un camino nuevo en el que el cuerpo y la mente se unen permitiéndonos reconocer distintos recursos para tener así más posibilidades de pensar, sentir y ser en el mundo, sin olvidar tu esencia y tu valor como persona.
-                  </p>
-                  
-                  <p data-testid="about-description-9">
-                    Actualmente trabajo con jóvenes y adultos de todo Chile y el extranjero gracias al formato Online, que sinceramente es igual de efectivo.
-                  </p>
-                  
-                  <p data-testid="about-description-10">
-                    Por último, si tuviera que invitarte a conocer el maravilloso mundo de la psicoterapia, te diría algo así como:
-                  </p>
-                  
-                  <blockquote className="border-l-4 border-primary pl-6 py-4 bg-primary/5 rounded-r-lg italic text-foreground" data-testid="about-invitation">
-                    <p className="mb-4">
-                      "Si estás buscando un espacio íntimo y respetuoso<br />
-                      Y estás inquieto por conocerte, comprenderte y aceptarte<br />
-                      Para aprender de ti y mejorar tu ánimo y tus relaciones<br />
-                      Ese impulso VALE…desde ya te sugiero apreciarlo."
-                    </p>
-                  </blockquote>
-                  
-                  <p data-testid="about-description-11">
-                    Podría contarte tanto, sin embargo, tengo claro que este proceso llega en el momento preciso para cada persona y todo lo que puede suceder es único e indescriptible en una página de Internet.
-                  </p>
-                  
-                  <p data-testid="about-description-12" className="font-medium text-foreground">
-                    Para cuando nos encontremos, recuerda simplemente que amo lo que hago e intento dar lo mejor de mí.
-                  </p>
-                  
-                  {/* Imagen personal al final */}
-                  <div className="flex justify-center mt-12">
+                  {/* Imágenes de arteterapia */}
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-12">
                     <img 
-                      src="/attached_assets/10_1757039365251.jpeg"
-                      alt="Paula Cabrera en un momento personal con sus mascotas"
-                      className="rounded-2xl shadow-lg max-w-sm w-full h-auto object-contain"
-                      data-testid="about-personal-image"
+                      src="/attached_assets/Captura de pantalla 2025-10-07 a la(s) 11.56.28_1759848991767.png"
+                      alt="Ejemplo de trabajo de arteterapia"
+                      className="rounded-2xl shadow-lg w-full h-auto object-cover"
+                      data-testid="about-art-image-1"
+                    />
+                    <img 
+                      src="/attached_assets/Captura de pantalla 2025-10-07 a la(s) 11.57.00_1759849023729.png"
+                      alt="Ejemplo de trabajo creativo en terapia"
+                      className="rounded-2xl shadow-lg w-full h-auto object-cover"
+                      data-testid="about-art-image-2"
                     />
                   </div>
                 </div>
@@ -152,27 +121,25 @@ export default function SobrePaula() {
                     <h2 className="text-3xl font-bold text-foreground mb-4" data-testid="about-approach-title">
                       Mi enfoque terapéutico
                     </h2>
-                    <div className="grid grid-cols-2 lg:grid-cols-6 gap-4 text-center text-sm font-medium text-muted-foreground">
-                      <span data-testid="about-adolescents-title">Adolescentes, jóvenes y adultos</span>
-                      <span data-testid="about-family-title">Familia y cuidadores</span>
-                      <span data-testid="about-individual-title">Terapia individual</span>
-                      <span data-testid="about-couples-title">Parejas</span>
-                      <span data-testid="about-group-title">Terapia Grupal</span>
-                      <span data-testid="about-neurodiversity-title">Neurodiversidad</span>
+                    <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 text-center text-sm font-medium text-muted-foreground">
+                      <span data-testid="about-adolescents-title">Adolescentes 12-18 años</span>
+                      <span data-testid="about-arttherapy-title">Arteterapia</span>
+                      <span data-testid="about-playtherapy-title">Terapia de Juego</span>
+                      <span data-testid="about-neurodiversity-title">Neurodivergencias</span>
                     </div>
                   </div>
                   
                   <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
-                    <div data-testid="about-approach-respect">
-                      <Heart className="w-12 h-12 text-primary mx-auto mb-4" />
-                      <h3 className="font-bold text-foreground mb-3">Respeto por la neurodiversidad</h3>
-                      <p className="text-sm text-muted-foreground">Reconozco las diferencias según condición del neurodesarrollo como parte natural de la diversidad humana.</p>
+                    <div data-testid="about-approach-play">
+                      <Palette className="w-12 h-12 text-primary mx-auto mb-4" />
+                      <h3 className="font-bold text-foreground mb-3">Arteterapia y Terapia de Juego</h3>
+                      <p className="text-sm text-muted-foreground">El arte y el juego como vías principales para la comunicación amable y la expresión de emociones.</p>
                     </div>
                     
-                    <div data-testid="about-approach-creativity">
-                      <Lightbulb className="w-12 h-12 text-accent mx-auto mb-4" />
-                      <h3 className="font-bold text-foreground mb-3">Creatividad como herramienta</h3>
-                      <p className="text-sm text-muted-foreground">Utilizo el arte como medio de expresión alternativo cuando las palabras no son suficientes.</p>
+                    <div data-testid="about-approach-systemic">
+                      <Users className="w-12 h-12 text-accent mx-auto mb-4" />
+                      <h3 className="font-bold text-foreground mb-3">Enfoque Sistémico</h3>
+                      <p className="text-sm text-muted-foreground">Visión de conjunto y relacional que considera el contexto familiar y social de cada persona.</p>
                     </div>
                     
                     <div data-testid="about-approach-family">

@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "wouter";
-import { Calendar, MessageCircle, CheckCircle, GraduationCap, Tag, Palette, DollarSign, MapPin, Phone, BookOpen, Award, Users, Clock, FileText } from "lucide-react";
+import { Calendar, MessageCircle, CheckCircle, GraduationCap, Tag, Palette, DollarSign, MapPin, Phone, BookOpen, Award, Users, Clock, FileText, Brain } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import ModuloDolores from "@/components/modulo-dolores";
@@ -37,9 +37,7 @@ export default function Home() {
     
     // Preload the correct image immediately based on screen size
     const img = new Image();
-    const imageSrc = window.innerWidth < 768 
-      ? '/attached_assets/Paula_cabrera_psicologa_logo_1756657755055.webp'
-      : '/attached_assets/2_1756660542107.webp';
+    const imageSrc = '/attached_assets/image_1759849561201.png';
     
     img.onload = () => {
       // Add a small delay to ensure smooth transition
@@ -76,7 +74,7 @@ export default function Home() {
   };
 
   const handleSchedule = () => {
-    window.open("https://calendly.com/paula-cabrera", "_blank");
+    window.open("https://calendly.com/antonia-cabrera", "_blank");
   };
 
   const handleWhatsApp = () => {
@@ -89,19 +87,19 @@ export default function Home() {
     "@graph": [
       {
         "@type": ["PsychologyPractice", "LocalBusiness", "HealthAndBeautyBusiness"],
-        "@id": "https://paulacabrerapsicologa.cl/#business",
-        "name": "Paula Cabrera Fuentes - Psicóloga Especialista en Jóvenes y Adolescentes",
-        "alternateName": "Consulta Psicológica Paula Cabrera",
-        "description": "Psicóloga en Concón y Viña del Mar, especialista en adolescentes, jóvenes y adultos. Atención presencial y online para ansiedad, TDAH, TEA, autoestima y regulación emocional. Agenda tu primera sesión y comienza hoy a construir tu bienestar. Con más de 20 años de experiencia, integro psicoterapia individual, familiar y de pareja con arteterapia, técnicas corporales y un enfoque en neurodiversidad. Mi consulta es un espacio cálido y profesional, pensado para acompañar tanto a personas como a familias en procesos de cambio, integración y crecimiento personal.",
-        "url": "https://paulacabrerapsicologa.cl",
-        "logo": "https://paulacabrerapsicologa.cl/attached_assets/Paula_cabrera_psicologa_logo_1757014528141.webp",
-        "image": "https://paulacabrerapsicologa.cl/attached_assets/Paula_Cabrera_Fuentes_psicologa_concon_vina_del_mar_1756665062563.jpeg",
+        "@id": "https://antoniacabrerapsicologa.cl/#business",
+        "name": "Antonia Cabrera - Psicóloga Especialista en Arteterapia y Terapia de Juego",
+        "alternateName": "Consulta Psicológica Antonia Cabrera",
+        "description": "Psicóloga en Viña del Mar, especialista en adolescentes de 12 a 18 años. Atención presencial y online con arteterapia y terapia de juego. Acompañamiento especializado para neurodivergencias (TDAH, TEA) con enfoque sistémico. El arte y el juego son los puentes para la comunicación amable y la expresión de emociones.",
+        "url": "https://antoniacabrerapsicologa.cl",
+        "logo": "https://antoniacabrerapsicologa.cl/attached_assets/PHOTO-2025-10-05-18-22-05_1759848903714.jpg",
+        "image": "https://antoniacabrerapsicologa.cl/attached_assets/PHOTO-2025-10-05-18-22-05_1759848903714.jpg",
         "telephone": "+56-9-xxxx-xxxx",
-        "email": "consulta@paulacabrera.cl",
+        "email": "consulta@antoniacabrera.cl",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "Bosques de Montemar",
-          "addressLocality": "Concón",
+          "streetAddress": "Montenegro 136",
+          "addressLocality": "Viña del Mar",
           "addressRegion": "Región de Valparaíso",
           "addressCountry": "Chile",
           "postalCode": "2510000"
@@ -116,11 +114,6 @@ export default function Home() {
           "Sa 10:00-14:00"
         ],
         "serviceArea": [
-          {
-            "@type": "City",
-            "name": "Concón",
-            "sameAs": "https://es.wikipedia.org/wiki/Conc%C3%B3n"
-          },
           {
             "@type": "City",
             "name": "Viña del Mar",
@@ -142,32 +135,24 @@ export default function Home() {
               "@type": "Offer",
               "itemOffered": {
                 "@type": "Service",
-                "name": "Psicoterapia Individual Adolescentes",
-                "description": "Terapia especializada para adolescentes y jóvenes desde 16 años"
+                "name": "Terapia Individual Infantojuvenil",
+                "description": "Arteterapia y terapia de juego para adolescentes de 12 a 18 años"
               }
             },
             {
               "@type": "Offer",
               "itemOffered": {
                 "@type": "Service",
-                "name": "Terapia de Neurodiversidad",
-                "description": "Atención especializada para personas neurodivergentes"
+                "name": "Acompañamiento Neurodivergencias",
+                "description": "Atención especializada para adolescentes con TDAH, TEA y otras neurodivergencias"
               }
             },
             {
               "@type": "Offer",
               "itemOffered": {
                 "@type": "Service",
-                "name": "Arteterapia y Talleres Grupales",
-                "description": "Talleres terapia artística y dinámicas grupales"
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "Terapia Familiar",
-                "description": "Acompañamiento y psicoeducación para padres"
+                "name": "Talleres de Arteterapia y Juego",
+                "description": "Talleres grupales de terapia artística y juego terapéutico"
               }
             }
           ]
@@ -181,20 +166,20 @@ export default function Home() {
       },
       {
         "@type": "Person",
-        "@id": "https://paulacabrerapsicologa.cl/#person",
-        "name": "Paula Cabrera Fuentes",
-        "givenName": "Paula",
-        "familyName": "Cabrera Fuentes",
-        "jobTitle": "Psicóloga Especialista en Adolescentes y Jóvenes",
-        "description": "Psicóloga especialista en adolescentes y jóvenes con Máster en Psicoterapia y más de 20 años de experiencia en neurodiversidad.",
-        "image": "https://paulacabrerapsicologa.cl/attached_assets/Paula_Cabrera_Fuentes_psicologa_concon_vina_del_mar_1756665062563.jpeg",
+        "@id": "https://antoniacabrerapsicologa.cl/#person",
+        "name": "Antonia Cabrera",
+        "givenName": "Antonia",
+        "familyName": "Cabrera",
+        "jobTitle": "Psicóloga Especialista en Arteterapia y Terapia de Juego",
+        "description": "Psicóloga especialista en adolescentes de 12 a 18 años con diploma en estrategias de intervención infantojuvenil y conocimientos en arteterapia y terapia de juego.",
+        "image": "https://antoniacabrerapsicologa.cl/attached_assets/PHOTO-2025-10-05-18-22-05_1759848903714.jpg",
         "worksFor": {
-          "@id": "https://paulacabrerapsicologa.cl/#business"
+          "@id": "https://antoniacabrerapsicologa.cl/#business"
         },
         "hasCredential": [
           {
             "@type": "EducationalOccupationalCredential",
-            "name": "Máster en Psicoterapia",
+            "name": "Diploma en Estrategias de Intervención Infantojuvenil",
             "credentialCategory": "degree"
           },
           {
@@ -204,14 +189,14 @@ export default function Home() {
           }
         ],
         "knowsAbout": [
-          "Psicología Adolescente",
-          "Neurodiversidad",
-          "Neurodiversidad",
           "Arteterapia",
-          "Terapia Familiar",
-          "Psicoeducación para Padres",
-          "Talleres Grupales",
-          "Psicoterapia Online"
+          "Terapia de Juego",
+          "Enfoque Sistémico",
+          "Neurodiversidad",
+          "TDAH",
+          "TEA",
+          "Intervención Infantojuvenil",
+          "Talleres Grupales"
         ],
         "memberOf": {
           "@type": "ProfessionalService",
@@ -219,31 +204,31 @@ export default function Home() {
         },
         "alumniOf": {
           "@type": "CollegeOrUniversity",
-          "name": "Universidad de Chile",
-          "sameAs": "https://www.uchile.cl"
+          "name": "Universidad de Valparaíso",
+          "sameAs": "https://www.uv.cl"
         },
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "Bosques de Montemar",
-          "addressLocality": "Concón",
+          "streetAddress": "Montenegro 136",
+          "addressLocality": "Viña del Mar",
           "addressRegion": "Región de Valparaíso",
           "addressCountry": "Chile"
         }
       },
       {
         "@type": "WebSite",
-        "@id": "https://paulacabrerapsicologa.cl/#website",
-        "url": "https://paulacabrerapsicologa.cl",
-        "name": "Paula Cabrera Fuentes - Psicóloga Especialista en Adolescentes y Jóvenes",
-        "description": "Sitio web oficial de Paula Cabrera Fuentes, psicóloga especialista en adolescentes y neurodiversidad en Concón y Viña del Mar",
+        "@id": "https://antoniacabrerapsicologa.cl/#website",
+        "url": "https://antoniacabrerapsicologa.cl",
+        "name": "Antonia Cabrera - Psicóloga Especialista en Arteterapia y Terapia de Juego",
+        "description": "Sitio web oficial de Antonia Cabrera, psicóloga especialista en adolescentes con arteterapia y terapia de juego en Viña del Mar",
         "publisher": {
-          "@id": "https://paulacabrerapsicologa.cl/#person"
+          "@id": "https://antoniacabrerapsicologa.cl/#person"
         },
         "potentialAction": {
           "@type": "SearchAction",
           "target": {
             "@type": "EntryPoint",
-            "urlTemplate": "https://paulacabrerapsicologa.cl/buscar?q={search_term_string}"
+            "urlTemplate": "https://antoniacabrerapsicologa.cl/buscar?q={search_term_string}"
           },
           "query-input": "required name=search_term_string"
         },
@@ -256,15 +241,12 @@ export default function Home() {
     <>
       {/* Preload critical images */}
       <ImagePreloader images={[
-        // Solo cargar la imagen hero crítica según el dispositivo para mejorar rendimiento
-        isMobile 
-          ? "/attached_assets/Paula_cabrera_psicologa_logo_1756657755055.webp"
-          : "/attached_assets/2_1756660542107.webp"
+        "/attached_assets/image_1759849561201.png"
       ]} />
       <SEOHead 
-        title="Psicóloga en Concón y Viña del Mar | Atención a jóvenes y adolescentes"
-        description="Psicóloga en Concón y Viña del Mar, especialista en adolescentes, jóvenes y adultos. Atención presencial y online para ansiedad, TDAH, TEA, autoestima y regulación emocional. Agenda tu primera sesión y comienza hoy a construir tu bienestar. Con más de 20 años de experiencia, integro psicoterapia individual, familiar y de pareja con arteterapia, técnicas corporales y un enfoque en neurodiversidad. Mi consulta es un espacio cálido y profesional, pensado para acompañar tanto a personas como a familias en procesos de cambio, integración y crecimiento personal."
-        canonical="https://paulacabrerapsicologa.cl/"
+        title="Psicóloga en Viña del Mar | Arteterapia y Terapia de Juego para Adolescentes 12-18 años"
+        description="Antonia Cabrera, psicóloga en Viña del Mar especialista en adolescentes de 12 a 18 años. Arteterapia y terapia de juego con enfoque sistémico. Atención presencial y online. Acompañamiento especializado para neurodivergencias (TDAH, TEA). El arte y el juego son los puentes para la comunicación amable y la expresión de emociones."
+        canonical="https://antoniacabrerapsicologa.cl/"
         structuredData={structuredData}
       />
       
@@ -281,24 +263,14 @@ export default function Home() {
       >
         {/* Background Image with Optimized Loading */}
         <picture>
-          <source 
-            media="(max-width: 768px)" 
-            srcSet="/attached_assets/Paula_cabrera_psicologa_logo_1756657755055.webp" 
-            type="image/webp"
-          />
-          <source 
-            media="(min-width: 769px)" 
-            srcSet="/attached_assets/2_1756660542107.webp" 
-            type="image/webp"
-          />
           <img 
-            src="/attached_assets/2_1756660542107.webp"
-            alt="Paula Cabrera Fuentes - Psicóloga"
+            src="/attached_assets/image_1759849561201.png"
+            alt="Antonia Cabrera - Psicóloga especialista en arteterapia"
             width="1920"
             height="1080"
             className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-300 ${imageLoaded ? 'opacity-100' : 'opacity-0'}`}
             style={{
-              objectPosition: isMobile ? 'center 20%' : 'center right',
+              objectPosition: 'center center',
               transform: 'translateZ(0)',
               willChange: 'opacity',
               imageRendering: 'crisp-edges'
@@ -361,18 +333,18 @@ export default function Home() {
             {/* Diseño unificado SEO-optimizado */}
             <div className="text-center lg:text-left">
               <h1 className="text-2xl sm:text-2xl lg:text-5xl font-bold text-gray-900 mb-2 lg:mb-2 leading-tight" data-testid="hero-title" style={{textShadow: '0 2px 6px rgba(255,255,255,0.9)'}}>
-                Psicóloga Paula Cabrera Fuentes especialista en jóvenes y adolescentes - Concón - Viña del Mar
+                Psicóloga Antonia Cabrera especialista en adolescentes - Viña del Mar
               </h1>
               
               <h2 className="text-lg sm:text-lg lg:text-3xl font-bold text-gray-900 mb-2 lg:mb-2 leading-tight" data-testid="hero-subtitle" style={{textShadow: '0 1px 4px rgba(255,255,255,0.8)'}}>
-                Máster en Psicoterapia, neurodiversidad, familia y trabajo con padres. Más de 20 años de experiencia.
+                Arteterapia y Terapia de Juego con Enfoque Sistémico
               </h2>
               <p className="text-sm sm:text-sm lg:text-xl text-gray-700 mb-2 lg:mb-3 font-medium" data-testid="hero-age-range" style={{textShadow: '0 1px 2px rgba(255,255,255,0.6)'}}>
-                Mayores de 16 años.
+                Especializada en adolescentes de 12 a 18 años
               </p>
               
               <p className="text-sm sm:text-sm lg:text-lg text-gray-600 mb-3 lg:mb-5 font-medium" data-testid="hero-location" style={{textShadow: '0 1px 2px rgba(255,255,255,0.6)'}}>
-                Av. Bosques de Montemar 30, Oficina 920, Concón
+                Montenegro 136, Viña del Mar
               </p>
               
               
@@ -412,8 +384,8 @@ export default function Home() {
           <div className="grid lg:grid-cols-2 gap-8 items-center">
             <div>
               <img 
-                src="/attached_assets/Paula_Cabrera_Fuentes_psicologa_concon_vina_del_mar_1756665062563.jpeg" 
-                alt="Paula Cabrera Fuentes, psicóloga especialista en neurodiversidad"
+                src="/attached_assets/PHOTO-2025-10-05-18-22-05_1759848903714.jpg" 
+                alt="Antonia Cabrera, psicóloga especialista en arteterapia y terapia de juego"
                 className="rounded-3xl shadow-2xl w-full h-auto"
                 data-testid="about-preview-image"
                 loading="lazy"
@@ -427,26 +399,25 @@ export default function Home() {
               </h2>
               
               <h3 className="text-xl text-primary mb-6 font-semibold" data-testid="about-preview-subtitle">
-                Más de 20 años de experiencia en psicoterapia adolescente y juvenil.
+                Psicóloga especialista en Arteterapia y Terapia de Juego con adolescentes
               </h3>
               
               <div className="space-y-4 text-muted-foreground mb-8 text-justify">
                 <p className="text-lg" data-testid="about-preview-description">
-                  Mi pasión es acompañarte en tu proceso de crecimiento personal. Trabajo con adolescentes, jóvenes, adultos, parejas, personas neurodivergentes y sus familias.
+                  Soy Antonia Cabrera, psicóloga especializada en el trabajo con adolescentes de 12 a 18 años. Mi enfoque integra el Arteterapia y el Enfoque Sistémico para acompañar procesos de crecimiento desde una mirada relacional.
                 </p>
                 
                 <p>
-                  A través de la psicoterapia especializada y técnicas complementarias como el arteterapia, creo espacios seguros donde puedes expresarte libremente, 
-                  desarrollar herramientas de regulación emocional y fortalecer tus habilidades sociales.
+                  Creo firmemente en el poder del arte y del juego como puentes para expresar emociones y generar cambios positivos. Estas herramientas me permiten establecer una comunicación cálida y cercana con adolescentes que encuentran en la creatividad una forma natural de expresarse.
                 </p>
                 
                 <p>
-                  Solo decirles a mis pacientes que si no tienes tu Salud Mental óptima, nada de lo que tienes cobra sentido. Por ello, nuestro bienestar psicológico debe ser lo más importante. Escríbeme para conseguir tu hora.
+                  También brindo apoyo a personas con neurodivergencias como TDAH y TEA, ofreciendo un espacio seguro, respetuoso y adaptado a sus necesidades.
                 </p>
               </div>
               
               
-              <Link href="/sobre-paula-cabrera-fuentes-psicologa">
+              <Link href="/sobre-antonia-cabrera-psicologa">
                 <Button 
                   variant="outline" 
                   size="lg"
@@ -469,50 +440,50 @@ export default function Home() {
               Formación Académica
             </h2>
             
-            <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-6">
-              {/* Pregrado */}
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+              {/* Psicóloga */}
               <div className="text-center">
                 <div className="w-16 h-16 bg-emerald-100 rounded-full flex items-center justify-center mx-auto mb-4">
                   <GraduationCap className="w-8 h-8 text-emerald-600" />
                 </div>
-                <h3 className="font-bold text-gray-900 mb-2">Formación pregrado de psicología</h3>
-                <p className="text-gray-600">Universidad de Valparaíso.</p>
+                <h3 className="font-bold text-gray-900 mb-2">Psicóloga</h3>
+                <p className="text-gray-600 text-sm">Universidad de Valparaíso</p>
               </div>
               
-              {/* Postítulos */}
+              {/* Diploma */}
               <div className="text-center">
                 <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <BookOpen className="w-8 h-8 text-blue-600" />
+                  <Award className="w-8 h-8 text-blue-600" />
                 </div>
-                <h3 className="font-bold text-gray-900 mb-2">Postítulos en jóvenes y familia</h3>
-                <p className="text-gray-600">Universidad de Chile y Universidad de la Frontera.</p>
+                <h3 className="font-bold text-gray-900 mb-2">Diploma en Estrategias de Intervención Infanto-Juvenil</h3>
+                <p className="text-gray-600 text-sm">Universidad de Valparaíso</p>
               </div>
               
-              {/* Máster */}
-              <div className="text-center">
-                <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Award className="w-8 h-8 text-orange-600" />
-                </div>
-                <h3 className="font-bold text-gray-900 mb-2">Master en Psicoterapia Individual y Grupal</h3>
-                <p className="text-gray-600">European Credit Transfer System. España.</p>
-              </div>
-              
-              {/* Formación en Arteterapia */}
+              {/* Arteterapia */}
               <div className="text-center">
                 <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Palette className="w-8 h-8 text-purple-600" />
                 </div>
-                <h3 className="font-bold text-gray-900 mb-2">Formación en Arteterapia</h3>
-                <p className="text-gray-600">Fluunt Terapias Expresivas, Chile.</p>
+                <h3 className="font-bold text-gray-900 mb-2">Formación en Arteterapia y Terapia de Juego</h3>
+                <p className="text-gray-600 text-sm">Cursos y talleres aplicados a población infantil y juvenil</p>
               </div>
               
-              {/* Escritora */}
+              {/* Enfoque Sistémico */}
               <div className="text-center">
-                <div className="w-16 h-16 bg-pink-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <FileText className="w-8 h-8 text-pink-600" />
+                <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Users className="w-8 h-8 text-orange-600" />
                 </div>
-                <h3 className="font-bold text-gray-900 mb-2">Escritora</h3>
-                <p className="text-gray-600">Publicación de articulos en diario El Mercurio y Revista Contacto Salud.</p>
+                <h3 className="font-bold text-gray-900 mb-2">Enfoque Sistémico</h3>
+                <p className="text-gray-600 text-sm">Práctica clínica con visión relacional y de contexto familiar</p>
+              </div>
+              
+              {/* Neurodivergencias */}
+              <div className="text-center">
+                <div className="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Brain className="w-8 h-8 text-teal-600" />
+                </div>
+                <h3 className="font-bold text-gray-900 mb-2">Acompañamiento en Neurodivergencias</h3>
+                <p className="text-gray-600 text-sm">Experiencia en apoyo a niños y adolescentes con TDAH y TEA</p>
               </div>
             </div>
           </div>
@@ -688,9 +659,8 @@ export default function Home() {
                 <MapPin className="w-5 h-5 text-green-600" />
               </div>
               <h3 className="text-sm font-semibold text-gray-800 mb-2">Dirección</h3>
-              <div className="text-xs text-gray-600 mb-0.5">Av. Bosques de Montemar 30</div>
-              <div className="text-xs text-gray-600 mb-0.5">Oficina 920</div>
-              <div className="text-xs text-gray-500">Concón, Valparaíso</div>
+              <div className="text-xs text-gray-600 mb-0.5">Montenegro 136</div>
+              <div className="text-xs text-gray-500">Viña del Mar, Valparaíso</div>
             </Card>
 
             <Card className="bg-white border border-green-50 rounded-xl p-5 text-center shadow-sm hover:shadow-md transition-shadow" data-testid="card-contact">
@@ -1141,14 +1111,14 @@ export default function Home() {
               {/* Map container */}
               <div className="relative h-96 w-full rounded-[24px] overflow-hidden">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3344.1234567890123!2d-71.52794!3d-32.92780!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9689dd0123456789%3A0x1234567890abcdef!2sAv.%20Bosques%20de%20Montemar%2030%2C%20Conc%C3%B3n%2C%20Valpara%C3%ADso%2C%20Chile!5e0!3m2!1ses!2scl!4v1625097600000!5m2!1ses!2scl"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3344.1234567890123!2d-71.52794!3d-32.92780!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9689dd0123456789%3A0x1234567890abcdef!2sMontenegro%20136%2C%20Vi%C3%B1a%20del%20Mar%2C%20Valpara%C3%ADso%2C%20Chile!5e0!3m2!1ses!2scl!4v1625097600000!5m2!1ses!2scl"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Ubicación Paula Cabrera Fuentes - Psicóloga en Concón"
+                  title="Ubicación Antonia Cabrera - Psicóloga en Viña del Mar"
                   className="rounded-[20px]"
                 />
               </div>
@@ -1162,14 +1132,14 @@ export default function Home() {
                     </div>
                     <div>
                       <h4 className="font-semibold text-foreground">Consulta Psicológica</h4>
-                      <p className="text-sm text-muted-foreground">Paula Cabrera Fuentes</p>
+                      <p className="text-sm text-muted-foreground">Antonia Cabrera</p>
                     </div>
                   </div>
                   <p className="text-sm text-foreground mb-2 font-medium">
-                    Av. Bosques de Montemar 30, Oficina 920
+                    Montenegro 136
                   </p>
                   <p className="text-sm text-muted-foreground mb-3">
-                    Concón, Valparaíso
+                    Viña del Mar, Valparaíso
                   </p>
                   <div className="flex items-center gap-2 text-xs text-muted-foreground">
                     <Clock className="w-3 h-3" />
@@ -1187,7 +1157,7 @@ export default function Home() {
           {/* Action button */}
           <div className="text-center mt-8">
             <button
-              onClick={() => window.open('https://maps.google.com/?q=Av.+Bosques+de+Montemar+30,+Oficina+920,+Concón,+Valparaíso,+Chile', '_blank')}
+              onClick={() => window.open('https://maps.google.com/?q=Montenegro+136,+Viña+del+Mar,+Valparaíso,+Chile', '_blank')}
               className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-white rounded-full hover:bg-primary/90 transition-colors font-medium"
               data-testid="open-maps-button"
             >

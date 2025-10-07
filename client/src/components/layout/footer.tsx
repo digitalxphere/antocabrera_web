@@ -28,16 +28,16 @@ export function Footer() {
             <div className="flex items-center space-x-3 mb-4">
               <img 
                 src="/attached_assets/Paula_cabrera_psicologa_logo_1756657755055.webp" 
-                alt="Paula Cabrera Fuentes - Psicóloga" 
+                alt="Antonia Cabrera - Psicóloga" 
                 className="w-12 h-12 object-cover"
               />
               <div>
-                <h3 className="text-lg font-semibold text-white">Paula Cabrera</h3>
+                <h3 className="text-lg font-semibold text-white">Antonia Cabrera</h3>
                 <p className="text-sm text-white">Psicóloga</p>
               </div>
             </div>
             <p className="text-white text-sm">
-              Especialista en adolescentes, jóvenes y familia.
+              Especialista en arteterapia y terapia de juego con adolescentes.
             </p>
           </div>
           
@@ -115,7 +115,7 @@ export function Footer() {
           <div className="flex flex-col md:flex-row justify-between items-center mb-4">
             <div>
               <p className="text-sm text-white">
-                © 2025 Paula Cabrera Fuentes. Todos los derechos reservados.
+                © 2025 Antonia Cabrera. Todos los derechos reservados.
               </p>
               <p className="text-xs text-white/80 mt-2">
                 75908 Registro Ministerio de Salud

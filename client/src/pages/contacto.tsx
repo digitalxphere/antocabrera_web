@@ -22,15 +22,15 @@ export default function Contacto() {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "ContactPage",
-    "name": "Contacto - Paula Cabrera Fuentes",
-    "description": "Contacta con Paula Cabrera para agendar consultas de psicoterapia en Concón y Viña del Mar",
+    "name": "Contacto - Antonia Cabrera",
+    "description": "Contacta con Antonia Cabrera para agendar consultas de psicoterapia en Viña del Mar",
     "mainEntity": {
       "@type": "LocalBusiness",
-      "name": "Paula Cabrera Fuentes - Psicóloga",
+      "name": "Antonia Cabrera - Psicóloga",
       "telephone": CONTACT_INFO.phone,
       "address": {
         "@type": "PostalAddress",
-        "addressLocality": "Concón, Viña del Mar",
+        "addressLocality": "Viña del Mar",
         "addressRegion": "Valparaíso",
         "addressCountry": "CL"
       }
@@ -40,9 +40,9 @@ export default function Contacto() {
   return (
     <>
       <SEOHead 
-        title="Contacto Psicóloga Adolescentes Jóvenes Concón Viña del Mar | Paula Cabrera Fuentes"
-        description="Contacta a Paula Cabrera, psicóloga especialista en adolescentes y jóvenes en Concón y Viña del Mar. Agenda tu consulta presencial u online. Especialista en TEA y neurodiversidad."
-        canonical="https://paulacabrerapsicologa.cl/contacto"
+        title="Contacto Psicóloga Adolescentes Viña del Mar | Antonia Cabrera"
+        description="Contacta a Antonia Cabrera, psicóloga especialista en arteterapia y terapia de juego con adolescentes en Viña del Mar. Agenda tu consulta presencial u online."
+        canonical="https://antoniacabrerapsicologa.cl/contacto"
         structuredData={structuredData}
       />
 
@@ -54,10 +54,10 @@ export default function Contacto() {
           <section ref={heroRef} className="scroll-animation mb-20" data-testid="contact-hero">
             <div className="text-center mb-16">
               <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6" data-testid="contact-main-title">
-                Agenda con Paula Cabrera
+                Agenda con Antonia Cabrera
               </h1>
               <h2 className="text-xl lg:text-2xl text-primary mb-6 font-semibold" data-testid="contact-subtitle">
-                Concón, Viña del Mar y modalidad online
+                Viña del Mar y modalidad online
               </h2>
               <p className="text-lg text-muted-foreground max-w-3xl mx-auto" data-testid="contact-description">
                 Estoy aquí para acompañarte en tu proceso. Elige la modalidad que mejor se adapte a tus necesidades 
@@ -138,7 +138,7 @@ export default function Contacto() {
               <div className="text-center mb-12">
                 <h3 className="text-3xl font-bold text-foreground mb-4">Ubicación</h3>
                 <p className="text-lg text-muted-foreground">
-                  Av. Bosques de Montemar 30, Oficina 920, Concón, Valparaíso
+                  Montenegro 136, Viña del Mar, Valparaíso
                 </p>
               </div>
               
@@ -148,14 +148,14 @@ export default function Contacto() {
                   {/* Map container */}
                   <div className="relative h-96 w-full rounded-[24px] overflow-hidden">
                     <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3344.1234567890123!2d-71.52794!3d-32.92780!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9689dd0123456789%3A0x1234567890abcdef!2sAv.%20Bosques%20de%20Montemar%2030%2C%20Conc%C3%B3n%2C%20Valpara%C3%ADso%2C%20Chile!5e0!3m2!1ses!2scl!4v1625097600000!5m2!1ses!2scl"
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3344.1234567890123!2d-71.52794!3d-32.92780!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9689dd0123456789%3A0x1234567890abcdef!2sMontenegro%20136%2C%20Vi%C3%B1a%20del%20Mar%2C%20Valpara%C3%ADso%2C%20Chile!5e0!3m2!1ses!2scl!4v1625097600000!5m2!1ses!2scl"
                       width="100%"
                       height="100%"
                       style={{ border: 0 }}
                       allowFullScreen
                       loading="lazy"
                       referrerPolicy="no-referrer-when-downgrade"
-                      title="Ubicación Paula Cabrera Fuentes - Psicóloga en Concón"
+                      title="Ubicación Antonia Cabrera - Psicóloga en Viña del Mar"
                       className="rounded-[20px]"
                     />
                   </div>
@@ -169,14 +169,14 @@ export default function Contacto() {
                         </div>
                         <div>
                           <h4 className="font-semibold text-foreground">Consulta Psicológica</h4>
-                          <p className="text-sm text-muted-foreground">Paula Cabrera Fuentes</p>
+                          <p className="text-sm text-muted-foreground">Antonia Cabrera</p>
                         </div>
                       </div>
                       <p className="text-sm text-foreground mb-2 font-medium">
-                        Av. Bosques de Montemar 30, Oficina 920
+                        Montenegro 136
                       </p>
                       <p className="text-sm text-muted-foreground mb-3">
-                        Concón, Valparaíso
+                        Viña del Mar, Valparaíso
                       </p>
                       <div className="flex items-center gap-2 text-xs text-muted-foreground">
                         <Clock className="w-3 h-3" />

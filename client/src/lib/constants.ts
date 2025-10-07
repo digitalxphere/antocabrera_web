@@ -1,65 +1,66 @@
 import type { ServiceType, FAQItem, ContactInfo } from "@/types";
 
 export const SITE_CONFIG = {
-  name: "Paula Cabrera Fuentes - Psicóloga",
-  description: "Psicóloga especialista en adolescentes y jóvenes TEA con talleres de arteterapia en Concón y Viña del Mar",
-  url: "https://paulacabrerapsicologa.cl",
-  author: "Paula Cabrera Fuentes",
+  name: "Antonia Cabrera - Psicóloga",
+  description: "Psicóloga especialista en adolescentes 12-18 años con arteterapia y terapia de juego en Viña del Mar",
+  url: "https://antoniacabrerapsicologa.cl",
+  author: "Antonia Cabrera",
   keywords: [
-    "psicóloga Concón",
     "psicóloga Viña del Mar", 
-    "psicoterapia adolescentes TEA",
-    "talleres arteterapia TEA",
-    "psicóloga adolescentes Viña del Mar",
-    "arteterapia Concón"
+    "psicóloga adolescentes",
+    "arteterapia adolescentes",
+    "terapia de juego",
+    "psicóloga infantojuvenil Viña del Mar",
+    "neurodivergencias TDAH TEA",
+    "arteterapia Viña del Mar"
   ],
 };
 
 export const CONTACT_INFO: ContactInfo = {
-  name: "Paula Cabrera Fuentes",
-  phone: "+569 9369 4978",
-  address: "Av. Bosques de Montemar 30, Oficina 920, Concón, Valparaíso",
+  name: "Antonia Cabrera",
+  phone: "+569 XXXX XXXX",
+  address: "Montenegro 136, Viña del Mar, Valparaíso",
   hours: [
     "Lunes a Viernes: 10:00 - 19:00",
     "Sábados: 10:00 - 14:00"
   ],
-  locations: ["Concón", "Viña del Mar"]
+  locations: ["Viña del Mar"]
 };
 
 export const SERVICES: ServiceType[] = [
   {
     id: "individual",
-    title: "Consulta individual",
-    subtitle: "Psicoterapia",
-    description: "Acompañamiento centrado en el vínculo y la confianza con especialización en temáticas de ansiedad, trauma, apego, neurodivergencia, entre otros \nManejo de herramientas de psicodiagnostico  e  intervención con especialidad en jóvenes y manejo de redes.\nEspecialización en modelo MMIDA, IFS, Focalizacion corporal y técnicas integrativas.",
-    features: ["Objetivo: autorregulación y habilidades sociales", "Duración: 70 min", "Modalidad: Presencial oficina Bosques de Montemar Concón y online mundial"],
-    icon: "user",
+    title: "Terapia Individual Infantojuvenil",
+    subtitle: "Arteterapia y Terapia de Juego",
+    description: "Acompañamiento terapéutico utilizando el arte y el juego como vías principales para la comunicación amable y la expresión de emociones. Especialización en adolescentes de 12 a 18 años con enfoque sistémico.",
+    features: ["Objetivo: expresión emocional y bienestar integral", "Duración: 60 min", "Modalidad: Presencial en Montenegro 136, Viña del Mar y online"],
+    icon: "palette",
     color: "primary",
     cta: "Reservar consulta",
     ctaLink: "/contacto",
     linkedService: "/talleres"
   },
   {
-    id: "parents",
-    title: "Psicoeducación para padres y cuidadores",
-    subtitle: "Estrategias para hogar y colegio",
-    description: "Comunicación, acuerdos y coordinación escolar.",
-    features: ["Objetivo: favorecer integración sin perder la esencia", "Formato: sesión 60 min, material visual y plan de apoyo", "Modalidad: Concón y online"],
-    icon: "users",
+    id: "neurodiversity",
+    title: "Acompañamiento Neurodivergencias",
+    subtitle: "TDAH, TEA y otras condiciones",
+    description: "Soporte especializado para adolescentes neurodivergentes (12-18 años), utilizando estrategias de intervención infantojuvenil adaptadas a cada necesidad particular.",
+    features: ["Objetivo: apoyo integral y desarrollo de habilidades", "Formato: sesiones individuales personalizadas", "Modalidad: Presencial en Viña del Mar y online"],
+    icon: "brain",
     color: "secondary",
-    cta: "Agendar sesión para padres",
+    cta: "Conocer más",
     ctaLink: "/contacto",
     linkedService: "/talleres"
   },
   {
     id: "workshops",
-    title: "Talleres de arteterapia",
-    subtitle: "Grupos pequeños por invitación",
-    description: "Regulación emocional, comunicación y pertenencia.",
-    features: ["Objetivo: practicar habilidades sociales en contexto cuidado", "Formato: 4–6 participantes, apoyos visuales, pausas", "Duración: 90–120 min · Solo presencial en Concón"],
-    icon: "palette",
+    title: "Talleres de Arteterapia y Juego",
+    subtitle: "Grupos terapéuticos",
+    description: "Espacios grupales donde el arte y el juego son los puentes para la expresión y conexión. Enfoque sistémico que considera el contexto relacional de cada participante.",
+    features: ["Objetivo: expresión creativa y habilidades sociales", "Formato: 4–6 participantes, actividades lúdicas", "Duración: 90 min · Solo presencial en Viña del Mar"],
+    icon: "users",
     color: "accent",
-    cta: "Consultar por Whatsapp Requisitos",
+    cta: "Consultar disponibilidad",
     ctaLink: "/talleres"
   }
 ];
@@ -67,35 +68,35 @@ export const SERVICES: ServiceType[] = [
 export const FAQ_ITEMS: FAQItem[] = [
   {
     id: "1",
-    question: "¿Cómo puede ayudar la arteterapia a adolescentes con TEA?",
-    answer: "La arteterapia proporciona un medio no verbal de expresión que puede ser especialmente beneficioso para adolescentes con TEA. A través del arte, pueden comunicar emociones, desarrollar habilidades de autorregulación y mejorar su bienestar emocional de manera natural y sin presión."
+    question: "¿Qué es la terapia de juego y cómo ayuda a los niños?",
+    answer: "La terapia de juego es una vía principal para la comunicación amable y la expresión de emociones, especialmente con niños. A través del juego, los niños pueden expresar lo que sienten de manera natural y segura, desarrollando habilidades emocionales y sociales."
   },
   {
     id: "2",
-    question: "¿Cuánto dura el proceso terapéutico?",
-    answer: "La duración del proceso varía según las necesidades individuales. Generalmente, recomendamos un mínimo de 12 sesiones para observar cambios significativos, pero cada caso es único y evaluamos el progreso de forma continua."
+    question: "¿Qué edades atiende?",
+    answer: "Me especializo en el trabajo con adolescentes de 12 a 18 años. Esta etapa tiene características únicas que requieren un acompañamiento especializado y respetuoso de su proceso de desarrollo."
   },
   {
     id: "3",
-    question: "¿Ofrecen sesiones online?",
-    answer: "Sí, ofrecemos tanto sesiones presenciales en Concón,  como sesiones online. La modalidad se elige según las necesidades y preferencias de cada familia, manteniendo siempre la calidad del acompañamiento terapéutico."
+    question: "¿Qué es el enfoque sistémico?",
+    answer: "El enfoque sistémico permite entender a la persona dentro de su contexto relacional (familia, escuela, comunidad). No solo trabajamos con el niño o joven, sino que consideramos todo su entorno para un acompañamiento más completo."
   },
   {
     id: "4",
-    question: "¿Qué edad tienen los participantes de los talleres?",
-    answer: "Nuestros talleres están diseñados para adolescentes (16-18 años) y jóvenes (18-30 años). Adaptamos las actividades según el grupo etario y las necesidades específicas de cada participante."
+    question: "¿Cómo ayuda la arteterapia a niños neurodivergentes?",
+    answer: "El arte y el juego son puentes naturales para la expresión, especialmente beneficiosos para niños con TDAH, TEA y otras neurodivergencias. Permiten comunicar emociones sin la presión de las palabras, en un ambiente seguro y creativo."
   },
   {
     id: "5",
-    question: "¿Cómo puedo saber si mi hijo/a necesita acompañamiento psicológico?",
-    answer: "Algunas señales incluyen cambios en el comportamiento, dificultades en la regulación emocional, problemas de comunicación o adaptación social."
+    question: "¿Ofrecen sesiones online?",
+    answer: "Sí, ofrecemos tanto sesiones presenciales en Viña del Mar como sesiones online. La modalidad se elige según las necesidades y preferencias de cada familia."
   },
   {
     id: "6",
     question: "¿Los talleres requieren experiencia previa en arte?",
-    answer: "No es necesaria experiencia previa. El foco está en la expresión y el proceso creativo, no en el resultado artístico. Proporcionamos todos los materiales y guiamos cada actividad paso a paso."
+    answer: "No es necesaria ninguna experiencia previa. El foco está en la expresión y el proceso creativo, no en el resultado artístico. Cada adolescente participa a su propio ritmo y manera."
   }
 ];
 
 export const WHATSAPP_NUMBER = "56993694978";
-export const WHATSAPP_MESSAGE = "Hola Paula, me gustaría conocer más sobre tus servicios de psicoterapia.";
+export const WHATSAPP_MESSAGE = "Hola Antonia, me gustaría conocer más sobre tus servicios de arteterapia y terapia de juego.";

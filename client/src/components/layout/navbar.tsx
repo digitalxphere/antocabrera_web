@@ -8,7 +8,7 @@ import { WHATSAPP_NUMBER, WHATSAPP_MESSAGE } from "@/lib/constants";
 
 const navigation = [
   { name: "Inicio", href: "/" },
-  { name: "Sobre mí", href: "/sobre-paula-cabrera-fuentes-psicologa" },
+  { name: "Sobre mí", href: "/sobre-antonia-cabrera-psicologa" },
   { name: "Blog", href: "/blog" },
   { name: "FAQ", href: "/preguntas-frecuentes" },
   { name: "Contacto", href: "/contacto" },
@@ -62,12 +62,12 @@ export function Navbar() {
           <Link href="/" className="flex items-center space-x-3" data-testid="logo-link">
             <img 
               src="/attached_assets/Paula_cabrera_psicologa_logo_1756657755055.webp" 
-              alt="Paula Cabrera Fuentes - Psicóloga" 
+              alt="Antonia Cabrera - Psicóloga" 
               className="w-12 h-12 object-contain bg-gray-50"
             />
             <div className="block">
-              <h2 className="text-base sm:text-lg font-semibold text-white">Paula Cabrera F.</h2>
-              <p className="text-xs sm:text-sm text-white/90 font-medium">Psicóloga • Máster en Psicoterapia</p>
+              <h2 className="text-base sm:text-lg font-semibold text-white">Antonia Cabrera</h2>
+              <p className="text-xs sm:text-sm text-white/90 font-medium">Psicóloga • Arteterapia</p>
             </div>
           </Link>
           

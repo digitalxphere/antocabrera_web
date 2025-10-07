@@ -655,7 +655,7 @@ export default function Home() {
                 },
                 {
                   question: "¿Ofrecen sesiones online?",
-                  answer: "Sí, ofrecemos tanto sesiones presenciales en Concón, como sesiones online. La modalidad se elige según las necesidades de cada familia."
+                  answer: "Sí, ofrecemos tanto sesiones presenciales en Viña del Mar, como sesiones online. La modalidad se elige según las necesidades de cada familia."
                 }
               ].map((item, index) => (
                 <div key={index} className="border border-border rounded-lg overflow-hidden">

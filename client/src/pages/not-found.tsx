@@ -8,8 +8,8 @@ export default function NotFound() {
   return (
     <>
       <SEOHead 
-        title="Página no encontrada - Error 404 | Paula Cabrera Psicóloga"
-        description="La página que buscas no existe. Regresa al inicio para encontrar información sobre servicios de psicoterapia para adolescentes y jóvenes en Concón y Viña del Mar."
+        title="Página no encontrada - Error 404 | Antonia Cabrera Psicóloga"
+        description="La página que buscas no existe. Regresa al inicio para encontrar información sobre servicios de psicoterapia para adolescentes y jóvenes en Viña del Mar."
       />
       
       <div className="min-h-screen w-full flex items-center justify-center bg-gradient-to-br from-orange-50 to-amber-50">
@@ -55,8 +55,8 @@ export default function NotFound() {
               <div className="mt-8 pt-8 border-t border-border">
                 <h3 className="text-lg font-semibold text-foreground mb-4">Enlaces útiles</h3>
                 <div className="grid grid-cols-2 gap-3 text-sm">
-                  <Link href="/sobre-paula-cabrera-fuentes-psicologa" className="text-primary hover:text-primary/80 transition-colors">
-                    Sobre Paula
+                  <Link href="/sobre-antonia-cabrera-psicologa" className="text-primary hover:text-primary/80 transition-colors">
+                    Sobre Antonia
                   </Link>
                   <Link href="/talleres" className="text-primary hover:text-primary/80 transition-colors">
                     Talleres de Arteterapia

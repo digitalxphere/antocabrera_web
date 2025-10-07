@@ -15,8 +15,8 @@ export default function SobrePaula() {
   return (
     <>
       <SEOHead 
-        title="Antonia Cabrera - Psicóloga en Viña del Mar y Concón | Especialista en Arteterapia y Terapia de Juego Infantojuvenil"
-        description="Antonia Cabrera, psicóloga en Concón y Viña del Mar con diploma en estrategias de intervención infantojuvenil. Especialista en arteterapia, terapia de juego y acompañamiento a neurodivergencias. Atención presencial y online."
+        title="Antonia Cabrera - Psicóloga en Viña del Mar | Especialista en Arteterapia y Terapia de Juego Infantojuvenil"
+        description="Antonia Cabrera, psicóloga en Viña del Mar con diploma en estrategias de intervención infantojuvenil. Especialista en arteterapia, terapia de juego y acompañamiento a neurodivergencias. Atención presencial y online."
         canonical="https://antoniacabrerapsicologa.cl/sobre-antonia-cabrera-psicologa"
       />
 

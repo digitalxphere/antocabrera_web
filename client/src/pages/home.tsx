@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "wouter";
-import { Calendar, MessageCircle, CheckCircle, GraduationCap, Tag, Palette, DollarSign, MapPin, Phone, BookOpen, Award, Users, Clock, FileText, Brain } from "lucide-react";
+import { Calendar, MessageCircle, CheckCircle, GraduationCap, Tag, Palette, DollarSign, MapPin, Phone, BookOpen, Award, Users, Clock, FileText, Brain, User } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import ModuloDolores from "@/components/modulo-dolores";
@@ -508,139 +508,98 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Services with Images Section */}
-      <section className="py-8 sm:py-16 bg-gradient-to-br from-green-50 to-blue-50" data-testid="services-images-section">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-8">
-            <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-4" data-testid="services-images-title">
-              Psicoterapia y acompañamiento para adolescentes y familias
+      {/* Services Section */}
+      <section className="py-16 bg-gradient-to-br from-green-50 to-blue-50" data-testid="services-section">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-4" data-testid="services-title">
+              Servicios
             </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto" data-testid="services-images-description">
-              Ofrezco un espacio seguro donde adolescentes y familias pueden desarrollar herramientas para el bienestar emocional y social.
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto" data-testid="services-description">
+              Acompañamiento terapéutico adaptado a las necesidades de cada persona
             </p>
           </div>
           
-          <div className="grid lg:grid-cols-3 gap-8">
-          
+          <div className="grid md:grid-cols-3 gap-6">
             {/* Service 1: Consulta Individual */}
-            <div>
-              <div className="mb-6">
-                <img 
-                  src="/attached_assets/5_1757026396142.jpeg" 
-                  alt="Consulta individual para adolescentes y jóvenes"
-                  className="rounded-3xl shadow-2xl w-full h-auto max-h-64 object-contain object-top bg-gray-50"
-                  data-testid="service-image-individual"
-                  loading="lazy"
-                  decoding="async"
-                />
-              </div>
-              <div className="bg-white rounded-2xl p-6 shadow-lg">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Consulta individual</h3>
-                <h4 className="text-base font-semibold text-emerald-600 mb-4">Psicoterapia</h4>
-                
-                <ul className="space-y-2 text-xs text-gray-700 mb-6">
-                  <li className="flex items-start gap-2">
-                    <div className="w-2 h-2 bg-emerald-500 rounded-full mt-1.5 flex-shrink-0"></div>
-                    <span><strong>Objetivo:</strong> Acompañamiento centrado en el vínculo y la confianza con especialización en temáticas de ansiedad, trauma, apego, neurodivergencia, entre otros.</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <div className="w-2 h-2 bg-emerald-500 rounded-full mt-1.5 flex-shrink-0"></div>
-                    <span>Manejo de herramientas de psicodiagnostico  e  intervención con especialidad en jóvenes y manejo de redes.</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <div className="w-2 h-2 bg-emerald-500 rounded-full mt-1.5 flex-shrink-0"></div>
-                    <span>Especialización en modelo MMIDA, IFS, Focalizacion corporal y técnicas integrativas.</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <div className="w-2 h-2 bg-emerald-500 rounded-full mt-1.5 flex-shrink-0"></div>
-                    <span><strong>Duración:</strong> 70 min.</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <div className="w-2 h-2 bg-emerald-500 rounded-full mt-1.5 flex-shrink-0"></div>
-                    <span><strong>Modalidad:</strong> Presencial oficina Bosques de Montemar Concón y online mundial.</span>
-                  </li>
-                </ul>
-                
-                <Button className="w-full bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl text-sm" data-testid="button-reservar-consulta">
-                  Reservar consulta
-                </Button>
-              </div>
-            </div>
-
-            {/* Service 2: Psicoeducación para padres */}
-            <div>
-              <div className="mb-6">
-                <img 
-                  src="/attached_assets/image_1757124770225.png" 
-                  alt="Consulta familiar y de pareja"
-                  className="rounded-3xl shadow-2xl w-full h-auto max-h-64 object-contain object-top bg-gray-50"
-                  data-testid="service-image-parents"
-                  loading="lazy"
-                  decoding="async"
-                />
-              </div>
-              <div className="bg-white rounded-2xl p-6 shadow-lg">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Consulta familiar y de pareja</h3>
-                <h4 className="text-base font-semibold text-blue-600 mb-4">Terapia Familiar y Mediación</h4>
-                
-                <ul className="space-y-2 text-xs text-gray-700 mb-6">
-                  <li className="flex items-start gap-2">
-                    <div className="w-2 h-2 bg-blue-500 rounded-full mt-1.5 flex-shrink-0"></div>
-                    <span><strong>Objetivo:</strong> Fomentar la comunicación y los acuerdos con los espacios significativos del joven.</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <div className="w-2 h-2 bg-blue-500 rounded-full mt-1.5 flex-shrink-0"></div>
-                    <span><strong>Formato:</strong> sesión 70 min.</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <div className="w-2 h-2 bg-blue-500 rounded-full mt-1.5 flex-shrink-0"></div>
-                    <span><strong>Modalidad:</strong> Presencial oficina Bosques de Montemar Concón y online mundial.</span>
-                  </li>
-                </ul>
-                
-                <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white rounded-xl text-sm" data-testid="button-agendar-familia">
-                  Agendar consulta familiar
-                </Button>
-              </div>
-            </div>
-
-            {/* Service 3: Talleres de arteterapia */}
-            <div>
-              <div className="mb-6">
-                <img 
-                  src="/attached_assets/ChatGPT Image 4 sept 2025, 21_43_14_1757036637158.webp" 
-                  alt="Talleres de arteterapia en grupos pequeños"
-                  className="rounded-3xl shadow-2xl w-full h-auto max-h-64 object-contain object-top bg-gray-50"
-                  data-testid="service-image-workshops"
-                  loading="lazy"
-                  decoding="async"
-                />
-              </div>
-              <div className="bg-white rounded-2xl p-6 shadow-lg">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Talleres de arteterapia</h3>
-                <h4 className="text-base font-semibold text-orange-600 mb-4">Grupos pequeños por invitación</h4>
-                <p className="text-gray-600 mb-6 text-sm">Expresión y regulación emocional, autoestima, identidad, proyecciones y pertenencia.</p>
-                
-                <ul className="space-y-2 text-xs text-gray-700 mb-6">
-                  <li className="flex items-start gap-2">
-                    <div className="w-2 h-2 bg-orange-500 rounded-full mt-1.5 flex-shrink-0"></div>
-                    <span><strong>Objetivo:</strong> Practicar habilidades sociales en contexto cuidado.</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <div className="w-2 h-2 bg-orange-500 rounded-full mt-1.5 flex-shrink-0"></div>
-                    <span><strong>Formato:</strong> 4–10 participantes con invitación.</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <div className="w-2 h-2 bg-orange-500 rounded-full mt-1.5 flex-shrink-0"></div>
-                    <span><strong>Duración:</strong> 90–120 min · Presencial en Bosques de Montemar, Concón.</span>
-                  </li>
-                </ul>
-                
-                <Button className="w-full bg-orange-600 hover:bg-orange-700 text-white rounded-xl text-sm" data-testid="button-ver-talleres">
-                  Consultar por Whatsapp Requisitos
-                </Button>
+            <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow border border-gray-100">
+              <div className="w-16 h-16 bg-emerald-100 rounded-xl flex items-center justify-center mb-6">
+                <User className="w-8 h-8 text-emerald-600" />
               </div>
               
+              <h3 className="text-2xl font-bold text-gray-900 mb-2">Consulta individual</h3>
+              <h4 className="text-base font-semibold text-emerald-600 mb-6">Psicoterapia para adolescentes y jóvenes</h4>
+              
+              <div className="space-y-4 text-sm text-gray-700">
+                <div>
+                  <p className="font-semibold text-gray-900 mb-2">Objetivo:</p>
+                  <p className="leading-relaxed">Acompañamiento centrado en el desarrollo emocional, identidad, autoestima y manejo de la ansiedad, TDAH o TEA.</p>
+                </div>
+                
+                <div>
+                  <p className="font-semibold text-gray-900 mb-1">Formato:</p>
+                  <p>Sesión de 60 minutos.</p>
+                </div>
+                
+                <div>
+                  <p className="font-semibold text-gray-900 mb-1">Modalidad:</p>
+                  <p>Presencial en Viña del Mar y online.</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Service 2: Consulta Familiar */}
+            <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow border border-gray-100">
+              <div className="w-16 h-16 bg-blue-100 rounded-xl flex items-center justify-center mb-6">
+                <Users className="w-8 h-8 text-blue-600" />
+              </div>
+              
+              <h3 className="text-2xl font-bold text-gray-900 mb-2">Consulta familiar</h3>
+              <h4 className="text-base font-semibold text-blue-600 mb-6">Orientación y apoyo sistémico</h4>
+              
+              <div className="space-y-4 text-sm text-gray-700">
+                <div>
+                  <p className="font-semibold text-gray-900 mb-2">Objetivo:</p>
+                  <p className="leading-relaxed">Mejorar la comunicación entre padres e hijos, fortaleciendo vínculos y resolviendo conflictos desde una mirada de conjunto.</p>
+                </div>
+                
+                <div>
+                  <p className="font-semibold text-gray-900 mb-1">Formato:</p>
+                  <p>Sesión de 70 minutos.</p>
+                </div>
+                
+                <div>
+                  <p className="font-semibold text-gray-900 mb-1">Modalidad:</p>
+                  <p>Presencial u online.</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Service 3: Terapia de Juego */}
+            <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow border border-gray-100">
+              <div className="w-16 h-16 bg-purple-100 rounded-xl flex items-center justify-center mb-6">
+                <Palette className="w-8 h-8 text-purple-600" />
+              </div>
+              
+              <h3 className="text-2xl font-bold text-gray-900 mb-2">Terapia de juego</h3>
+              <h4 className="text-base font-semibold text-purple-600 mb-6">Espacio creativo para niños y preadolescentes</h4>
+              
+              <div className="space-y-4 text-sm text-gray-700">
+                <div>
+                  <p className="font-semibold text-gray-900 mb-2">Objetivo:</p>
+                  <p className="leading-relaxed">Favorecer la comunicación emocional y la resolución de conflictos mediante dinámicas lúdicas.</p>
+                </div>
+                
+                <div>
+                  <p className="font-semibold text-gray-900 mb-1">Formato:</p>
+                  <p>Sesión de 50–60 minutos.</p>
+                </div>
+                
+                <div>
+                  <p className="font-semibold text-gray-900 mb-1">Modalidad:</p>
+                  <p>Presencial.</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>

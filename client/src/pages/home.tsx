@@ -1070,49 +1070,71 @@ export default function Home() {
 
       {/* Location Section */}
       <section className="py-8" data-testid="map-section">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8">
             <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-4">Ubicación Oficina</h2>
           </div>
           
-          <Card className="bg-card border border-border rounded-3xl" data-testid="location-card">
-            <CardContent className="p-8">
-              <div className="flex flex-col md:flex-row items-center gap-6">
-                <div className="flex-shrink-0">
-                  <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center">
-                    <MapPin className="w-8 h-8 text-primary" />
+          <div className="relative">
+            <Card className="bg-card border border-border rounded-3xl overflow-hidden" data-testid="location-card">
+              <CardContent className="p-4">
+                <button
+                  onClick={() => window.open('https://maps.app.goo.gl/Xv1WAQkW1j23PU2f8', '_blank')}
+                  className="relative w-full h-96 overflow-hidden rounded-2xl cursor-pointer group"
+                >
+                  <img
+                    src="/attached_assets/Captura de pantalla 2025-10-07 a la(s) 12.44.33_1759851876535.png"
+                    alt="Mapa ubicación Montenegro 136, Viña del Mar"
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-primary/0 group-hover:bg-primary/10 transition-colors duration-300 flex items-center justify-center">
+                    <div className="bg-white dark:bg-gray-900 px-6 py-3 rounded-full shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                      <span className="text-sm font-semibold text-foreground flex items-center gap-2">
+                        <MapIcon className="w-5 h-5" />
+                        Ver en Google Maps
+                      </span>
+                    </div>
+                  </div>
+                </button>
+                
+                {/* Floating info card */}
+                <div className="absolute top-8 left-8 right-8 md:left-8 md:right-auto md:max-w-sm pointer-events-none">
+                  <div className="backdrop-blur-xl bg-white/90 dark:bg-black/80 border border-white/40 dark:border-white/20 rounded-2xl p-6 shadow-lg">
+                    <div className="flex items-center gap-3 mb-3">
+                      <div className="w-10 h-10 bg-primary/20 rounded-full flex items-center justify-center">
+                        <MapPin className="w-5 h-5 text-primary" />
+                      </div>
+                      <div>
+                        <h4 className="font-semibold text-foreground">Consulta Psicológica</h4>
+                        <p className="text-sm text-muted-foreground">Antonia Cabrera</p>
+                      </div>
+                    </div>
+                    <p className="text-sm text-foreground mb-2 font-medium">
+                      Montenegro 136
+                    </p>
+                    <p className="text-sm text-muted-foreground mb-3">
+                      Viña del Mar, Valparaíso
+                    </p>
+                    <div className="flex items-center gap-2 text-xs text-muted-foreground">
+                      <Clock className="w-3 h-3" />
+                      <span>Lunes a Viernes: 10:00 - 19:00</span>
+                    </div>
                   </div>
                 </div>
-                
-                <div className="flex-1 text-center md:text-left">
-                  <h3 className="text-xl font-semibold text-foreground mb-2">
-                    Consulta Psicológica Antonia Cabrera
-                  </h3>
-                  <p className="text-lg text-foreground mb-1">
-                    <strong>Montenegro 136</strong>
-                  </p>
-                  <p className="text-muted-foreground mb-3">
-                    Viña del Mar, Valparaíso
-                  </p>
-                  <div className="flex items-center justify-center md:justify-start gap-2 text-sm text-muted-foreground">
-                    <Clock className="w-4 h-4 text-primary" />
-                    <span>Lunes a Viernes: 10:00 - 19:00</span>
-                  </div>
-                </div>
-                
-                <div className="flex-shrink-0">
-                  <button
-                    onClick={() => window.open('https://maps.app.goo.gl/Xv1WAQkW1j23PU2f8', '_blank')}
-                    className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-full hover:bg-primary/90 transition-all duration-300 transform hover:-translate-y-1 font-semibold shadow-lg hover:shadow-xl"
-                    data-testid="open-maps-button"
-                  >
-                    <MapIcon className="w-5 h-5" />
-                    Cómo llegar
-                  </button>
-                </div>
-              </div>
-            </CardContent>
-          </Card>
+              </CardContent>
+            </Card>
+            
+            <div className="text-center mt-8">
+              <button
+                onClick={() => window.open('https://maps.app.goo.gl/Xv1WAQkW1j23PU2f8', '_blank')}
+                className="inline-flex items-center gap-2 px-8 py-4 bg-primary text-primary-foreground rounded-full hover:bg-primary/90 transition-all duration-300 transform hover:-translate-y-1 font-semibold shadow-lg hover:shadow-xl"
+                data-testid="open-maps-button"
+              >
+                <MapPin className="w-5 h-5" />
+                Cómo llegar
+              </button>
+            </div>
+          </div>
         </div>
       </section>
 

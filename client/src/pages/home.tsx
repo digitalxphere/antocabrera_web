@@ -517,23 +517,27 @@ export default function Home() {
           </div>
           
           <div className="grid md:grid-cols-3 gap-6">
-            {/* Service 1: Consulta Individual */}
+            {/* Service 1: Psicoterapia individual para adolescentes */}
             <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow border border-gray-100">
               <div className="mb-6">
                 <img 
                   src="/attached_assets/image_1759854153688.png" 
-                  alt="Consulta individual"
+                  alt="Psicoterapia individual para adolescentes"
                   className="w-32 h-32 mx-auto object-contain"
                 />
               </div>
               
-              <h3 className="text-2xl font-bold text-gray-900 mb-2">Consulta individual</h3>
-              <h4 className="text-base font-semibold text-emerald-600 mb-6">Psicoterapia para adolescentes y jóvenes</h4>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">Psicoterapia individual para adolescentes</h3>
               
               <div className="space-y-4 text-sm text-gray-700">
                 <div>
                   <p className="font-semibold text-gray-900 mb-2">Objetivo:</p>
-                  <p className="leading-relaxed">Acompañamiento centrado en el desarrollo emocional, identidad, autoestima y manejo de la ansiedad, TDAH o TEA.</p>
+                  <p className="leading-relaxed">Acompañar procesos emocionales y de desarrollo en jóvenes de 12 a 18 años.</p>
+                </div>
+                
+                <div>
+                  <p className="font-semibold text-gray-900 mb-2">Temas frecuentes:</p>
+                  <p className="leading-relaxed">Ansiedad, autoestima, identidad, dificultades escolares, TDAH, TEA.</p>
                 </div>
                 
                 <div>
@@ -543,28 +547,32 @@ export default function Home() {
                 
                 <div>
                   <p className="font-semibold text-gray-900 mb-1">Modalidad:</p>
-                  <p>Presencial en Viña del Mar y online.</p>
+                  <p>Presencial en Viña del Mar u online.</p>
                 </div>
               </div>
             </div>
 
-            {/* Service 2: Consulta Familiar */}
+            {/* Service 2: Consulta familiar con adolescentes */}
             <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow border border-gray-100">
               <div className="mb-6">
                 <img 
                   src="/attached_assets/image_1759854164926.png" 
-                  alt="Consulta familiar"
+                  alt="Consulta familiar con adolescentes"
                   className="w-32 h-32 mx-auto object-contain"
                 />
               </div>
               
-              <h3 className="text-2xl font-bold text-gray-900 mb-2">Consulta familiar</h3>
-              <h4 className="text-base font-semibold text-blue-600 mb-6">Orientación y apoyo sistémico</h4>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">Consulta familiar con adolescentes</h3>
               
               <div className="space-y-4 text-sm text-gray-700">
                 <div>
                   <p className="font-semibold text-gray-900 mb-2">Objetivo:</p>
-                  <p className="leading-relaxed">Mejorar la comunicación entre padres e hijos, fortaleciendo vínculos y resolviendo conflictos desde una mirada de conjunto.</p>
+                  <p className="leading-relaxed">Fortalecer la comunicación y el vínculo entre padres e hijos.</p>
+                </div>
+                
+                <div>
+                  <p className="font-semibold text-gray-900 mb-2">Enfoque:</p>
+                  <p className="leading-relaxed">Visión sistémica, trabajando dinámicas familiares y resolución de conflictos.</p>
                 </div>
                 
                 <div>
@@ -579,23 +587,27 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Service 3: Terapia de Juego */}
+            {/* Service 3: Terapia de juego y arteterapia */}
             <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow border border-gray-100">
               <div className="mb-6">
                 <img 
                   src="/attached_assets/image_1759854176781.png" 
-                  alt="Terapia de juego"
+                  alt="Terapia de juego y arteterapia"
                   className="w-32 h-32 mx-auto object-contain"
                 />
               </div>
               
-              <h3 className="text-2xl font-bold text-gray-900 mb-2">Terapia de juego</h3>
-              <h4 className="text-base font-semibold text-purple-600 mb-6">Espacio creativo para niños y preadolescentes</h4>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">Terapia de juego y arteterapia</h3>
               
               <div className="space-y-4 text-sm text-gray-700">
                 <div>
                   <p className="font-semibold text-gray-900 mb-2">Objetivo:</p>
-                  <p className="leading-relaxed">Favorecer la comunicación emocional y la resolución de conflictos mediante dinámicas lúdicas.</p>
+                  <p className="leading-relaxed">Generar un espacio creativo donde los adolescentes puedan expresarse y explorar sus emociones.</p>
+                </div>
+                
+                <div>
+                  <p className="font-semibold text-gray-900 mb-2">Metodología:</p>
+                  <p className="leading-relaxed">Uso del arte, dibujo, collage y dinámicas lúdicas adaptadas a la edad.</p>
                 </div>
                 
                 <div>

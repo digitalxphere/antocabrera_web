@@ -27,6 +27,22 @@ export default function ModuloDolores() {
           </div>
         </article>
 
+        <article className="rounded-2xl border border-border bg-card p-8 shadow-sm" data-testid="card-padres-familias">
+          <div className="flex flex-col gap-6">
+            <div className="flex-1">
+              <h3 className="text-2xl font-semibold text-foreground mb-4">Padres y Familias: Acompañamiento en el proceso de sus hijos</h3>
+              <div className="text-muted-foreground text-justify leading-relaxed space-y-4">
+                <p>
+                  La etapa infanto-juvenil no solo trae cambios en los niños y adolescentes, también impacta a los padres que muchas veces sienten incertidumbre, frustración o distancia emocional frente a lo que viven sus hijos. La comunicación puede volverse difícil, aparecen dudas sobre cómo poner límites adecuados, cómo acompañar sin invadir, y cómo reconocer cuándo sus hijos necesitan un apoyo externo.
+                </p>
+                <p>
+                  En mi trabajo, integro a las familias para que comprendan mejor los desafíos propios de estas etapas y puedan fortalecer el vínculo con sus hijos desde la <strong className="text-foreground">empatía</strong>, la <strong className="text-foreground">escucha</strong> y la <strong className="text-foreground">validación emocional</strong>. A través de un acompañamiento clínico y psicoeducativo, ofrezco herramientas prácticas para que los padres se sientan más seguros, puedan apoyar a sus hijos en la expresión de emociones y fomenten un ambiente familiar protector y de confianza.
+                </p>
+              </div>
+            </div>
+          </div>
+        </article>
+
       </div>
 
       <div className="mt-12 flex justify-center">

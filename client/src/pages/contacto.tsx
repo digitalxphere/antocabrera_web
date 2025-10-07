@@ -16,7 +16,7 @@ export default function Contacto() {
   ];
 
   const handleMapClick = () => {
-    window.open('https://maps.google.com/?q=Concón,Viña+del+Mar,Chile', '_blank');
+    window.open('https://maps.app.goo.gl/XhMBVTEdMJJFCnCm9', '_blank');
   };
 
   const structuredData = {
@@ -148,7 +148,7 @@ export default function Contacto() {
                   {/* Map container */}
                   <div className="relative h-96 w-full rounded-[24px] overflow-hidden">
                     <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3344.1234567890123!2d-71.52794!3d-32.92780!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9689dd0123456789%3A0x1234567890abcdef!2sMontenegro%20136%2C%20Vi%C3%B1a%20del%20Mar%2C%20Valpara%C3%ADso%2C%20Chile!5e0!3m2!1ses!2scl!4v1625097600000!5m2!1ses!2scl"
+                      src="https://maps.google.com/maps?q=Montenegro+136,+Viña+del+Mar,+Chile&output=embed"
                       width="100%"
                       height="100%"
                       style={{ border: 0 }}
@@ -194,7 +194,7 @@ export default function Contacto() {
               {/* Action button */}
               <div className="text-center mt-8">
                 <button
-                  onClick={() => window.open('https://maps.google.com/?q=Av.+Bosques+de+Montemar+30,+Oficina+920,+Concón,+Valparaíso,+Chile', '_blank')}
+                  onClick={() => window.open('https://maps.app.goo.gl/XhMBVTEdMJJFCnCm9', '_blank')}
                   className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-white rounded-full hover:bg-primary/90 transition-colors font-medium"
                   data-testid="open-maps-button"
                 >

@@ -68,33 +68,103 @@ export const SERVICES: ServiceType[] = [
 export const FAQ_ITEMS: FAQItem[] = [
   {
     id: "1",
-    question: "¿Qué es la terapia de juego y cómo ayuda a los niños?",
-    answer: "La terapia de juego es una vía principal para la comunicación amable y la expresión de emociones, especialmente con niños. A través del juego, los niños pueden expresar lo que sienten de manera natural y segura, desarrollando habilidades emocionales y sociales."
+    question: "¿Desde qué edad atiende Antonia Cabrera?",
+    answer: "Atiende a niños desde los 7 años, adolescentes y adultos jóvenes."
   },
   {
     id: "2",
-    question: "¿Qué edades atiende?",
-    answer: "Me especializo en el trabajo con adolescentes de 12 a 18 años. Esta etapa tiene características únicas que requieren un acompañamiento especializado y respetuoso de su proceso de desarrollo."
+    question: "¿Qué tipo de terapias utiliza?",
+    answer: "Su enfoque principal es la Arteterapia y la Terapia de Juego, complementadas con un Enfoque Sistémico."
   },
   {
     id: "3",
-    question: "¿Qué es el enfoque sistémico?",
-    answer: "El enfoque sistémico permite entender a la persona dentro de su contexto relacional (familia, escuela, comunidad). No solo trabajamos con el niño o joven, sino que consideramos todo su entorno para un acompañamiento más completo."
+    question: "¿Cuál es la diferencia entre Arteterapia y Terapia de Juego?",
+    answer: "Arteterapia utiliza la expresión artística como medio para explorar emociones. Terapia de Juego emplea dinámicas lúdicas como vía de comunicación y exploración emocional, especialmente con niños."
   },
   {
     id: "4",
-    question: "¿Cómo ayuda la arteterapia a niños neurodivergentes?",
-    answer: "El arte y el juego son puentes naturales para la expresión, especialmente beneficiosos para niños con TDAH, TEA y otras neurodivergencias. Permiten comunicar emociones sin la presión de las palabras, en un ambiente seguro y creativo."
+    question: "¿Las sesiones son individuales o familiares?",
+    answer: "Principalmente son individuales, pero se incluye a la familia cuando es necesario fortalecer el vínculo y la comunicación."
   },
   {
     id: "5",
-    question: "¿Ofrecen sesiones online?",
-    answer: "Sí, ofrecemos tanto sesiones presenciales en Viña del Mar como sesiones online. La modalidad se elige según las necesidades y preferencias de cada familia."
+    question: "¿Cuál es la duración de una sesión?",
+    answer: "Entre 50 y 60 minutos, según la edad y modalidad de la atención."
   },
   {
     id: "6",
-    question: "¿Los talleres requieren experiencia previa en arte?",
-    answer: "No es necesaria ninguna experiencia previa. El foco está en la expresión y el proceso creativo, no en el resultado artístico. Cada adolescente participa a su propio ritmo y manera."
+    question: "¿La atención es presencial u online?",
+    answer: "Se ofrecen ambas modalidades: presencial en Viña del Mar y online para quienes lo necesiten."
+  },
+  {
+    id: "7",
+    question: "¿Qué problemas o motivos de consulta son los más comunes?",
+    answer: "Ansiedad y estrés escolar, dificultades de autoestima e identidad, trastornos de conducta o desregulación emocional, acompañamiento en neurodivergencias (TDAH, TEA), y apoyo en procesos de duelo, separación o cambios familiares."
+  },
+  {
+    id: "8",
+    question: "¿Qué pasa si mi hijo no quiere hablar en terapia?",
+    answer: "A través del arte y el juego se genera un espacio seguro donde los niños pueden expresarse sin necesidad de 'dar un discurso'."
+  },
+  {
+    id: "9",
+    question: "¿Se entrega retroalimentación a los padres?",
+    answer: "Sí. Se realizan sesiones de orientación con los padres para informar avances y entregar herramientas prácticas en casa."
+  },
+  {
+    id: "10",
+    question: "¿Cómo saber si mi hijo necesita psicoterapia?",
+    answer: "Señales comunes incluyen cambios bruscos de conducta, aislamiento, irritabilidad, dificultades escolares, problemas de sueño o expresión emocional limitada."
+  },
+  {
+    id: "11",
+    question: "¿Qué rol cumplen los padres en el proceso terapéutico?",
+    answer: "Son parte clave. Se busca que participen activamente, comprendan los desafíos de sus hijos y fortalezcan la comunicación familiar."
+  },
+  {
+    id: "12",
+    question: "¿Debo estar presente en todas las sesiones de mi hijo?",
+    answer: "No siempre. En la mayoría de los casos los niños y adolescentes asisten solos, y se incluyen a los padres en sesiones específicas de orientación."
+  },
+  {
+    id: "13",
+    question: "¿Qué hago si no sé cómo apoyar a mi hijo fuera de la consulta?",
+    answer: "Se entregan estrategias psicoeducativas adaptadas a la dinámica familiar para que el acompañamiento continúe en casa."
+  },
+  {
+    id: "14",
+    question: "¿La terapia reemplaza la disciplina y los límites en casa?",
+    answer: "No. La terapia complementa el rol de los padres, ayudándolos a establecer límites claros y saludables desde una comunicación respetuosa."
+  },
+  {
+    id: "15",
+    question: "¿Cómo se agenda una sesión?",
+    answer: "Directamente vía WhatsApp o correo electrónico, según los datos de contacto en el sitio."
+  },
+  {
+    id: "16",
+    question: "¿Cuál es el valor de una sesión?",
+    answer: "El valor se informa al momento de agendar. Se ofrecen tarifas diferenciadas para sesiones individuales y familiares."
+  },
+  {
+    id: "17",
+    question: "¿Se puede reembolsar por isapre o seguro complementario?",
+    answer: "Sí, se entregan boletas de prestación psicológica que pueden presentarse en las isapres y seguros."
+  },
+  {
+    id: "18",
+    question: "¿Qué ocurre si necesito cancelar o reagendar?",
+    answer: "Debe avisarse con al menos 24 horas de anticipación para reagendar sin costo."
+  },
+  {
+    id: "19",
+    question: "¿Qué pasa en la primera sesión?",
+    answer: "Se realiza una evaluación inicial para conocer al paciente, comprender el motivo de consulta y definir los objetivos terapéuticos."
+  },
+  {
+    id: "20",
+    question: "¿La información de las sesiones es confidencial?",
+    answer: "Sí, toda la información se maneja bajo confidencialidad profesional, salvo en casos donde la ley exige resguardar la integridad del paciente."
   }
 ];
 

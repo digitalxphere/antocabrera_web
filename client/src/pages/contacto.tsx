@@ -4,7 +4,6 @@ import { Card, CardContent } from "@/components/ui/card";
 import { ContactForm } from "@/components/contact-form";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { SEOHead } from "@/components/seo-head";
-import { OptimizedImage } from "@/components/ui/optimized-image";
 import { CONTACT_INFO } from "@/lib/constants";
 import { useScrollAnimation } from "@/lib/animations";
 
@@ -133,54 +132,50 @@ export default function Contacto() {
             </div>
           </section>
 
-          {/* Location Section with Map */}
+          {/* Location Section */}
           <section className="py-16" data-testid="map-section">
-            <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="text-center mb-12">
-                <h3 className="text-3xl font-bold text-foreground mb-4">Ubicación Oficina</h3>
+                <h3 className="text-3xl font-bold text-foreground mb-4">¿Cómo llegar?</h3>
                 <p className="text-lg text-muted-foreground">
-                  Montenegro 136, Viña del Mar, Valparaíso
+                  Encuentra mi consulta en Viña del Mar
                 </p>
               </div>
               
-              <div className="relative">
-                <Card className="bg-card border border-border rounded-3xl overflow-hidden">
-                  <CardContent className="p-4">
-                    <button
-                      onClick={() => window.open('https://maps.app.goo.gl/XhMBVTEdMJJFCnCm9', '_blank')}
-                      className="relative w-full h-96 overflow-hidden rounded-2xl cursor-pointer group"
-                    >
-                      <OptimizedImage
-                        src="/attached_assets/Captura de pantalla 2025-10-07 a la(s) 12.44.33_1759851876535.png"
-                        alt="Mapa ubicación Montenegro 136, Viña del Mar"
-                        width="1200"
-                        height="600"
-                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                        objectFit="cover"
-                      />
-                      <div className="absolute inset-0 bg-primary/0 group-hover:bg-primary/10 transition-colors duration-300 flex items-center justify-center">
-                        <div className="bg-white dark:bg-gray-900 px-6 py-3 rounded-full shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                          <span className="text-sm font-semibold text-foreground flex items-center gap-2">
-                            <Map className="w-5 h-5" />
-                            Ver en Google Maps
-                          </span>
-                        </div>
-                      </div>
-                    </button>
-                  </CardContent>
-                </Card>
-                
-                <div className="text-center mt-8">
-                  <button
-                    onClick={() => window.open('https://maps.app.goo.gl/XhMBVTEdMJJFCnCm9', '_blank')}
-                    className="inline-flex items-center gap-2 px-8 py-4 bg-primary text-primary-foreground rounded-full hover:bg-primary/90 transition-all duration-300 transform hover:-translate-y-1 font-semibold shadow-lg hover:shadow-xl"
-                    data-testid="open-maps-button"
-                  >
-                    <MapPin className="w-5 h-5" />
-                    Cómo llegar
-                  </button>
-                </div>
-              </div>
+              <Card className="bg-card border border-border rounded-3xl" data-testid="location-card">
+                <CardContent className="p-8 md:p-12">
+                  <div className="flex flex-col items-center text-center space-y-6">
+                    <div className="w-20 h-20 bg-primary/10 rounded-full flex items-center justify-center">
+                      <MapPin className="w-10 h-10 text-primary" />
+                    </div>
+                    
+                    <div>
+                      <h4 className="text-2xl font-semibold text-foreground mb-2">
+                        Montenegro 136
+                      </h4>
+                      <p className="text-lg text-muted-foreground">
+                        Viña del Mar, Valparaíso, Chile
+                      </p>
+                    </div>
+                    
+                    <div className="flex items-center gap-2 text-muted-foreground">
+                      <Clock className="w-5 h-5 text-primary" />
+                      <span>Lunes a Viernes: 10:00 - 19:00 | Sábados: 10:00 - 14:00</span>
+                    </div>
+                    
+                    <div className="pt-6 w-full">
+                      <button
+                        onClick={() => window.open('https://maps.app.goo.gl/Xv1WAQkW1j23PU2f8', '_blank')}
+                        className="w-full md:w-auto inline-flex items-center justify-center gap-3 px-10 py-4 bg-primary text-primary-foreground rounded-full hover:bg-primary/90 transition-all duration-300 transform hover:-translate-y-1 font-semibold shadow-lg hover:shadow-xl text-lg"
+                        data-testid="open-maps-button"
+                      >
+                        <Map className="w-6 h-6" />
+                        Ver en Google Maps
+                      </button>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
             </div>
           </section>
         </div>

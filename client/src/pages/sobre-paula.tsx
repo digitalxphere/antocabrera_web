@@ -76,7 +76,7 @@ export default function SobrePaula() {
                     
                     <div className="space-y-6 text-muted-foreground text-lg leading-relaxed text-justify">
                       <p data-testid="about-description-1">
-                        Soy Antonia Cabrera, psicóloga especializada en el trabajo con adolescentes de 12 a 18 años. Mi enfoque integra el Arteterapia y el Enfoque Sistémico para acompañar procesos de crecimiento desde una mirada relacional.
+                        Soy Antonia Cabrera, psicóloga especializada en el trabajo con adolescentes y jóvenes adultos. Mi enfoque integra el Arteterapia, la Terapia de Juego y el Enfoque Sistémico para acompañar procesos de crecimiento desde una mirada relacional.
                       </p>
                       
                       <p data-testid="about-description-2">
@@ -86,6 +86,28 @@ export default function SobrePaula() {
                       <p data-testid="about-description-3">
                         También brindo apoyo a personas con neurodivergencias como TDAH y TEA, ofreciendo un espacio seguro, respetuoso y adaptado a sus necesidades.
                       </p>
+
+                      <div className="pt-4">
+                        <h5 className="text-xl font-semibold text-foreground mb-4" data-testid="about-support-title">Te ofrezco apoyo para trabajar en:</h5>
+                        <ul className="space-y-2">
+                          <li className="flex items-start gap-3" data-testid="about-support-anxiety">
+                            <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-1" />
+                            <span>Superar la ansiedad y la depresión</span>
+                          </li>
+                          <li className="flex items-start gap-3" data-testid="about-support-violence">
+                            <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-1" />
+                            <span>Sanar las heridas de la violencia de género</span>
+                          </li>
+                          <li className="flex items-start gap-3" data-testid="about-support-identity">
+                            <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-1" />
+                            <span>Fortalecer tu autoestima y construir una identidad auténtica</span>
+                          </li>
+                          <li className="flex items-start gap-3" data-testid="about-support-neurodiversity">
+                            <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-1" />
+                            <span>Comprender y manejar la sintomatología asociada al Espectro Autista y al Déficit de Atención</span>
+                          </li>
+                        </ul>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -108,6 +130,34 @@ export default function SobrePaula() {
               </div>
             </div>
 
+            {/* Education Module */}
+            <div className="mb-20" data-testid="about-education-module">
+              <div className="max-w-4xl mx-auto">
+                <h3 className="text-3xl font-bold text-foreground mb-8 text-center">
+                  Formación Académica
+                </h3>
+                <div className="grid md:grid-cols-2 gap-6">
+                  <Card className="bg-card border border-border rounded-2xl p-6" data-testid="about-education-narrative">
+                    <div className="flex items-start gap-4">
+                      <GraduationCap className="w-8 h-8 text-primary flex-shrink-0 mt-1" />
+                      <div>
+                        <h4 className="font-bold text-foreground mb-2">Diplomado en Terapia Narrativa</h4>
+                        <p className="text-sm text-muted-foreground">Pranas Chile</p>
+                      </div>
+                    </div>
+                  </Card>
+                  <Card className="bg-card border border-border rounded-2xl p-6" data-testid="about-education-intervention">
+                    <div className="flex items-start gap-4">
+                      <GraduationCap className="w-8 h-8 text-primary flex-shrink-0 mt-1" />
+                      <div>
+                        <h4 className="font-bold text-foreground mb-2">Diplomado en Estrategias de Intervención Infantil Juvenil</h4>
+                        <p className="text-sm text-muted-foreground">Universidad de Valparaíso</p>
+                      </div>
+                    </div>
+                  </Card>
+                </div>
+              </div>
+            </div>
 
             {/* Approach & Philosophy Module */}
             <div className="mb-20" data-testid="about-approach-module">

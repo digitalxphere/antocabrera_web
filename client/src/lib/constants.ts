@@ -168,4 +168,4 @@ export const FAQ_ITEMS: FAQItem[] = [
 ];
 
 export const WHATSAPP_NUMBER = "56953065780";
-export const WHATSAPP_MESSAGE = "Hola Antonia, me gustaría conocer más sobre tus servicios de arteterapia y terapia de juego.";
+export const WHATSAPP_MESSAGE = "Hola Antonia, me gustaría conocer tu disponibilidad para el día..";

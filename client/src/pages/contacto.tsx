@@ -64,31 +64,6 @@ export default function Contacto() {
                 y comencemos este camino juntos hacia el bienestar emocional.
               </p>
             </div>
-
-            {/* Simple Visual Section with two images */}
-            <div className="grid md:grid-cols-2 gap-16 items-center">
-              <div>
-                <img 
-                  src="/attached_assets/Paula cabrera _1757100570349.jpeg" 
-                  alt="Antonia Cabrera psicóloga especialista adolescentes jóvenes Viña del Mar terapia psicológica" 
-                  title="Psicóloga Antonia Cabrera - Especialista en adolescentes y jóvenes en Viña del Mar"
-                  className="w-full rounded-3xl shadow-lg object-contain bg-gray-50"
-                  loading="lazy"
-                  decoding="async"
-                />
-              </div>
-              
-              <div>
-                <img 
-                  src="/attached_assets/WhatsApp Image 2025-08-31 at 11.39.42_1757100576316.jpeg" 
-                  alt="Contacto psicóloga adolescentes jóvenes Viña del Mar Antonia Cabrera consulta psicológica" 
-                  title="Contacta a la psicóloga Antonia Cabrera en Viña del Mar - Especialista en adolescentes"
-                  className="w-full rounded-3xl shadow-lg object-contain bg-gray-50"
-                  loading="lazy"
-                  decoding="async"
-                />
-              </div>
-            </div>
           </section>
 
           {/* Contact Information */}

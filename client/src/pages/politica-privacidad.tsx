@@ -17,9 +17,9 @@ export default function PoliticaPrivacidad() {
   return (
     <>
       <SEOHead 
-        title="Política de Privacidad Psicóloga Adolescentes Jóvenes Concón Viña del Mar | Paula Cabrera Fuentes"
-        description="Política de privacidad y protección de datos personales de Paula Cabrera Fuentes, psicóloga especialista en adolescentes y jóvenes en Concón y Viña del Mar."
-        canonical="https://paulacabrerapsicologa.cl/politica-privacidad"
+        title="Política de Privacidad Psicóloga Adolescentes Jóvenes Viña del Mar | Antonia Cabrera"
+        description="Política de privacidad y protección de datos personales de Antonia Cabrera, psicóloga especialista en adolescentes y jóvenes en Viña del Mar."
+        canonical="https://antoniacabrerapsicologa.cl/politica-privacidad"
       />
 
       <div className="min-h-screen bg-background">
@@ -51,7 +51,7 @@ export default function PoliticaPrivacidad() {
                 </h2>
                 <div className="space-y-4 text-muted-foreground">
                   <p>
-                    Paula Cabrera Fuentes, psicóloga clínica, se compromete a proteger la privacidad y 
+                    Antonia Cabrera, psicóloga clínica, se compromete a proteger la privacidad y 
                     confidencialidad de la información personal de sus pacientes y usuarios del sitio web. 
                     Esta política de privacidad describe cómo recopilamos, utilizamos, almacenamos y 
                     protegemos su información personal.

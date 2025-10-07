@@ -4,12 +4,6 @@ import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import { CONTACT_INFO } from "@/lib/constants";
 
-const serviceLinks = [
-  { name: "Psicoterapia Individual", href: "/servicios#individual" },
-  { name: "Familia y Pareja", href: "/servicios#family" },
-  { name: "Psicoeducación Padres", href: "/servicios#psychoeducation" },
-];
-
 const legalLinks = [
   { name: "Preguntas Frecuentes", href: "/preguntas-frecuentes" },
   { name: "Política de Privacidad", href: "/politica-privacidad" },
@@ -21,7 +15,7 @@ export function Footer() {
   return (
     <footer className="py-16" style={{backgroundColor: '#D97706', color: '#FFFFFF'}}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           {/* Brand */}
           <div>
             <div className="mb-4">
@@ -31,24 +25,6 @@ export function Footer() {
             <p className="text-white text-sm">
               Especialista en arteterapia y terapia de juego con adolescentes.
             </p>
-          </div>
-          
-          {/* Services */}
-          <div>
-            <h3 className="font-semibold mb-4 text-white">Servicios</h3>
-            <ul className="space-y-2 text-sm text-white">
-              {serviceLinks.map((link) => (
-                <li key={link.name}>
-                  <Link 
-                    href={link.href} 
-                    className="hover:text-primary transition-colors"
-                    data-testid={`footer-service-link-${link.name.toLowerCase().replace(/\s+/g, '-')}`}
-                  >
-                    {link.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
           </div>
           
           {/* Contact Info (NAP) */}

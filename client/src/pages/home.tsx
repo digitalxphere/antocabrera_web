@@ -569,7 +569,7 @@ export default function Home() {
                 
                 <div>
                   <p className="font-semibold text-gray-900 mb-1">Formato:</p>
-                  <p>Sesión de 60 minutos.</p>
+                  <p>Sesión de 50 minutos.</p>
                 </div>
                 
                 <div>
@@ -639,7 +639,7 @@ export default function Home() {
                 
                 <div>
                   <p className="font-semibold text-gray-900 mb-1">Formato:</p>
-                  <p>Sesión de 50–60 minutos.</p>
+                  <p>Sesión de 50 minutos.</p>
                 </div>
                 
                 <div>

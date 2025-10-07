@@ -32,7 +32,7 @@ export const SERVICES: ServiceType[] = [
     title: "Terapia Individual Infantojuvenil",
     subtitle: "Arteterapia y Terapia de Juego",
     description: "Acompañamiento terapéutico utilizando el arte y el juego como vías principales para la comunicación amable y la expresión de emociones. Especialización en adolescentes de 12 a 18 años con enfoque sistémico.",
-    features: ["Objetivo: expresión emocional y bienestar integral", "Duración: 60 min", "Modalidad: Presencial en Montenegro 136, Viña del Mar y online"],
+    features: ["Objetivo: expresión emocional y bienestar integral", "Duración: 50 min", "Modalidad: Presencial en Montenegro 136, Viña del Mar y online"],
     icon: "palette",
     color: "primary",
     cta: "Reservar consulta",
@@ -88,7 +88,7 @@ export const FAQ_ITEMS: FAQItem[] = [
   {
     id: "5",
     question: "¿Cuál es la duración de una sesión?",
-    answer: "Entre 50 y 60 minutos, según la edad y modalidad de la atención."
+    answer: "50 minutos para todas las sesiones individuales y consultas familiares."
   },
   {
     id: "6",

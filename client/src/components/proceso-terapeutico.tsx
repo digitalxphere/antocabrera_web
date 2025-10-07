@@ -6,7 +6,7 @@ export default function ProcesoTerapeutico() {
     {
       numero: 1,
       titulo: "Evaluación Inicial",
-      subtitulo: "60 min, pagada",
+      subtitulo: "50 min, pagada",
       icono: <Users className="w-6 h-6" />,
       color: "bg-green-600",
       descripcion: "Entrevista clínica con el joven. Levanto historia, intereses, perfil sensorial, apoyos previos y metas.",
@@ -15,7 +15,7 @@ export default function ProcesoTerapeutico() {
         "Uso anticipación, agenda visual y lenguaje claro",
         "Evaluación completa de necesidades específicas"
       ],
-      duracion: "60 minutos"
+      duracion: "50 minutos"
     },
     {
       numero: 2,
@@ -34,7 +34,7 @@ export default function ProcesoTerapeutico() {
     {
       numero: 3,
       titulo: "Proceso Terapéutico",
-      subtitulo: "Sesiones de 60 min",
+      subtitulo: "Sesiones de 50 min",
       icono: <CheckCircle className="w-6 h-6" />,
       color: "bg-green-600",
       descripcion: "Trabajo individual con metodologías combinadas y adaptadas a TEA.",
@@ -45,7 +45,7 @@ export default function ProcesoTerapeutico() {
         "Flexibilidad cognitiva y resolución de problemas",
         "Apoyo a padres en sesiones separadas"
       ],
-      duracion: "60 minutos por sesión"
+      duracion: "50 minutos por sesión"
     },
     {
       numero: 4,

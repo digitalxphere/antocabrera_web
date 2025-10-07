@@ -70,8 +70,8 @@ export default function Terminos() {
                 <div className="space-y-4 text-muted-foreground">
                   <p>Ofrecemos los siguientes servicios profesionales:</p>
                   <ul className="space-y-2 ml-4">
-                    <li>• Consulta individual de psicoterapia (70 minutos)</li>
-                    <li>• Psicoeducación para padres y cuidadores (60 minutos)</li>
+                    <li>• Consulta individual de psicoterapia (50 minutos)</li>
+                    <li>• Psicoeducación para padres y cuidadores (50 minutos)</li>
                     <li>• Talleres de arteterapia grupales (90-120 minutos, 4-6 participantes)</li>
                     <li>• Especialización en adolescentes, jóvenes, TEA y neurodiversidad</li>
                     <li>• Modalidades presencial en Viña del Mar y online mundial</li>
@@ -95,8 +95,8 @@ export default function Terminos() {
                     <ul className="space-y-2 ml-4">
                       <li>• Las citas deben programarse con al menos 24 horas de anticipación</li>
                       <li>• La confirmación se realiza por WhatsApp</li>
-                      <li>• Sesiones individuales: 70 minutos</li>
-                      <li>• Psicoeducación para padres: 60 minutos</li>
+                      <li>• Sesiones individuales: 50 minutos</li>
+                      <li>• Psicoeducación para padres: 50 minutos</li>
                       <li>• Talleres de arteterapia: 90-120 minutos</li>
                       <li>• Ubicación: Montenegro 136, Viña del Mar, Valparaíso</li>
                     </ul>

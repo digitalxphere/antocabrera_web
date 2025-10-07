@@ -87,14 +87,14 @@ export function Blog() {
           <div className="border-t border-border pt-8 mt-12">
             <div className="flex items-center gap-4">
               <img 
-                src="/attached_assets/Paula_cabrera_psicologa_logo_1756657755055.webp" 
+                src="/attached_assets/antonia_cabrera_psicologa.webp" 
                 alt="Antonia Cabrera" 
                 className="w-16 h-16 object-contain rounded-full bg-gray-50"
               />
               <div>
                 <h3 className="font-semibold text-foreground">Antonia Cabrera</h3>
                 <p className="text-muted-foreground">
-                  Psicóloga especialista en adolescentes y jóvenes TEA con enfoque en arteterapia
+                  Psicóloga especialista en adolescentes con enfoque en arteterapia y terapia de juego
                 </p>
               </div>
             </div>

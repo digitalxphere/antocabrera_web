@@ -59,7 +59,7 @@ export function BlogPreviewSection() {
                     <div className="flex items-center justify-between">
                       <div className="flex items-center gap-3">
                         <img 
-                          src="/attached_assets/Paula_cabrera_psicologa_logo_1756657755055.webp" 
+                          src="/attached_assets/antonia_cabrera_psicologa.webp" 
                           alt="Antonia Cabrera" 
                           className="w-8 h-8 object-contain rounded-full bg-gray-50"
                           loading="lazy"

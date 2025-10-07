@@ -8,7 +8,7 @@ import { useScrollToTop } from "@/hooks/use-scroll-to-top";
 
 // Pages
 import Home from "@/pages/home";
-import SobrePaula from "@/pages/sobre-paula";
+import SobreAntonia from "@/pages/sobre-paula";
 import Servicios from "@/pages/servicios";
 import PreguntasFrecuentes from "@/pages/preguntas-frecuentes";
 import Contacto from "@/pages/contacto";
@@ -32,9 +32,9 @@ function Router() {
           <Route path="/" component={Home} />
           <Route path="/servicios" component={Servicios} />
           <Route path="/preguntas-frecuentes" component={PreguntasFrecuentes} />
-          <Route path="/sobre-mi" component={SobrePaula} />
-          <Route path="/sobre-antonia-cabrera-psicologa" component={SobrePaula} />
-          <Route path="/sobre-paula-cabrera-fuentes-psicologa" component={SobrePaula} />
+          <Route path="/sobre-mi" component={SobreAntonia} />
+          <Route path="/sobre-antonia-cabrera-psicologa" component={SobreAntonia} />
+          <Route path="/sobre-paula-cabrera-fuentes-psicologa" component={SobreAntonia} />
           <Route path="/contacto" component={Contacto} />
           <Route path="/politica-privacidad" component={PoliticaPrivacidad} />
           <Route path="/terminos" component={Terminos} />

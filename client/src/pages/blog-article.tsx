@@ -50,7 +50,7 @@ export default function BlogArticle() {
       "name": "Antonia Cabrera - Psicóloga",
       "logo": {
         "@type": "ImageObject",
-        "url": "/attached_assets/Paula_cabrera_psicologa_logo_1756657755055.webp"
+        "url": "/attached_assets/antonia_cabrera_psicologa.webp"
       }
     },
     "datePublished": article.createdAt.toISOString(),

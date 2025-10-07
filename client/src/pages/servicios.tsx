@@ -27,23 +27,23 @@ export default function Servicios() {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
-    "name": "Servicios de Psicoterapia Paula Cabrera",
+    "name": "Servicios de Psicoterapia Antonia Cabrera",
     "description": "Psicoterapia individual, familiar y talleres de arteterapia para adolescentes y jóvenes TEA",
     "provider": {
       "@type": "Person",
-      "name": "Paula Cabrera Fuentes"
+      "name": "Antonia Cabrera"
     },
     "serviceType": ["Psicoterapia Individual", "Terapia Familiar", "Arteterapia", "Psicoeducación"],
-    "areaServed": ["Concón", "Viña del Mar"],
+    "areaServed": ["Viña del Mar"],
     "availableLanguage": "es"
   };
 
   return (
     <>
       <SEOHead 
-        title="Servicios Psicóloga en Viña del Mar y Concón | TEA, TDAH, Arteterapia - Paula Cabrera Fuentes"
-        description="Servicios de psicoterapia individual y familiar para adolescentes con TEA, TDAH y neurodiversidad. Psicoeducación a padres y arteterapia. Presencial en Concón y Viña del Mar, online internacional. Paula Cabrera Fuentes."
-        canonical="https://paulacabrerapsicologa.cl/servicios"
+        title="Servicios Psicóloga en Viña del Mar | TEA, TDAH, Arteterapia - Antonia Cabrera"
+        description="Servicios de psicoterapia individual y familiar para adolescentes con TEA, TDAH y neurodiversidad. Psicoeducación a padres y arteterapia. Presencial en Viña del Mar, online internacional. Antonia Cabrera."
+        canonical="https://antoniacabrerapsicologa.cl/servicios"
         structuredData={structuredData}
       />
 
@@ -267,7 +267,7 @@ export default function Servicios() {
                   Modalidad Presencial
                 </h3>
                 <p className="text-muted-foreground text-sm mb-4" data-testid="modalidad-presencial-description">
-                  Atención en consulta ubicada en Concón, con un ambiente especializado y adaptado para adolescentes y jóvenes.
+                  Atención en consulta ubicada en Viña del Mar, con un ambiente especializado y adaptado para adolescentes y jóvenes.
                 </p>
                 <div className="space-y-2 text-sm">
                   <div className="flex items-center justify-center gap-2 text-muted-foreground">
@@ -344,9 +344,9 @@ export default function Servicios() {
                 </div>
                 <h3 className="font-semibold text-emerald-800 mb-2">Dirección</h3>
                 <p className="text-sm text-emerald-700 leading-relaxed">
-                  Av. Bosques de Montemar 30<br />
-                  Oficina 920<br />
-                  Concón, Valparaíso
+                  Montenegro 136<br />
+                  Viña del Mar<br />
+                  Valparaíso
                 </p>
               </Card>
 
@@ -357,7 +357,7 @@ export default function Servicios() {
                 </div>
                 <h3 className="font-semibold text-emerald-800 mb-2">Contacto</h3>
                 <p className="text-sm text-emerald-700">
-                  WhatsApp: +569 9369 4978
+                  WhatsApp: +56 9 5306 5780
                 </p>
               </Card>
 

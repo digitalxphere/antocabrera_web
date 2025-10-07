@@ -324,7 +324,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-r from-transparent via-transparent to-black/10"></div>
         
         <div className="absolute bottom-16 left-4 right-4 z-10 sm:bottom-12 sm:left-8 sm:right-8 lg:bottom-16 lg:right-32 lg:left-auto lg:max-w-lg xl:max-w-xl">
-          <div className="w-full rounded-[20px] p-5 sm:p-6 lg:p-6 bg-white/80 backdrop-blur-md border border-white/50 shadow-[0_20px_60px_rgba(0,0,0,0.25)]">
+          <div className="w-full rounded-[20px] p-5 sm:p-6 lg:p-6 bg-white/90 backdrop-blur-sm border border-white/60 shadow-[0_20px_60px_rgba(0,0,0,0.3)]">
             {/* Diseño unificado SEO-optimizado */}
             <div className="text-center lg:text-left">
               <h1 className="text-2xl sm:text-2xl lg:text-3xl xl:text-4xl font-bold text-black mb-3 lg:mb-3 leading-tight" data-testid="hero-title">

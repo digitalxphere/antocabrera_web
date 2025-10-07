@@ -380,7 +380,7 @@ export default function Home() {
           <div className="grid lg:grid-cols-2 gap-8 items-center">
             <div>
               <img 
-                src="/attached_assets/PHOTO-2025-10-05-18-22-05_1759848903714.jpg" 
+                src="/attached_assets/antonia_cabrera_psicologa.webp" 
                 alt="Antonia Cabrera, psicóloga especialista en arteterapia y terapia de juego"
                 className="rounded-3xl shadow-2xl w-full h-auto"
                 data-testid="about-preview-image"

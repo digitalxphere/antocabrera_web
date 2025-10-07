@@ -18,7 +18,7 @@ export const SITE_CONFIG = {
 
 export const CONTACT_INFO: ContactInfo = {
   name: "Antonia Cabrera",
-  phone: "+569 XXXX XXXX",
+  phone: "+56 9 5306 5780",
   address: "Montenegro 136, Viña del Mar, Valparaíso",
   hours: [
     "Lunes a Viernes: 10:00 - 19:00",
@@ -98,5 +98,5 @@ export const FAQ_ITEMS: FAQItem[] = [
   }
 ];
 
-export const WHATSAPP_NUMBER = "56993694978";
+export const WHATSAPP_NUMBER = "56953065780";
 export const WHATSAPP_MESSAGE = "Hola Antonia, me gustaría conocer más sobre tus servicios de arteterapia y terapia de juego.";

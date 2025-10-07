@@ -148,7 +148,7 @@ export default function Contacto() {
                   {/* Map container */}
                   <div className="relative h-96 w-full rounded-[24px] overflow-hidden">
                     <iframe
-                      src="https://maps.google.com/maps?q=Montenegro+136,+Viña+del+Mar,+Chile&output=embed"
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3349.915838520589!2d-71.5392733!3d-33.0283563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9689de70d0d22397%3A0x980127eda7062c80!2sMontenegro%20136%2C%202520596%20Vi%C3%B1a%20del%20Mar%2C%20Valpara%C3%ADso%2C%20Chile!5e0!3m2!1ses!2scl!4v1699999999999!5m2!1ses!2scl"
                       width="100%"
                       height="100%"
                       style={{ border: 0 }}

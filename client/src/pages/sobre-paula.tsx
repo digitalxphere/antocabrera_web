@@ -55,14 +55,14 @@ export default function SobrePaula() {
                   Sobre mí
                 </h3>
                 
-                <div className="grid lg:grid-cols-[400px,1fr] gap-12 items-start">
+                <div className="grid lg:grid-cols-[320px,1fr] gap-12 items-start">
                   <div className="flex justify-center lg:justify-start">
                     <OptimizedImage 
                       src="/attached_assets/antonia_cabrera_psicologa.webp" 
                       alt="Antonia Cabrera, psicóloga especialista en arteterapia y terapia de juego"
-                      width="400"
-                      height="600"
-                      className="rounded-3xl shadow-2xl w-full max-w-md h-auto"
+                      width="320"
+                      height="480"
+                      className="rounded-3xl shadow-2xl w-full max-w-sm h-auto"
                       data-testid="about-bio-image"
                       priority={true}
                       objectFit="cover"

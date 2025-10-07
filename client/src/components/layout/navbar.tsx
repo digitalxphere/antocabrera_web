@@ -58,12 +58,7 @@ export function Navbar() {
     }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <Link href="/" className="flex items-center space-x-3" data-testid="logo-link">
-            <img 
-              src="/attached_assets/Paula_cabrera_psicologa_logo_1756657755055.webp" 
-              alt="Antonia Cabrera - Psicóloga" 
-              className="w-12 h-12 object-contain bg-gray-50"
-            />
+          <Link href="/" className="flex items-center" data-testid="logo-link">
             <div className="block">
               <h2 className="text-base sm:text-lg font-semibold text-white">Antonia Cabrera</h2>
               <p className="text-xs sm:text-sm text-white/90 font-medium">Psicóloga • Arteterapia</p>

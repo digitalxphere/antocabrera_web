@@ -449,15 +449,28 @@ export default function Home() {
               </div>
             </div>
             
-            {/* Diploma */}
+            {/* Diploma Intervención */}
             <div className="bg-white rounded-2xl p-6 shadow-md hover:shadow-lg transition-shadow border border-gray-100">
               <div className="flex items-start gap-4">
                 <div className="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center flex-shrink-0">
                   <Award className="w-7 h-7 text-blue-600" />
                 </div>
                 <div className="flex-1 text-left">
-                  <h3 className="font-bold text-gray-900 mb-1.5 text-lg">Diploma Intervención Infanto-Juvenil</h3>
+                  <h3 className="font-bold text-gray-900 mb-1.5 text-lg">Diplomado Estrategias de Intervención Infantil Juvenil</h3>
                   <p className="text-gray-600 text-sm leading-relaxed">Universidad de Valparaíso</p>
+                </div>
+              </div>
+            </div>
+            
+            {/* Diplomado Terapia Narrativa */}
+            <div className="bg-white rounded-2xl p-6 shadow-md hover:shadow-lg transition-shadow border border-gray-100">
+              <div className="flex items-start gap-4">
+                <div className="w-14 h-14 bg-rose-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                  <Award className="w-7 h-7 text-rose-600" />
+                </div>
+                <div className="flex-1 text-left">
+                  <h3 className="font-bold text-gray-900 mb-1.5 text-lg">Diplomado en Terapia Narrativa</h3>
+                  <p className="text-gray-600 text-sm leading-relaxed">Pranas Chile</p>
                 </div>
               </div>
             </div>

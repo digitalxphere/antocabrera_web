@@ -1,39 +1,20 @@
-import { Instagram, ExternalLink, Heart, MessageCircle, Palette } from "lucide-react";
+import { Instagram, ExternalLink } from "lucide-react";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
 export default function InstagramModule() {
   const handleInstagramClick = () => {
-    window.open('https://www.instagram.com/paula_cabrera_psicologa/', '_blank');
+    window.open('https://www.instagram.com/ps.antoniapaz/', '_blank');
   };
 
-  // Contenido basado en posts reales de Paula con imágenes
   const recentPosts = [
     {
       id: 1,
-      type: "personal",
-      description: "Farolitos del lugar seguro pendientes de exponer 🌻. Días de informes y trabajo con papás. Mi hijo: 'no todos tienen la suerte de trabajar en lo que aman' 🔆",
-      color: "from-amber-400 to-orange-500",
-      image: "/attached_assets/Paula cabrera _1757027847931.jpeg"
+      image: "/attached_assets/Captura de pantalla 2025-10-07 a la(s) 12.59.58_1759852802378.png"
     },
     {
       id: 2,
-      type: "art",
-      description: "Ejercicio de arteterapia con materiales sensoriales para desarrollar habilidades emocionales",
-      color: "from-green-400 to-blue-500",
-      image: "/attached_assets/WhatsApp Image 2025-08-31 at 12.02.00_1757027867932.jpeg"
-    },
-    {
-      id: 3,
-      type: "education",
-      description: "Psicoeducación para padres sobre neurodiversidad y estrategias de apoyo",
-      color: "from-orange-400 to-pink-500"
-    },
-    {
-      id: 4,
-      type: "workshop",
-      description: "Taller de arte y expresión emocional para adolescentes",
-      color: "from-purple-400 to-pink-500"
+      image: "/attached_assets/Captura de pantalla 2025-10-07 a la(s) 13.00.27_1759852830972.png"
     }
   ];
 
@@ -54,17 +35,16 @@ export default function InstagramModule() {
                 <div className="w-24 h-24 bg-gradient-to-br from-pink-500 via-purple-500 to-orange-500 rounded-full p-1 mx-auto lg:mx-0 mb-4">
                   <div className="w-full h-full bg-white rounded-full flex items-center justify-center overflow-hidden">
                     <img 
-                      src="/attached_assets/WhatsApp Image 2025-08-31 at 11.56.26_1757113012080.jpeg"
-                      alt="Paula Cabrera Fuentes - Psicóloga"
+                      src="/attached_assets/image_1759852771376.png"
+                      alt="Antonia Cabrera - Psicóloga"
                       className="w-20 h-20 rounded-full object-cover"
-                      style={{ objectPosition: '50% 35%' }}
                       loading="lazy"
                       decoding="async"
                     />
                   </div>
                 </div>
                 <h3 className="text-lg font-bold text-foreground mb-1" data-testid="instagram-handle">
-                  @paula_cabrera_psicologa
+                  @ps.antoniapaz
                 </h3>
                 <p className="text-sm text-muted-foreground mb-4" data-testid="instagram-bio">
                   Psicóloga • Arteterapia
@@ -84,53 +64,23 @@ export default function InstagramModule() {
               <div className="flex-grow">
                 <h4 className="text-lg font-semibold text-foreground mb-4 text-center lg:text-left">Publicaciones Recientes</h4>
                 <div className="grid grid-cols-2 gap-4">
-                  {recentPosts.slice(0, 2).map((post) => (
+                  {recentPosts.map((post) => (
                     <div 
                       key={post.id}
                       onClick={handleInstagramClick}
-                      className={`aspect-square rounded-2xl cursor-pointer hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl relative overflow-hidden`}
+                      className="aspect-square rounded-2xl cursor-pointer hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl relative overflow-hidden"
                       data-testid={`instagram-post-${post.id}`}
                     >
-                      {post.image ? (
-                        <>
-                          <img 
-                            src={post.image} 
-                            alt={post.description}
-                            className="w-full h-full object-contain bg-gray-50"
-                            loading="lazy"
-                            decoding="async"
-                          />
-                          <div className="absolute inset-0 bg-black/20 p-4 flex flex-col justify-between">
-                            <div className="flex justify-between items-start hidden sm:flex">
-                              <div className="w-8 h-8 bg-white/20 rounded-full flex items-center justify-center">
-                                {post.type === "personal" && <Heart className="w-4 h-4 text-white" />}
-                                {post.type === "art" && <Palette className="w-4 h-4 text-white" />}
-                                {post.type === "education" && <MessageCircle className="w-4 h-4 text-white" />}
-                                {post.type === "workshop" && <div className="w-3 h-3 bg-white rounded-full" />}
-                              </div>
-                              <Instagram className="w-4 h-4 text-white/70" />
-                            </div>
-                            <div className="text-white text-xs leading-relaxed hidden sm:block font-medium">
-                              {post.description}
-                            </div>
-                          </div>
-                        </>
-                      ) : (
-                        <div className={`w-full h-full bg-gradient-to-br ${post.color} p-4 flex flex-col justify-between`}>
-                          <div className="flex justify-between items-start hidden sm:flex">
-                            <div className="w-8 h-8 bg-white/20 rounded-full flex items-center justify-center">
-                              {post.type === "personal" && <Heart className="w-4 h-4 text-white" />}
-                              {post.type === "art" && <Palette className="w-4 h-4 text-white" />}
-                              {post.type === "education" && <MessageCircle className="w-4 h-4 text-white" />}
-                              {post.type === "workshop" && <div className="w-3 h-3 bg-white rounded-full" />}
-                            </div>
-                            <Instagram className="w-4 h-4 text-white/70" />
-                          </div>
-                          <div className="text-white text-xs leading-relaxed hidden sm:block">
-                            {post.description}
-                          </div>
-                        </div>
-                      )}
+                      <img 
+                        src={post.image} 
+                        alt="Publicación de Instagram"
+                        className="w-full h-full object-cover bg-gray-50"
+                        loading="lazy"
+                        decoding="async"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300 flex items-end justify-end p-3">
+                        <Instagram className="w-5 h-5 text-white" />
+                      </div>
                     </div>
                   ))}
                 </div>

@@ -328,18 +328,19 @@ export default function Home() {
             {/* Diseño unificado SEO-optimizado */}
             <div className="text-center lg:text-left">
               <h1 className="text-2xl sm:text-2xl lg:text-5xl font-bold text-gray-900 mb-2 lg:mb-2 leading-tight" data-testid="hero-title" style={{textShadow: '0 2px 6px rgba(255,255,255,0.9)'}}>
-                Psicóloga Antonia Cabrera especialista en adolescentes - Viña del Mar
+                Psicóloga en Viña del Mar – Antonia Cabrera
               </h1>
               
               <h2 className="text-lg sm:text-lg lg:text-3xl font-bold text-gray-900 mb-2 lg:mb-2 leading-tight" data-testid="hero-subtitle" style={{textShadow: '0 1px 4px rgba(255,255,255,0.8)'}}>
+                Especialista en adolescentes (12 a 18 años)
+              </h2>
+              
+              <h2 className="text-lg sm:text-lg lg:text-3xl font-bold text-gray-900 mb-2 lg:mb-3 leading-tight" data-testid="hero-subtitle-2" style={{textShadow: '0 1px 4px rgba(255,255,255,0.8)'}}>
                 Arteterapia y Terapia de Juego con Enfoque Sistémico
               </h2>
-              <p className="text-sm sm:text-sm lg:text-xl text-gray-700 mb-2 lg:mb-3 font-medium" data-testid="hero-age-range" style={{textShadow: '0 1px 2px rgba(255,255,255,0.6)'}}>
-                Especializada en adolescentes de 12 a 18 años
-              </p>
               
               <p className="text-sm sm:text-sm lg:text-lg text-gray-600 mb-3 lg:mb-5 font-medium" data-testid="hero-location" style={{textShadow: '0 1px 2px rgba(255,255,255,0.6)'}}>
-                Montenegro 136, Viña del Mar
+                📍 Consulta en Montenegro 136, Viña del Mar
               </p>
               
               

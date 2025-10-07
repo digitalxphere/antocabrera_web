@@ -47,7 +47,7 @@ export default function SobrePaula() {
               
               <div className="flex justify-center lg:justify-end">
                 <OptimizedImage 
-                  src="/attached_assets/PHOTO-2025-10-05-18-22-05_1759848903714.jpg" 
+                  src="/attached_assets/antonia_cabrera_psicologa.webp" 
                   alt="Antonia Cabrera, psicóloga especialista en arteterapia y terapia de juego"
                   width="400"
                   height="600"

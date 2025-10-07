@@ -324,22 +324,22 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-r from-transparent via-transparent to-black/10"></div>
         
         <div className="absolute bottom-16 left-4 right-4 z-10 sm:bottom-12 sm:left-8 sm:right-8 lg:bottom-16 lg:right-32 lg:left-auto lg:max-w-lg xl:max-w-xl">
-          <div className="w-full rounded-[20px] p-5 sm:p-6 lg:p-6 bg-white/30 backdrop-blur-xl border border-white/40 shadow-[0_20px_60px_rgba(0,0,0,0.2)] lg:bg-white/40 lg:backdrop-blur-2xl">
+          <div className="w-full rounded-[20px] p-5 sm:p-6 lg:p-6 bg-white/80 backdrop-blur-md border border-white/50 shadow-[0_20px_60px_rgba(0,0,0,0.25)]">
             {/* Diseño unificado SEO-optimizado */}
             <div className="text-center lg:text-left">
-              <h1 className="text-2xl sm:text-2xl lg:text-3xl xl:text-4xl font-bold text-gray-900 mb-3 lg:mb-3 leading-tight" data-testid="hero-title" style={{textShadow: '0 2px 8px rgba(255,255,255,1)'}}>
+              <h1 className="text-2xl sm:text-2xl lg:text-3xl xl:text-4xl font-bold text-black mb-3 lg:mb-3 leading-tight" data-testid="hero-title">
                 Psicóloga en Viña del Mar – Antonia Cabrera
               </h1>
               
-              <h2 className="text-lg sm:text-lg lg:text-xl xl:text-2xl font-bold text-gray-900 mb-2 lg:mb-2 leading-relaxed" data-testid="hero-subtitle" style={{textShadow: '0 2px 6px rgba(255,255,255,1)'}}>
+              <h2 className="text-lg sm:text-lg lg:text-xl xl:text-2xl font-bold text-black mb-2 lg:mb-2 leading-relaxed" data-testid="hero-subtitle">
                 Especialista en adolescentes (12 a 18 años)
               </h2>
               
-              <h2 className="text-base sm:text-base lg:text-lg xl:text-xl font-semibold text-gray-900 mb-3 lg:mb-4 leading-relaxed" data-testid="hero-subtitle-2" style={{textShadow: '0 2px 6px rgba(255,255,255,1)'}}>
+              <h2 className="text-base sm:text-base lg:text-lg xl:text-xl font-semibold text-black mb-3 lg:mb-4 leading-relaxed" data-testid="hero-subtitle-2">
                 Arteterapia y Terapia de Juego con Enfoque Sistémico
               </h2>
               
-              <p className="text-sm sm:text-sm lg:text-base text-gray-900 mb-3 lg:mb-5 font-semibold" data-testid="hero-location" style={{textShadow: '0 2px 4px rgba(255,255,255,1)'}}>
+              <p className="text-sm sm:text-sm lg:text-base text-black mb-3 lg:mb-5 font-semibold" data-testid="hero-location">
                 📍 Consulta en Montenegro 136, Viña del Mar
               </p>
               

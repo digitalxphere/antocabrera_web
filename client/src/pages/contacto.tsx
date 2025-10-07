@@ -145,24 +145,30 @@ export default function Contacto() {
               <div className="relative">
                 {/* Glassmorphism container */}
                 <div className="relative rounded-[32px] overflow-hidden backdrop-blur-xl bg-white/20 dark:bg-black/20 border border-white/30 dark:border-white/10 shadow-2xl p-4">
-                  {/* Map container */}
-                  <div className="relative h-96 w-full rounded-[24px] overflow-hidden">
-                    <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3349.915838520589!2d-71.5392733!3d-33.0283563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9689de70d0d22397%3A0x980127eda7062c80!2sMontenegro%20136%2C%202520596%20Vi%C3%B1a%20del%20Mar%2C%20Valpara%C3%ADso%2C%20Chile!5e0!3m2!1ses!2scl!4v1699999999999!5m2!1ses!2scl"
-                      width="100%"
-                      height="100%"
-                      style={{ border: 0 }}
-                      allowFullScreen
-                      loading="lazy"
-                      referrerPolicy="no-referrer-when-downgrade"
-                      title="Ubicación Antonia Cabrera - Psicóloga en Viña del Mar"
-                      className="rounded-[20px]"
+                  {/* Map container - clickeable */}
+                  <button
+                    onClick={() => window.open('https://maps.app.goo.gl/XhMBVTEdMJJFCnCm9', '_blank')}
+                    className="relative h-96 w-full rounded-[24px] overflow-hidden cursor-pointer group"
+                  >
+                    <img 
+                      src="/attached_assets/Captura de pantalla 2025-10-07 a la(s) 12.37.16_1759851440014.png"
+                      alt="Mapa ubicación Montenegro 136, Viña del Mar"
+                      className="w-full h-full object-cover rounded-[20px] group-hover:scale-105 transition-transform duration-300"
                     />
-                  </div>
+                    {/* Overlay para indicar que es clickeable */}
+                    <div className="absolute inset-0 bg-primary/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center rounded-[20px]">
+                      <div className="bg-white dark:bg-gray-900 px-4 py-2 rounded-full shadow-lg">
+                        <span className="text-sm font-medium text-foreground flex items-center gap-2">
+                          <Map className="w-4 h-4" />
+                          Ver en Google Maps
+                        </span>
+                      </div>
+                    </div>
+                  </button>
                   
                   {/* Floating info card */}
-                  <div className="absolute top-8 left-8 right-8 md:left-8 md:right-auto md:max-w-sm">
-                    <div className="backdrop-blur-xl bg-white/30 dark:bg-black/40 border border-white/40 dark:border-white/20 rounded-[20px] p-6 shadow-lg">
+                  <div className="absolute top-8 left-8 right-8 md:left-8 md:right-auto md:max-w-sm pointer-events-none">
+                    <div className="backdrop-blur-xl bg-white/90 dark:bg-black/80 border border-white/40 dark:border-white/20 rounded-[20px] p-6 shadow-lg">
                       <div className="flex items-center gap-3 mb-3">
                         <div className="w-10 h-10 bg-primary/20 rounded-full flex items-center justify-center">
                           <MapPin className="w-5 h-5 text-primary" />

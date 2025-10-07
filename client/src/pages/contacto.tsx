@@ -142,39 +142,34 @@ export default function Contacto() {
                 </p>
               </div>
               
-              <Card className="bg-card border border-border rounded-3xl" data-testid="location-card">
-                <CardContent className="p-8 md:p-12">
-                  <div className="flex flex-col items-center text-center space-y-6">
-                    <div className="w-20 h-20 bg-primary/10 rounded-full flex items-center justify-center">
-                      <MapPin className="w-10 h-10 text-primary" />
-                    </div>
-                    
-                    <div>
-                      <h4 className="text-2xl font-semibold text-foreground mb-2">
+              <Card className="bg-card border border-border rounded-3xl overflow-hidden" data-testid="location-card">
+                <div className="relative cursor-pointer" onClick={() => window.open('https://maps.app.goo.gl/Xv1WAQkW1j23PU2f8', '_blank')}>
+                  <img 
+                    src="/attached_assets/mapa_ubicacion_vina_del_mar.webp" 
+                    alt="Ubicación Montenegro 136, Viña del Mar"
+                    className="w-full h-auto"
+                    loading="lazy"
+                  />
+                  <div className="absolute inset-0 bg-black/10 hover:bg-black/20 transition-colors flex items-center justify-center">
+                    <div className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl text-center">
+                      <MapPin className="w-12 h-12 text-primary mx-auto mb-3" />
+                      <h4 className="text-xl font-semibold text-foreground mb-1">
                         Montenegro 136
                       </h4>
-                      <p className="text-lg text-muted-foreground">
-                        Viña del Mar, Valparaíso, Chile
+                      <p className="text-sm text-muted-foreground mb-3">
+                        Viña del Mar, Valparaíso
                       </p>
-                    </div>
-                    
-                    <div className="flex items-center gap-2 text-muted-foreground">
-                      <Clock className="w-5 h-5 text-primary" />
-                      <span>Lunes a Viernes: 11:00 - 19:00</span>
-                    </div>
-                    
-                    <div className="pt-6 w-full">
-                      <button
-                        onClick={() => window.open('https://maps.app.goo.gl/Xv1WAQkW1j23PU2f8', '_blank')}
-                        className="w-full md:w-auto inline-flex items-center justify-center gap-3 px-10 py-4 bg-primary text-primary-foreground rounded-full hover:bg-primary/90 transition-all duration-300 transform hover:-translate-y-1 font-semibold shadow-lg hover:shadow-xl text-lg"
-                        data-testid="open-maps-button"
-                      >
-                        <Map className="w-6 h-6" />
-                        Ver en Google Maps
+                      <div className="flex items-center justify-center gap-2 text-sm text-muted-foreground mb-4">
+                        <Clock className="w-4 h-4 text-primary" />
+                        <span>Lun-Vie: 11:00 - 19:00</span>
+                      </div>
+                      <button className="inline-flex items-center gap-2 px-6 py-2 bg-primary text-primary-foreground rounded-full hover:bg-primary/90 transition-all font-semibold text-sm">
+                        <Map className="w-4 h-4" />
+                        Abrir en Google Maps
                       </button>
                     </div>
                   </div>
-                </CardContent>
+                </div>
               </Card>
             </div>
           </section>

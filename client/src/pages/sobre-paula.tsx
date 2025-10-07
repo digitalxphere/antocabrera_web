@@ -22,41 +22,24 @@ export default function SobrePaula() {
 
       <div className="min-h-screen bg-background">
         {/* Hero Section */}
-        <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-background to-background/95">
+        <section className="relative py-20 bg-gradient-to-br from-background to-background/95">
           <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-accent/5"></div>
           
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
             <Breadcrumbs items={breadcrumbItems} />
             
-            <div className="grid lg:grid-cols-2 gap-16 items-center mt-12" data-testid="about-hero">
-              <div className="space-y-8">
-                <div>
-                  <h1 className="text-4xl lg:text-6xl font-bold text-foreground mb-6" data-testid="about-title">
-                    Antonia Cabrera
-                  </h1>
-                  
-                  <h2 className="text-2xl lg:text-3xl text-primary mb-8 font-semibold" data-testid="about-subtitle">
-                    Psicóloga especialista en Arteterapia y Terapia de Juego
-                  </h2>
-                  
-                  <h3 className="text-xl text-muted-foreground leading-relaxed" data-testid="about-hero-description">
-                    Montenegro 136, Viña del Mar
-                  </h3>
-                </div>
-              </div>
+            <div className="text-center mt-12" data-testid="about-hero">
+              <h1 className="text-4xl lg:text-6xl font-bold text-foreground mb-6" data-testid="about-title">
+                Antonia Cabrera
+              </h1>
               
-              <div className="flex justify-center lg:justify-end">
-                <OptimizedImage 
-                  src="/attached_assets/antonia_cabrera_psicologa.webp" 
-                  alt="Antonia Cabrera, psicóloga especialista en arteterapia y terapia de juego"
-                  width="400"
-                  height="600"
-                  className="rounded-3xl shadow-2xl w-full max-w-md h-auto"
-                  data-testid="about-main-image"
-                  priority={true}
-                  objectFit="cover"
-                />
-              </div>
+              <h2 className="text-2xl lg:text-3xl text-primary mb-8 font-semibold" data-testid="about-subtitle">
+                Psicóloga especialista en Arteterapia y Terapia de Juego
+              </h2>
+              
+              <h3 className="text-xl text-muted-foreground leading-relaxed" data-testid="about-hero-description">
+                Montenegro 136, Viña del Mar
+              </h3>
             </div>
           </div>
         </section>

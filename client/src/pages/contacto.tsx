@@ -70,8 +70,8 @@ export default function Contacto() {
               <div>
                 <img 
                   src="/attached_assets/Paula cabrera _1757100570349.jpeg" 
-                  alt="Paula Cabrera Fuentes psicóloga especialista adolescentes jóvenes Concón Viña del Mar terapia psicológica" 
-                  title="Psicóloga Paula Cabrera - Especialista en adolescentes y jóvenes en Concón y Viña del Mar"
+                  alt="Antonia Cabrera psicóloga especialista adolescentes jóvenes Viña del Mar terapia psicológica" 
+                  title="Psicóloga Antonia Cabrera - Especialista en adolescentes y jóvenes en Viña del Mar"
                   className="w-full rounded-3xl shadow-lg object-contain bg-gray-50"
                   loading="lazy"
                   decoding="async"
@@ -81,8 +81,8 @@ export default function Contacto() {
               <div>
                 <img 
                   src="/attached_assets/WhatsApp Image 2025-08-31 at 11.39.42_1757100576316.jpeg" 
-                  alt="Contacto psicóloga adolescentes jóvenes Concón Viña del Mar Paula Cabrera consulta psicológica" 
-                  title="Contacta a la psicóloga Paula Cabrera en Concón y Viña del Mar - Especialista en adolescentes"
+                  alt="Contacto psicóloga adolescentes jóvenes Viña del Mar Antonia Cabrera consulta psicológica" 
+                  title="Contacta a la psicóloga Antonia Cabrera en Viña del Mar - Especialista en adolescentes"
                   className="w-full rounded-3xl shadow-lg object-contain bg-gray-50"
                   loading="lazy"
                   decoding="async"
@@ -160,7 +160,7 @@ export default function Contacto() {
                     
                     <div className="flex items-center gap-2 text-muted-foreground">
                       <Clock className="w-5 h-5 text-primary" />
-                      <span>Lunes a Viernes: 10:00 - 19:00 | Sábados: 10:00 - 14:00</span>
+                      <span>Lunes a Viernes: 11:00 - 19:00</span>
                     </div>
                     
                     <div className="pt-6 w-full">

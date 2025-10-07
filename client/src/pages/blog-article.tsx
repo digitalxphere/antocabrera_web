@@ -42,12 +42,12 @@ export default function BlogArticle() {
     "image": article.image,
     "author": {
       "@type": "Person",
-      "name": "Paula Cabrera Fuentes",
-      "url": "https://paulacabrerapsicologa.cl/sobre-paula-cabrera-fuentes-psicologa"
+      "name": "Antonia Cabrera",
+      "url": "https://antoniacabrerapsicologa.cl/sobre-antonia-cabrera"
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Paula Cabrera Fuentes - Psicóloga",
+      "name": "Antonia Cabrera - Psicóloga",
       "logo": {
         "@type": "ImageObject",
         "url": "/attached_assets/Paula_cabrera_psicologa_logo_1756657755055.webp"
@@ -57,9 +57,9 @@ export default function BlogArticle() {
     "dateModified": article.createdAt.toISOString(),
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": `https://paulacabrerapsicologa.cl/blog/${article.slug}`
+      "@id": `https://antoniacabrerapsicologa.cl/blog/${article.slug}`
     },
-    "keywords": "psicóloga Viña del Mar, psicóloga Concón, adolescentes, TEA, neurodiversidad, arteterapia, desarrollo adolescente",
+    "keywords": "psicóloga Viña del Mar, adolescentes, TEA, neurodiversidad, arteterapia, desarrollo adolescente",
     "articleSection": article.category,
     "wordCount": article.content.split(' ').length
   };
@@ -67,11 +67,11 @@ export default function BlogArticle() {
   return (
     <div className="min-h-screen bg-background">
       <SEOHead 
-        title={`${article.title} - Blog Paula Cabrera Fuentes | Psicóloga Viña del Mar`}
+        title={`${article.title} - Blog Antonia Cabrera | Psicóloga Viña del Mar`}
         description={article.excerpt}
         ogImage={article.image}
         structuredData={structuredData}
-        canonical={`https://paulacabrerapsicologa.cl/blog/${article.slug}`}
+        canonical={`https://antoniacabrerapsicologa.cl/blog/${article.slug}`}
       />
       
       {/* Header */}
@@ -147,7 +147,7 @@ export default function BlogArticle() {
         {/* Author */}
         <div className="border-t border-border pt-6 mt-8">
           <p className="text-sm text-muted-foreground">
-            Autora: Paula Cabrera Fuentes
+            Autora: Antonia Cabrera
           </p>
         </div>
 
@@ -158,7 +158,7 @@ export default function BlogArticle() {
             Si sientes que tu adolescente podría beneficiarse de un espacio terapéutico especializado, o si buscas orientación como padre o madre, estoy aquí para acompañarlos en este proceso.
           </p>
           <a 
-            href={`https://wa.me/56993694978?text=${encodeURIComponent('Hola Paula, me interesa conocer más sobre tus servicios de psicoterapia para adolescentes.')}`}
+            href={`https://wa.me/56953065780?text=${encodeURIComponent('Hola Antonia, me interesa conocer más sobre tus servicios de psicoterapia para adolescentes.')}`}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-primary text-primary-foreground px-6 py-3 rounded-xl font-semibold hover:bg-primary/90 transition-colors"

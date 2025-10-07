@@ -8,9 +8,9 @@ export default function BlogIndex() {
   return (
     <div className="min-h-screen bg-background">
       <SEOHead 
-        title="Blog Psicóloga en Viña del Mar | Adolescencia, TEA y Neurodiversidad - Paula Cabrera Fuentes"
-        description="Blog de Paula Cabrera Fuentes, psicóloga especialista en adolescentes TEA y neurodiversidad en Concón y Viña del Mar. Reflexiones sobre arteterapia, TDAH y acompañamiento psicológico juvenil."
-        canonical="https://paulacabrerapsicologa.cl/blog"
+        title="Blog Psicóloga en Viña del Mar | Adolescencia, TEA y Neurodiversidad - Antonia Cabrera"
+        description="Blog de Antonia Cabrera, psicóloga especialista en adolescentes TEA y neurodiversidad en Viña del Mar. Reflexiones sobre arteterapia, TDAH y acompañamiento psicológico juvenil."
+        canonical="https://antoniacabrerapsicologa.cl/blog"
       />
       
       {/* Header */}

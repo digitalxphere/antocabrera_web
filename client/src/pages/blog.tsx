@@ -8,8 +8,8 @@ export function Blog() {
   return (
     <div className="min-h-screen bg-background">
       <SEOHead 
-        title="Blog Psicóloga en Viña del Mar | Adolescencia, TEA y Neurodiversidad - Paula Cabrera Fuentes"
-        description="Blog de Paula Cabrera Fuentes, psicóloga especialista en adolescentes TEA y neurodiversidad en Concón y Viña del Mar. Reflexiones sobre arteterapia, TDAH y acompañamiento psicológico juvenil."
+        title="Blog Psicóloga en Viña del Mar | Adolescencia, TEA y Neurodiversidad - Antonia Cabrera"
+        description="Blog de Antonia Cabrera, psicóloga especialista en adolescentes TEA y neurodiversidad en Viña del Mar. Reflexiones sobre arteterapia, TDAH y acompañamiento psicológico juvenil."
       />
       
       {/* Header */}
@@ -88,11 +88,11 @@ export function Blog() {
             <div className="flex items-center gap-4">
               <img 
                 src="/attached_assets/Paula_cabrera_psicologa_logo_1756657755055.webp" 
-                alt="Paula Cabrera" 
+                alt="Antonia Cabrera" 
                 className="w-16 h-16 object-contain rounded-full bg-gray-50"
               />
               <div>
-                <h3 className="font-semibold text-foreground">Paula Cabrera Fuentes</h3>
+                <h3 className="font-semibold text-foreground">Antonia Cabrera</h3>
                 <p className="text-muted-foreground">
                   Psicóloga especialista en adolescentes y jóvenes TEA con enfoque en arteterapia
                 </p>

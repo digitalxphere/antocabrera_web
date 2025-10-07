@@ -90,12 +90,12 @@ export default function TalleresArteTerapia() {
     "description": "Talleres grupales de arteterapia enfocados en regulación emocional, expresión creativa y habilidades sociales",
     "provider": {
       "@type": "Person",
-      "name": "Paula Cabrera Fuentes"
+      "name": "Antonia Cabrera"
     },
     "courseMode": ["presencial", "online"],
     "location": {
       "@type": "Place",
-      "name": "Consultas en Concón y Viña del Mar"
+      "name": "Consultas en Viña del Mar"
     }
   };
 
@@ -113,7 +113,7 @@ export default function TalleresArteTerapia() {
   return (
     <>
       <SEOHead 
-        title="Talleres de Arteterapia para Adolescentes y Jóvenes TEA | Paula Cabrera"
+        title="Talleres de Arteterapia para Adolescentes y Jóvenes TEA | Antonia Cabrera"
         description="Talleres grupales de arteterapia para adolescentes y jóvenes TEA. Regulación emocional, expresión creativa y habilidades sociales a través del arte."
         structuredData={structuredData}
       />

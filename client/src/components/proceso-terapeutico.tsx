@@ -27,7 +27,7 @@ export default function ProcesoTerapeutico() {
       detalles: [
         "Acuerdos sensoriales y apoyos visuales",
         "Señales de pausa y tareas breves",
-        "Modalidad presencial en Concón u online global"
+        "Modalidad presencial en Viña del Mar u online global"
       ],
       duracion: "Según necesidades"
     },

@@ -6,7 +6,7 @@ export const workshopsData: WorkshopType[] = [
     title: "Expresión Emocional Creativa",
     description: "Taller grupal para desarrollar la expresión emocional y habilidades de comunicación a través del arte.",
     date: new Date("2024-10-15T16:00:00"),
-    location: "Consulta Concón",
+    location: "Consulta Viña del Mar",
     capacity: 6,
     registered: 3,
     duration: "2 horas",

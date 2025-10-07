@@ -10,11 +10,11 @@ interface SEOHeadProps {
 }
 
 const defaultProps = {
-  title: "Psicóloga Paula Cabrera Fuentes especialista en jóvenes y adolescentes - Concón - Viña del Mar",
-  description: "Atención psicológica presencial y online para jóvenes y adolescentes en Concón y Viña del Mar. Evaluaciones, psicoterapia y talleres.",
-  keywords: "psicóloga Concón, psicóloga Viña del Mar, psicoterapia adolescentes, TEA autismo, neurodiversidad, arteterapia, psicoterapia online, psicóloga juvenil, terapia familiar, Paula Cabrera Fuentes",
-  ogImage: "https://paulacabrerapsicologa.cl/og-image.png",
-  canonical: "https://paulacabrerapsicologa.cl"
+  title: "Psicóloga Antonia Cabrera especialista en jóvenes y adolescentes - Viña del Mar",
+  description: "Atención psicológica presencial y online para jóvenes y adolescentes en Viña del Mar. Evaluaciones, psicoterapia y talleres.",
+  keywords: "psicóloga Viña del Mar, psicoterapia adolescentes, TEA autismo, neurodiversidad, arteterapia, psicoterapia online, psicóloga juvenil, terapia familiar, Antonia Cabrera",
+  ogImage: "https://antoniacabrerapsicologa.cl/og-image.png",
+  canonical: "https://antoniacabrerapsicologa.cl"
 };
 
 export function SEOHead({ 
@@ -27,7 +27,7 @@ export function SEOHead({
 }: SEOHeadProps) {
   
   // Asegurar que la imagen OG use el dominio de producción
-  const absoluteOgImage = ogImage.startsWith('http') ? ogImage : `https://paulacabrerapsicologa.cl${ogImage}`;
+  const absoluteOgImage = ogImage.startsWith('http') ? ogImage : `https://antoniacabrerapsicologa.cl${ogImage}`;
   
   return (
     <Helmet>
@@ -35,13 +35,13 @@ export function SEOHead({
       <title>{title}</title>
       <meta name="description" content={description} />
       <meta name="keywords" content={keywords} />
-      <meta name="author" content="Paula Cabrera Fuentes" />
+      <meta name="author" content="Antonia Cabrera" />
       <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" />
       <meta name="language" content="es-CL" />
       
       {/* Geo Tags */}
       <meta name="geo.region" content="CL-VS" />
-      <meta name="geo.placename" content="Concón, Viña del Mar" />
+      <meta name="geo.placename" content="Viña del Mar" />
       <meta name="geo.position" content="-32.9278;-71.5279" />
       
       {/* Canonical URL */}
@@ -57,10 +57,10 @@ export function SEOHead({
       <meta property="og:image" content={absoluteOgImage} />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
-      <meta property="og:image:alt" content="Paula Cabrera Fuentes - Psicóloga especialista en TEA y adolescentes" />
+      <meta property="og:image:alt" content="Antonia Cabrera - Psicóloga especialista en TEA y adolescentes" />
       <meta property="og:type" content="website" />
       <meta property="og:url" content={canonical} />
-      <meta property="og:site_name" content="Paula Cabrera Fuentes - Psicóloga Especialista en Jóvenes y Adolescentes" />
+      <meta property="og:site_name" content="Antonia Cabrera - Psicóloga Especialista en Jóvenes y Adolescentes" />
       <meta property="og:locale" content="es_CL" />
       
       {/* Twitter Card Meta Tags */}
@@ -68,12 +68,12 @@ export function SEOHead({
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={absoluteOgImage} />
-      <meta name="twitter:image:alt" content="Paula Cabrera Fuentes - Psicóloga especialista en TEA" />
+      <meta name="twitter:image:alt" content="Antonia Cabrera - Psicóloga especialista en TEA" />
       
       {/* Additional Meta Tags */}
       <meta name="DC.title" content={title} />
       <meta name="DC.description" content={description} />
-      <meta name="DC.creator" content="Paula Cabrera Fuentes" />
+      <meta name="DC.creator" content="Antonia Cabrera" />
       <meta name="DC.subject" content="Psicoterapia, TEA, Adolescentes, Neurodiversidad" />
       <meta name="DC.language" content="es-CL" />
       

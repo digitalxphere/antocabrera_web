@@ -32,7 +32,7 @@ const proximos: Taller[] = [
       "Grupo pequeño para adolescentes y jóvenes TEA. Enfoque en autorregulación y sentido de pertenencia.",
     fechaISO: "2025-09-20",
     modo: "Mixto",
-    lugar: "Concón · Zoom",
+    lugar: "Viña del Mar · Zoom",
     duracion: "90 min",
     objetivos: [
       "Explorar emociones mediante lenguajes artísticos",
@@ -55,7 +55,7 @@ const realizados: Taller[] = [
     bajada:
       "Sesión guiada con foco sensorial y técnicas simples de respiración.",
     modo: "Presencial",
-    lugar: "Concón",
+    lugar: "Viña del Mar",
     duracion: "80 min",
     objetivos: [
       "Aumentar tolerancia a la frustración",

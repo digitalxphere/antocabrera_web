@@ -60,13 +60,13 @@ export function BlogPreviewSection() {
                       <div className="flex items-center gap-3">
                         <img 
                           src="/attached_assets/Paula_cabrera_psicologa_logo_1756657755055.webp" 
-                          alt="Paula Cabrera" 
+                          alt="Antonia Cabrera" 
                           className="w-8 h-8 object-contain rounded-full bg-gray-50"
                           loading="lazy"
                           decoding="async"
                         />
                         <div>
-                          <p className="text-sm font-medium text-foreground">Paula Cabrera</p>
+                          <p className="text-sm font-medium text-foreground">Antonia Cabrera</p>
                           <p className="text-sm text-muted-foreground">Psicóloga</p>
                         </div>
                       </div>

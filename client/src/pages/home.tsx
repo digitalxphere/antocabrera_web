@@ -32,7 +32,7 @@ export default function Home() {
     
     // Preload the correct image immediately based on screen size
     const img = new Image();
-    const imageSrc = '/attached_assets/image_1759849561201.png';
+    const imageSrc = '/attached_assets/image_1759849561201.webp';
     
     img.onload = () => {
       // Add a small delay to ensure smooth transition
@@ -236,7 +236,7 @@ export default function Home() {
     <>
       {/* Preload critical images */}
       <ImagePreloader images={[
-        "/attached_assets/image_1759849561201.png"
+        "/attached_assets/image_1759849561201.webp"
       ]} />
       <SEOHead 
         title="Psicóloga en Viña del Mar | Arteterapia y Terapia de Juego para Adolescentes 12-18 años"
@@ -259,7 +259,7 @@ export default function Home() {
         {/* Background Image with Optimized Loading */}
         <picture>
           <img 
-            src="/attached_assets/image_1759849561201.png"
+            src="/attached_assets/image_1759849561201.webp"
             alt="Antonia Cabrera - Psicóloga especialista en arteterapia"
             width="1920"
             height="1080"
@@ -521,7 +521,7 @@ export default function Home() {
             <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow border border-gray-100">
               <div className="mb-6">
                 <img 
-                  src="/attached_assets/image_1759854153688.png" 
+                  src="/attached_assets/image_1759854153688.webp" 
                   alt="Psicoterapia individual para adolescentes"
                   className="w-32 h-32 mx-auto object-contain"
                 />
@@ -556,7 +556,7 @@ export default function Home() {
             <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow border border-gray-100">
               <div className="mb-6">
                 <img 
-                  src="/attached_assets/image_1759854164926.png" 
+                  src="/attached_assets/image_1759854164926.webp" 
                   alt="Consulta familiar con adolescentes"
                   className="w-32 h-32 mx-auto object-contain"
                 />
@@ -591,7 +591,7 @@ export default function Home() {
             <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow border border-gray-100">
               <div className="mb-6">
                 <img 
-                  src="/attached_assets/image_1759854766611.png" 
+                  src="/attached_assets/image_1759854766611.webp" 
                   alt="Terapia de juego y arteterapia"
                   className="w-32 h-32 mx-auto object-contain"
                 />

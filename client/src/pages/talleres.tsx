@@ -72,10 +72,10 @@ const realizados: Taller[] = [
       "/attached_assets/20_1757026454789.jpeg", 
       "/attached_assets/7_1757026473135.jpeg", 
       "/attached_assets/5_1757026396142.jpeg",
-      "/attached_assets/image_1757111818074.png",
-      "/attached_assets/image_1757111827369.png",
-      "/attached_assets/image_1757111842577.png",
-      "/attached_assets/image_1757111849974.png"
+      "/attached_assets/image_1757111818074.webp",
+      "/attached_assets/image_1757111827369.webp",
+      "/attached_assets/image_1757111842577.webp",
+      "/attached_assets/image_1757111849974.webp"
     ],
   },
   {
@@ -99,10 +99,10 @@ const realizados: Taller[] = [
     album: [
       "/attached_assets/5_1757026396142.jpeg", 
       "/attached_assets/20_1757026454789.jpeg",
-      "/attached_assets/image_1757111818074.png",
-      "/attached_assets/image_1757111827369.png",
-      "/attached_assets/image_1757111842577.png",
-      "/attached_assets/image_1757111849974.png"
+      "/attached_assets/image_1757111818074.webp",
+      "/attached_assets/image_1757111827369.webp",
+      "/attached_assets/image_1757111842577.webp",
+      "/attached_assets/image_1757111849974.webp"
     ],
   },
 ];

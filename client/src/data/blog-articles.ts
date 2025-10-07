@@ -19,7 +19,7 @@ Comprender esta dinámica permite a los padres transitar la adolescencia de sus 
 En definitiva, la adolescencia no es un tiempo de pérdida, sino de transformación. Para los hijos, significa ensayar la autonomía. Para los padres, implica aprender a querer desde un lugar distinto: menos controlador y más confiado. Y en ese movimiento, ambos crecen.`,
     category: "DESARROLLO ADOLESCENTE",
     readTime: 6,
-    image: "/attached_assets/image_1757124918420.png",
+    image: "/attached_assets/image_1757124918420.webp",
     published: true,
     createdAt: new Date("2025-09-05")
   },
@@ -43,7 +43,7 @@ A lo largo de mi trabajo, he confirmado que ningún adolescente es igual a otro.
 Mi forma de trabajar con jóvenes se centra en crear un espacio auténtico y humano, donde puedan explorar sus dudas y emociones sin juicios. La adolescencia no debe entenderse solo como un problema a resolver, sino como una etapa llena de potencialidad, creatividad y crecimiento. Acompañar a los adolescentes implica confiar en que, con apoyo y herramientas adecuadas, podrán abrirse paso hacia una adultez más plena y consciente.`,
     category: "ACOMPAÑAMIENTO TERAPÉUTICO",
     readTime: 8,
-    image: "/attached_assets/image_1757098708878.png",
+    image: "/attached_assets/image_1757098708878.webp",
     published: true,
     createdAt: new Date("2025-09-03")
   }

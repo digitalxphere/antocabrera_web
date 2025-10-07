@@ -21,8 +21,7 @@ export const CONTACT_INFO: ContactInfo = {
   phone: "+56 9 5306 5780",
   address: "Montenegro 136, Viña del Mar, Valparaíso",
   hours: [
-    "Lunes a Viernes: 10:00 - 19:00",
-    "Sábados: 10:00 - 14:00"
+    "Lunes a Viernes: 11:00 - 19:00 hrs"
   ],
   locations: ["Viña del Mar"]
 };

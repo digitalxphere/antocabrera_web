@@ -15,7 +15,7 @@ export default function PreguntasFrecuentes() {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
-    "name": "Preguntas Frecuentes - Paula Cabrera Fuentes",
+    "name": "Preguntas Frecuentes - Antonia Cabrera",
     "description": "Respuestas a las preguntas más frecuentes sobre psicoterapia, TEA, adolescentes y servicios",
     "mainEntity": [
       {
@@ -23,7 +23,7 @@ export default function PreguntasFrecuentes() {
         "name": "¿Cómo acompaño a adolescentes y jóvenes que sienten un entorno hostil y exigente?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Desde un espacio seguro y creativo con arteterapia, trabajo regulación emocional, autoaceptación y habilidades sociales, presencial en Concón y virtual en todo el mundo."
+          "text": "Desde un espacio seguro y creativo con arteterapia, trabajo regulación emocional, autoaceptación y habilidades sociales, presencial en Viña del Mar y virtual en todo el mundo."
         }
       },
       {
@@ -40,9 +40,9 @@ export default function PreguntasFrecuentes() {
   return (
     <>
       <SEOHead 
-        title="Preguntas Frecuentes - Psicóloga en Concón y Viña del Mar | Paula Cabrera Fuentes"
-        description="Respuestas a las preguntas más frecuentes sobre psicoterapia, TEA, adolescentes y servicios psicológicos en Concón y Viña del Mar."
-        canonical="https://paulacabrerapsicologa.cl/preguntas-frecuentes"
+        title="Preguntas Frecuentes - Psicóloga en Viña del Mar | Antonia Cabrera"
+        description="Respuestas a las preguntas más frecuentes sobre psicoterapia, TEA, adolescentes y servicios psicológicos en Viña del Mar."
+        canonical="https://antoniacabrerapsicologa.cl/preguntas-frecuentes"
         structuredData={structuredData}
       />
 

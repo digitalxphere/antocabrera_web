@@ -603,63 +603,6 @@ export default function Home() {
       {/* Módulo Dolores */}
       <ModuloDolores />
 
-
-      {/* Contact Info Section */}
-      <section className="py-8 sm:py-16 bg-green-50/50" data-testid="contact-info-section">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-4">
-            <Card className="bg-white border border-green-50 rounded-xl p-5 text-center shadow-sm hover:shadow-md transition-shadow" data-testid="card-consultation-price">
-              <div className="w-10 h-10 bg-green-50 rounded-full flex items-center justify-center mx-auto mb-3">
-                <DollarSign className="w-5 h-5 text-green-600" />
-              </div>
-              <h3 className="text-sm font-semibold text-gray-800 mb-2">Consulta Individual</h3>
-              <div className="text-xl font-bold text-green-600 mb-1">$55.000</div>
-              <p className="text-xs text-gray-500">Sesión 70 minutos</p>
-            </Card>
-
-            <Card className="bg-white border border-green-50 rounded-xl p-5 text-center shadow-sm hover:shadow-md transition-shadow" data-testid="card-family-therapy-price">
-              <div className="w-10 h-10 bg-green-50 rounded-full flex items-center justify-center mx-auto mb-3">
-                <Users className="w-5 h-5 text-green-600" />
-              </div>
-              <h3 className="text-sm font-semibold text-gray-800 mb-2">Terapia Familiar</h3>
-              <div className="text-xl font-bold text-green-600 mb-1">$75.000</div>
-              <p className="text-xs text-gray-500">Sesión 90 minutos</p>
-            </Card>
-
-            <Card className="bg-white border border-green-50 rounded-xl p-5 text-center shadow-sm hover:shadow-md transition-shadow" data-testid="card-address">
-              <div className="w-10 h-10 bg-green-50 rounded-full flex items-center justify-center mx-auto mb-3">
-                <MapPin className="w-5 h-5 text-green-600" />
-              </div>
-              <h3 className="text-sm font-semibold text-gray-800 mb-2">Dirección</h3>
-              <div className="text-xs text-gray-600 mb-0.5">Montenegro 136</div>
-              <div className="text-xs text-gray-500">Viña del Mar, Valparaíso</div>
-            </Card>
-
-            <Card className="bg-white border border-green-50 rounded-xl p-5 text-center shadow-sm hover:shadow-md transition-shadow" data-testid="card-contact">
-              <div className="w-10 h-10 bg-green-50 rounded-full flex items-center justify-center mx-auto mb-3">
-                <Phone className="w-5 h-5 text-green-600" />
-              </div>
-              <h3 className="text-sm font-semibold text-gray-800 mb-2">Contacto</h3>
-              <div className="text-xs text-gray-600">
-                <a href="https://wa.me/56993694978" className="text-green-600 hover:text-green-700 font-medium">
-                  WhatsApp: +569 9369 4978
-                </a>
-              </div>
-            </Card>
-
-            <Card className="bg-white border border-green-50 rounded-xl p-5 text-center shadow-sm hover:shadow-md transition-shadow" data-testid="card-legal-documents">
-              <div className="w-10 h-10 bg-green-50 rounded-full flex items-center justify-center mx-auto mb-3">
-                <FileText className="w-5 h-5 text-green-600" />
-              </div>
-              <h3 className="text-sm font-semibold text-gray-800 mb-2">Documentos Legales</h3>
-              <div className="text-xs text-gray-600 leading-relaxed">
-                Entrega de boleta de honorarios profesionales para reembolsos en todas las Isapres y seguros complementarios
-              </div>
-            </Card>
-          </div>
-        </div>
-      </section>
-
       {/* FAQ Section */}
       <section ref={faqRef} className="py-8 sm:py-16 bg-card scroll-animation" data-testid="faq-section">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

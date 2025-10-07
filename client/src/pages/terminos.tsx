@@ -17,9 +17,9 @@ export default function Terminos() {
   return (
     <>
       <SEOHead 
-        title="Términos de Servicio Psicóloga Adolescentes Jóvenes Concón Viña del Mar | Paula Cabrera Fuentes"
-        description="Términos y condiciones para servicios de psicoterapia y arteterapia de Paula Cabrera Fuentes, psicóloga especialista en adolescentes y jóvenes en Concón y Viña del Mar."
-        canonical="https://paulacabrerapsicologa.cl/terminos"
+        title="Términos de Servicio Psicóloga Adolescentes Jóvenes Viña del Mar | Antonia Cabrera"
+        description="Términos y condiciones para servicios de psicoterapia y arteterapia de Antonia Cabrera, psicóloga especialista en adolescentes y jóvenes en Viña del Mar."
+        canonical="https://antoniacabrerapsicologa.cl/terminos"
       />
 
       <div className="min-h-screen bg-background">
@@ -52,7 +52,7 @@ export default function Terminos() {
                 <div className="space-y-4 text-muted-foreground">
                   <p>
                     Estos términos de servicio ("Términos") rigen el uso de los servicios profesionales 
-                    de psicoterapia y arteterapia ofrecidos por Paula Cabrera Fuentes, psicóloga clínica 
+                    de psicoterapia y arteterapia ofrecidos por Antonia Cabrera, psicóloga clínica 
                     registrada en el Colegio de Psicólogos de Chile.
                   </p>
                   <p>
@@ -74,7 +74,7 @@ export default function Terminos() {
                     <li>• Psicoeducación para padres y cuidadores (60 minutos)</li>
                     <li>• Talleres de arteterapia grupales (90-120 minutos, 4-6 participantes)</li>
                     <li>• Especialización en adolescentes, jóvenes, TEA y neurodiversidad</li>
-                    <li>• Modalidades presencial en Concón y online mundial</li>
+                    <li>• Modalidades presencial en Viña del Mar y online mundial</li>
                   </ul>
                   <p>
                     Todos los servicios se brindan bajo los estándares éticos y profesionales 
@@ -98,17 +98,17 @@ export default function Terminos() {
                       <li>• Sesiones individuales: 70 minutos</li>
                       <li>• Psicoeducación para padres: 60 minutos</li>
                       <li>• Talleres de arteterapia: 90-120 minutos</li>
-                      <li>• Ubicación: Av. Bosques de Montemar 30, Oficina 920, Concón, Valparaíso</li>
+                      <li>• Ubicación: Montenegro 136, Viña del Mar, Valparaíso</li>
                     </ul>
                   </div>
                   
                   <div>
                     <h3 className="text-lg font-semibold text-foreground mb-2">Modalidades</h3>
                     <ul className="space-y-2 ml-4">
-                      <li>• Presencial: Oficina Bosques de Montemar, Concón</li>
+                      <li>• Presencial: Montenegro 136, Viña del Mar</li>
                       <li>• Online: Disponible a nivel mundial a través de plataforma segura</li>
-                      <li>• Talleres: Solo presencial en Concón</li>
-                      <li>• Horarios: Lunes a Viernes 10:00-19:00, Sábados 10:00-14:00</li>
+                      <li>• Talleres: Solo presencial en Viña del Mar</li>
+                      <li>• Horarios: Lunes a Viernes 11:00-19:00</li>
                     </ul>
                   </div>
                 </div>
@@ -177,7 +177,7 @@ export default function Terminos() {
                     <h3 className="text-lg font-semibold text-foreground mb-2">Política de Pagos</h3>
                     <ul className="space-y-2 ml-4">
                       <li>• El pago se realiza al finalizar cada sesión</li>
-                      <li>• Contacto para consultar facilidades de pago: +569 9369 4978</li>
+                      <li>• Contacto para consultar facilidades de pago: +56 9 5306 5780</li>
                       <li>• Evaluación de cada caso individual</li>
                     </ul>
                   </div>

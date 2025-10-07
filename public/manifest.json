@@ -1,7 +1,7 @@
 {
-  "name": "Paula Cabrera Fuentes - Psicóloga",
-  "short_name": "Paula Cabrera",
-  "description": "Psicóloga especialista en adolescentes y jóvenes TEA con talleres de arteterapia en Concón y Viña del Mar",
+  "name": "Antonia Cabrera - Psicóloga",
+  "short_name": "Antonia Cabrera",
+  "description": "Psicóloga especialista en adolescentes 12-18 años. Arteterapia y Terapia de Juego en Viña del Mar",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#FDF8F6",
@@ -47,7 +47,7 @@
     {
       "name": "Agendar Consulta",
       "short_name": "Agendar",
-      "description": "Programa una consulta con Paula Cabrera",
+      "description": "Programa una consulta con Antonia Cabrera",
       "url": "/contacto",
       "icons": [
         {
@@ -72,7 +72,7 @@
       "name": "Contacto WhatsApp",
       "short_name": "WhatsApp",
       "description": "Contactar por WhatsApp",
-      "url": "https://wa.me/56xxxxxxxxx",
+      "url": "https://wa.me/56953065780",
       "icons": [
         {
           "src": "/icon-whatsapp.png",

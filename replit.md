@@ -1,6 +1,6 @@
 # Overview
 
-This is a modern, minimalist psychologist website for Paula Cabrera Fuentes, a psychologist with more than 25 years of experience specializing in adolescent and young adult therapy with a focus on Autism Spectrum Disorder (ASD/TEA) and art therapy. The site serves Spanish-speaking clients in Concón and Viña del Mar, Chile, offering various therapeutic services including individual psychotherapy, family therapy, parent psychoeducation, and art therapy workshops.
+This is a modern, minimalist psychologist website for Antonia Cabrera (Antonia Paz Cabrera), a psychologist from Universidad de Valparaíso specializing in adolescent intervention (12-18 years) using Art Therapy, Play Therapy, Systemic Approach, and Narrative Therapy. The site serves Spanish-speaking clients in Viña del Mar, Chile. Provides support for neurodivergent individuals (ADHD, ASD) and areas including anxiety, depression, gender violence recovery, self-esteem, and authentic identity building. Practice located at Montenegro 136, Viña del Mar. Contact: WhatsApp +56 9 5306 5780, email ps.antoniapaz@gmail.com, Instagram @ps.antoniapaz.
 
 The application provides a professional online presence with service information, workshop registration, contact forms, blog functionality, and appointment scheduling integration. It's designed with accessibility, SEO optimization, and mobile responsiveness as core priorities.
 

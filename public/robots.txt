@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://paulacabrera.com/sitemap.xml
+Sitemap: https://antoniacabrerapsicologa.cl/sitemap.xml
 
 # Block access to admin or sensitive areas
 Disallow: /admin/
@@ -20,7 +20,7 @@ Allow: /*.svg
 
 # Allow important pages
 Allow: /
-Allow: /sobre-paula
+Allow: /sobre-antonia-cabrera-psicologa
 Allow: /servicios
 Allow: /talleres
 Allow: /talleres-arte-terapia

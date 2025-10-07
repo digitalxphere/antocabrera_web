@@ -261,7 +261,7 @@ export default function TalleresArteTerapia() {
                   
                   <div>
                     <h4 className="font-semibold text-foreground mb-2">Modalidades</h4>
-                    <p className="text-muted-foreground">Presencial en Concón y Viña del Mar, también modalidad híbrida disponible.</p>
+                    <p className="text-muted-foreground">Presencial en Viña del Mar, también modalidad híbrida disponible.</p>
                   </div>
                 </div>
               </Card>

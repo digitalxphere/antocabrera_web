@@ -234,7 +234,7 @@ export default function Talleres() {
   ];
 
   const handleContactWhatsApp = () => {
-    const message = "Hola Paula, me interesa conocer más sobre los talleres de arteterapia. ¿Podrías darme información sobre el proceso de evaluación?";
+    const message = "Hola Antonia, me interesa conocer más sobre los talleres de arteterapia. ¿Podrías darme información sobre el proceso de evaluación?";
     window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`, "_blank");
   };
 
@@ -243,12 +243,12 @@ export default function Talleres() {
     "@graph": [
       {
         "@type": "Service",
-        "@id": "https://paulacabrerapsicologa.cl/talleres#service",
+        "@id": "https://antoniacabrerapsicologa.cl/talleres#service",
         "name": "Talleres de Arteterapia para Adolescentes y Jóvenes TEA",
-        "description": "Talleres especializados de arteterapia para adolescentes y jóvenes con TEA. Regulación emocional, habilidades sociales e integración. Presencial en Concón y modalidad virtual.",
+        "description": "Talleres especializados de arteterapia para adolescentes y jóvenes con TEA. Regulación emocional, habilidades sociales e integración. Presencial en Viña del Mar y modalidad virtual.",
         "provider": {
           "@type": "Person",
-          "name": "Paula Cabrera Fuentes",
+          "name": "Antonia Cabrera",
           "jobTitle": "Psicóloga especializada en TEA"
         },
         "serviceType": "Arteterapia",
@@ -256,7 +256,7 @@ export default function Talleres() {
           "@type": "Audience",
           "audienceType": "Adolescentes, jóvenes y adultos con TEA"
         },
-        "areaServed": ["Concón", "Viña del Mar", "Virtual - Todo el mundo"],
+        "areaServed": ["Viña del Mar", "Virtual - Todo el mundo"],
         "availableLanguage": "es",
         "isRelatedTo": {
           "@type": "MedicalCondition",
@@ -265,7 +265,7 @@ export default function Talleres() {
       },
       ...proximos.map((taller, index) => ({
         "@type": "Event",
-        "@id": `https://paulacabrerapsicologa.cl/talleres#event-${taller.id}`,
+        "@id": `https://antoniacabrerapsicologa.cl/talleres#event-${taller.id}`,
         "name": taller.titulo,
         "description": taller.bajada,
         "startDate": taller.fechaISO,
@@ -273,28 +273,28 @@ export default function Talleres() {
         "eventAttendanceMode": taller.modo === "Presencial" ? "https://schema.org/OfflineEventAttendanceMode" : taller.modo === "Online" ? "https://schema.org/OnlineEventAttendanceMode" : "https://schema.org/MixedEventAttendanceMode",
         "location": taller.modo === "Online" ? {
           "@type": "VirtualLocation",
-          "url": "https://paulacabrerapsicologa.cl/talleres"
+          "url": "https://antoniacabrerapsicologa.cl/talleres"
         } : {
           "@type": "Place",
-          "name": taller.lugar || "Consulta Paula Cabrera",
+          "name": taller.lugar || "Consulta Antonia Cabrera",
           "address": {
             "@type": "PostalAddress",
-            "streetAddress": "Av. Bosques de Montemar 30, Oficina 920",
-            "addressLocality": "Concón",
+            "streetAddress": "Montenegro 136",
+            "addressLocality": "Viña del Mar",
             "addressRegion": "Región de Valparaíso",
             "addressCountry": "CL",
             "postalCode": "2510000"
           }
         },
-        "image": `https://paulacabrerapsicologa.cl${taller.imagen}`,
+        "image": `https://antoniacabrerapsicologa.cl${taller.imagen}`,
         "organizer": {
           "@type": "Person",
-          "name": "Paula Cabrera Fuentes",
-          "url": "https://paulacabrerapsicologa.cl"
+          "name": "Antonia Cabrera",
+          "url": "https://antoniacabrerapsicologa.cl"
         },
         "performer": {
           "@type": "Person",
-          "name": "Paula Cabrera Fuentes"
+          "name": "Antonia Cabrera"
         },
         "offers": {
           "@type": "Offer",
@@ -308,9 +308,9 @@ export default function Talleres() {
   return (
     <>
       <SEOHead
-        title="Talleres Arteterapia TEA Concón Viña del Mar | Adolescentes Neurodiversidad - Paula Cabrera Fuentes"
-        description="Talleres especializados de arteterapia para adolescentes y jóvenes con TEA, TDAH y neurodiversidad. Regulación emocional y habilidades sociales. Presencial en Concón, virtual internacional. Psicóloga Paula Cabrera Fuentes."
-        canonical="https://paulacabrerapsicologa.cl/talleres"
+        title="Talleres Arteterapia TEA Viña del Mar | Adolescentes Neurodiversidad - Antonia Cabrera"
+        description="Talleres especializados de arteterapia para adolescentes y jóvenes con TEA, TDAH y neurodiversidad. Regulación emocional y habilidades sociales. Presencial en Viña del Mar, virtual internacional. Psicóloga Antonia Cabrera."
+        canonical="https://antoniacabrerapsicologa.cl/talleres"
         structuredData={structuredData}
       />
       
@@ -341,10 +341,10 @@ export default function Talleres() {
                   Regulación emocional, habilidades sociales e integración
                 </h2>
                 <p className="text-lg text-muted-foreground mb-6" data-testid="talleres-description">
-                  Talleres presenciales en Concón con grupos pequeños, apoyos visuales y anticipación de la sesión para crear un ambiente seguro y predecible. 
-                  <br /><strong>Ubicación:</strong> Av. Bosques de Montemar 30, Oficina 920, Concón.{" "}
+                  Talleres presenciales en Viña del Mar con grupos pequeños, apoyos visuales y anticipación de la sesión para crear un ambiente seguro y predecible. 
+                  <br /><strong>Ubicación:</strong> Montenegro 136, Viña del Mar.{" "}
                   <a
-                    href="https://maps.google.com/?q=Av.+Bosques+de+Montemar+30,+Oficina+920,+Concón"
+                    href="https://maps.google.com/?q=Montenegro+136,+Viña+del+Mar"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="underline decoration-primary underline-offset-4 hover:decoration-primary/80 transition-colors"

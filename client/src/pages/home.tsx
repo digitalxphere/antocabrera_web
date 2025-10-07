@@ -378,11 +378,11 @@ export default function Home() {
       <section ref={aboutRef} className="py-8 sm:py-16 scroll-animation" data-testid="about-preview-section">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-8 items-center">
-            <div>
+            <div className="flex justify-center lg:justify-start">
               <img 
                 src="/attached_assets/antonia_cabrera_psicologa.webp" 
                 alt="Antonia Cabrera, psicóloga especialista en arteterapia y terapia de juego"
-                className="rounded-3xl shadow-2xl w-full h-auto"
+                className="rounded-3xl shadow-2xl w-full max-w-[280px] sm:max-w-[320px] lg:max-w-[400px] h-auto"
                 data-testid="about-preview-image"
                 loading="lazy"
                 decoding="async"

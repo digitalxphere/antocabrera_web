@@ -335,11 +335,11 @@ export default function Home() {
                 Especialista en adolescentes (12 a 18 años)
               </h2>
               
-              <h2 className="text-base sm:text-base lg:text-lg xl:text-xl font-semibold text-orange-600 mb-3 lg:mb-4 leading-relaxed" data-testid="hero-subtitle-2">
+              <h2 className="text-base sm:text-base lg:text-lg xl:text-xl font-semibold mb-3 lg:mb-4 leading-relaxed" data-testid="hero-subtitle-2" style={{ color: '#D97706' }}>
                 Arteterapia y Terapia de Juego con Enfoque Sistémico
               </h2>
               
-              <p className="text-sm sm:text-sm lg:text-base text-orange-600 mb-3 lg:mb-5 font-semibold" data-testid="hero-location">
+              <p className="text-sm sm:text-sm lg:text-base mb-3 lg:mb-5 font-semibold" data-testid="hero-location" style={{ color: '#D97706' }}>
                 📍 Consulta en Montenegro 136, Viña del Mar
               </p>
               

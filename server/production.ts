@@ -31,10 +31,7 @@ async function startServer() {
   // Register API routes
   await registerRoutes(app);
 
-  // Serve attached assets (images)
-  app.use("/attached_assets", express.static("attached_assets"));
-
-  // Serve static files in production
+  // Serve static files in production (includes attached_assets)
   app.use(express.static(path.resolve(process.cwd(), "dist/public")));
   
   // Fallback to serve index.html for SPA routing

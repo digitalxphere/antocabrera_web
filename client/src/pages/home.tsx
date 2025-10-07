@@ -591,7 +591,7 @@ export default function Home() {
             <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow border border-gray-100">
               <div className="mb-6">
                 <img 
-                  src="/attached_assets/image_1759854176781.png" 
+                  src="/attached_assets/image_1759854766611.png" 
                   alt="Terapia de juego y arteterapia"
                   className="w-32 h-32 mx-auto object-contain"
                 />

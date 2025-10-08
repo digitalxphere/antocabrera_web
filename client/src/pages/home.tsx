@@ -247,117 +247,119 @@ export default function Home() {
       
       {/* Preload removido para evitar duplicación con ImagePreloader optimizado */}
 
-      {/* Hero Section */}
+      {/* Sticky CTA Bar for Mobile */}
+      <div className="lg:hidden sticky top-16 z-40 bg-white/95 backdrop-blur-md border-b border-gray-200 shadow-sm">
+        <div className="max-w-7xl mx-auto px-4 py-3 flex gap-3">
+          <Button
+            onClick={handleWhatsApp}
+            className="flex-1 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold rounded-xl h-11"
+            data-testid="button-whatsapp-sticky"
+          >
+            <MessageCircle className="w-4 h-4 mr-2" />
+            WhatsApp
+          </Button>
+          <Button
+            onClick={handleSchedule}
+            className="flex-1 bg-primary hover:bg-primary/90 text-white font-semibold rounded-xl h-11"
+            data-testid="button-schedule-sticky"
+          >
+            <Calendar className="w-4 h-4 mr-2" />
+            Agendar
+          </Button>
+        </div>
+      </div>
+
+      {/* Hero Section - Editorial Layout */}
       <section 
         ref={heroRef} 
-        className="relative min-h-screen md:min-h-screen flex items-center scroll-animation overflow-hidden bg-gradient-to-br from-orange-100 to-amber-50" 
+        className="relative scroll-animation bg-[radial-gradient(circle_at_top_left,_hsl(35,95%,90%)_0%,_hsl(210,90%,92%)_45%,_white_100%)]" 
         data-testid="hero-section"
-        style={{
-          minHeight: isMobile ? '100vh' : '100vh'
-        }}
       >
-        {/* Background Image with Optimized Loading */}
-        <picture>
-          <source 
-            media="(min-width: 768px)" 
-            srcSet="/attached_assets/hero-adolescente-desktop.webp"
-            type="image/webp"
-          />
-          <source 
-            srcSet="/attached_assets/hero-adolescente-mobile.webp"
-            type="image/webp"
-          />
-          <img 
-            src="/attached_assets/hero-adolescente-mobile.webp"
-            alt="Adolescente pintando arcoíris - Ilustración que representa la terapia creativa y expresión emocional"
-            width="1920"
-            height="1080"
-            className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-300 ${imageLoaded ? 'opacity-100' : 'opacity-0'}`}
-            style={{
-              objectPosition: 'center center',
-              transform: 'translateZ(0)',
-              willChange: 'opacity',
-              imageRendering: 'crisp-edges'
-            }}
-            loading="eager"
-            decoding="async"
-          />
-        </picture>
-        
-        {/* Instant fallback background while image loads */}
-        <div 
-          className={`absolute inset-0 bg-gradient-to-br from-orange-200 via-amber-100 to-orange-150 transition-opacity duration-500 ${imageLoaded ? 'opacity-0' : 'opacity-90'}`}
-          style={{
-            backgroundImage: 'radial-gradient(circle at 30% 20%, rgba(251, 146, 60, 0.4) 0%, transparent 50%), radial-gradient(circle at 70% 80%, rgba(234, 179, 8, 0.3) 0%, transparent 50%)',
-            transform: 'translateZ(0)'
-          }}
-        ></div>
-        
-        {/* Optimized low quality placeholder with blur-up effect */}
-        {!imageLoaded && (
-          <div 
-            className="absolute inset-0 opacity-40 blur-lg transition-opacity duration-500"
-            style={{
-              background: `linear-gradient(135deg, 
-                rgba(251, 146, 60, 0.5) 0%, 
-                rgba(234, 179, 8, 0.4) 25%,
-                rgba(251, 191, 36, 0.3) 50%,
-                rgba(234, 179, 8, 0.3) 75%,
-                rgba(251, 146, 60, 0.4) 100%)`,
-              transform: 'translateZ(0)',
-              filter: 'blur(10px) saturate(1.2)'
-            }}
-          ></div>
-        )}
-        {/* Overlay sutil para mejorar legibilidad del texto */}
-        <div className="absolute inset-0 bg-gradient-to-r from-transparent via-transparent to-black/10"></div>
-        
-        <div className="absolute bottom-16 left-4 right-4 z-10 sm:bottom-12 sm:left-8 sm:right-8 lg:bottom-16 lg:right-32 lg:left-auto lg:max-w-lg xl:max-w-xl">
-          <div className="w-full rounded-[20px] p-5 sm:p-6 lg:p-6 bg-white/90 backdrop-blur-sm border border-white/60 shadow-[0_20px_60px_rgba(0,0,0,0.3)]">
-            {/* Diseño unificado SEO-optimizado */}
-            <div className="text-center lg:text-left">
-              <h1 className="text-2xl sm:text-2xl lg:text-3xl xl:text-4xl font-bold text-black mb-3 lg:mb-3 leading-tight" data-testid="hero-title">
-                Psicóloga en Viña del Mar – Antonia Cabrera
-              </h1>
-              
-              <h2 className="text-lg sm:text-lg lg:text-xl xl:text-2xl font-bold text-black mb-2 lg:mb-2 leading-relaxed" data-testid="hero-subtitle">
-                Especialista en adolescentes (12 a 18 años)
-              </h2>
-              
-              <h2 className="text-base sm:text-base lg:text-lg xl:text-xl font-semibold mb-3 lg:mb-4 leading-relaxed" data-testid="hero-subtitle-2" style={{ color: '#D97706' }}>
-                Arteterapia y Terapia de Juego con Enfoque Sistémico
-              </h2>
-              
-              <p className="text-sm sm:text-sm lg:text-base mb-3 lg:mb-5 font-semibold" data-testid="hero-location" style={{ color: '#D97706' }}>
-                📍 Consulta en Montenegro 136, Viña del Mar
-              </p>
-              
-              
-              
-              {/* Botón WhatsApp responsive */}
-              <div className="lg:hidden">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-20">
+          <div className="grid lg:grid-cols-[1fr_380px] gap-8 lg:gap-12 items-center lg:min-h-[70vh]">
+            {/* Left Column - Content */}
+            <div className="space-y-6 lg:space-y-8">
+              <div className="space-y-4">
+                <div className="inline-block px-4 py-2 bg-primary/10 rounded-full">
+                  <p className="text-sm font-semibold text-primary">Atención Especializada en Adolescentes</p>
+                </div>
+                
+                <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight" data-testid="hero-title">
+                  Arteterapia y Terapia de Juego
+                </h1>
+                
+                <p className="text-xl sm:text-2xl text-gray-700 font-medium" data-testid="hero-subtitle">
+                  Acompañamiento terapéutico para adolescentes de 12 a 18 años en Viña del Mar
+                </p>
+                
+                <p className="text-lg text-gray-600 max-w-2xl leading-relaxed" data-testid="hero-description">
+                  El arte y el juego son los puentes para la comunicación amable y la expresión de emociones. 
+                  Te acompaño en tu proceso con enfoque sistémico y herramientas creativas adaptadas a ti.
+                </p>
+              </div>
+
+              {/* CTA Buttons - Desktop */}
+              <div className="hidden lg:flex gap-4 pt-4">
                 <Button
                   onClick={handleWhatsApp}
-                  size="default"
-                  className="w-full px-6 py-3 rounded-xl font-semibold text-sm bg-emerald-600 hover:bg-emerald-700 text-white border-0 shadow-lg hover:shadow-xl transition-all duration-300 active:scale-95"
-                  data-testid="button-whatsapp-hero-mobile"
+                  size="lg"
+                  className="bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-8 py-6 rounded-xl text-lg shadow-lg hover:shadow-xl transition-all"
+                  data-testid="button-whatsapp-hero"
                 >
-                  <MessageCircle className="w-5 h-5 mr-3" />
-                  Agendar por WhatsApp
+                  <MessageCircle className="w-5 h-5 mr-2" />
+                  Escribir por WhatsApp
+                </Button>
+                <Button
+                  onClick={handleSchedule}
+                  size="lg"
+                  variant="outline"
+                  className="border-2 border-primary text-primary hover:bg-primary hover:text-white font-semibold px-8 py-6 rounded-xl text-lg transition-all"
+                  data-testid="button-schedule-hero"
+                >
+                  <Calendar className="w-5 h-5 mr-2" />
+                  Agendar Hora
                 </Button>
               </div>
+
+              {/* Key Info Pills */}
+              <div className="flex flex-wrap gap-3 pt-2">
+                <div className="flex items-center gap-2 px-4 py-2 bg-white/80 rounded-full border border-gray-200">
+                  <MapPin className="w-4 h-4 text-primary" />
+                  <span className="text-sm font-medium text-gray-700">Montenegro 136, Viña del Mar</span>
+                </div>
+                <div className="flex items-center gap-2 px-4 py-2 bg-white/80 rounded-full border border-gray-200">
+                  <Clock className="w-4 h-4 text-primary" />
+                  <span className="text-sm font-medium text-gray-700">50 minutos</span>
+                </div>
+                <div className="flex items-center gap-2 px-4 py-2 bg-white/80 rounded-full border border-gray-200">
+                  <CheckCircle className="w-4 h-4 text-primary" />
+                  <span className="text-sm font-medium text-gray-700">Presencial u Online</span>
+                </div>
+              </div>
             </div>
-            
-            <div className="hidden lg:block">
-              <Button
-                onClick={handleWhatsApp}
-                size="default"
-                className="w-auto px-6 py-3 rounded-xl font-semibold text-base bg-emerald-600 hover:bg-emerald-700 text-white border-0 shadow-lg hover:shadow-xl transition-all duration-200"
-                data-testid="button-whatsapp-hero"
-              >
-                <MessageCircle className="w-4 h-4 mr-2" />
-                Escribir por WhatsApp
-              </Button>
+
+            {/* Right Column - Image & Quick CTA */}
+            <div className="flex flex-col gap-4">
+              <Card className="overflow-hidden rounded-3xl shadow-2xl border-0">
+                <img 
+                  src="/attached_assets/hero-adolescente-desktop.webp"
+                  alt="Adolescente pintando arcoíris - Arteterapia y expresión creativa"
+                  className="w-full h-auto object-cover"
+                  loading="eager"
+                />
+              </Card>
+              
+              {/* Mobile CTA */}
+              <div className="lg:hidden flex flex-col gap-3">
+                <Button
+                  onClick={handleWhatsApp}
+                  className="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-semibold py-6 rounded-xl text-base shadow-lg"
+                  data-testid="button-whatsapp-hero-mobile"
+                >
+                  <MessageCircle className="w-5 h-5 mr-2" />
+                  Escribir por WhatsApp
+                </Button>
+              </div>
             </div>
           </div>
         </div>
@@ -520,121 +522,129 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Services Section */}
-      <section className="py-16 bg-gradient-to-br from-green-50 to-blue-50" data-testid="services-section">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-4" data-testid="services-title">
-              Servicios
+      {/* Services Section - Timeline Vertical */}
+      <section className="py-20 bg-white" data-testid="services-section">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-4" data-testid="services-title">
+              Ruta Terapéutica
             </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto" data-testid="services-description">
-              Acompañamiento terapéutico adaptado a las necesidades de cada persona
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto" data-testid="services-description">
+              Acompañamiento adaptado a las necesidades de cada adolescente
             </p>
           </div>
           
-          <div className="grid md:grid-cols-3 gap-6">
-            {/* Service 1: Psicoterapia individual para adolescentes */}
-            <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow border border-gray-100">
-              <div className="mb-6">
-                <img 
-                  src="/attached_assets/image_1759854153688.webp" 
-                  alt="Psicoterapia individual para adolescentes"
-                  className="w-32 h-32 mx-auto object-contain"
-                />
+          {/* Timeline Container */}
+          <div className="relative">
+            {/* Vertical Line */}
+            <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-primary via-emerald-500 to-blue-500 hidden md:block"></div>
+            
+            {/* Timeline Items */}
+            <div className="space-y-12">
+              {/* Service 1 */}
+              <div className="relative pl-0 md:pl-20" data-testid="service-1">
+                {/* Timeline Dot */}
+                <div className="absolute left-6 top-6 w-5 h-5 bg-primary rounded-full border-4 border-white shadow-lg hidden md:block"></div>
+                
+                <Card className="border-l-4 border-primary hover:shadow-xl transition-all duration-300">
+                  <CardContent className="p-8">
+                    <div className="flex flex-col md:flex-row gap-6">
+                      <div className="flex-shrink-0">
+                        <img 
+                          src="/attached_assets/image_1759854153688.webp" 
+                          alt="Psicoterapia individual"
+                          className="w-24 h-24 object-contain rounded-2xl"
+                        />
+                      </div>
+                      <div className="flex-1 space-y-4">
+                        <h3 className="text-2xl font-bold text-gray-900">Psicoterapia Individual</h3>
+                        <p className="text-gray-600 leading-relaxed">
+                          Acompañamiento especializado para adolescentes de 12 a 18 años. Trabajamos temas como ansiedad, autoestima, identidad y dificultades escolares.
+                        </p>
+                        <div className="flex flex-wrap gap-2">
+                          <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-primary/10 text-primary">
+                            <Clock className="w-4 h-4 mr-1" />
+                            50 min
+                          </span>
+                          <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-emerald-50 text-emerald-700">
+                            <MapIcon className="w-4 h-4 mr-1" />
+                            Presencial u Online
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
               </div>
-              
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">Psicoterapia individual para adolescentes</h3>
-              
-              <div className="space-y-4 text-sm text-gray-700">
-                <div>
-                  <p className="font-semibold text-gray-900 mb-2">Objetivo:</p>
-                  <p className="leading-relaxed">Acompañar procesos emocionales y de desarrollo en jóvenes de 12 a 18 años.</p>
-                </div>
-                
-                <div>
-                  <p className="font-semibold text-gray-900 mb-2">Temas frecuentes:</p>
-                  <p className="leading-relaxed">Ansiedad, autoestima, identidad, dificultades escolares, TDAH, TEA.</p>
-                </div>
-                
-                <div>
-                  <p className="font-semibold text-gray-900 mb-1">Formato:</p>
-                  <p>Sesión de 50 minutos.</p>
-                </div>
-                
-                <div>
-                  <p className="font-semibold text-gray-900 mb-1">Modalidad:</p>
-                  <p>Presencial en Viña del Mar u online.</p>
-                </div>
-              </div>
-            </div>
 
-            {/* Service 2: Consulta familiar con adolescentes */}
-            <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow border border-gray-100">
-              <div className="mb-6">
-                <img 
-                  src="/attached_assets/image_1759854164926.webp" 
-                  alt="Consulta familiar con adolescentes"
-                  className="w-32 h-32 mx-auto object-contain"
-                />
+              {/* Service 2 */}
+              <div className="relative pl-0 md:pl-20" data-testid="service-2">
+                <div className="absolute left-6 top-6 w-5 h-5 bg-emerald-500 rounded-full border-4 border-white shadow-lg hidden md:block"></div>
+                
+                <Card className="border-l-4 border-emerald-500 hover:shadow-xl transition-all duration-300">
+                  <CardContent className="p-8">
+                    <div className="flex flex-col md:flex-row gap-6">
+                      <div className="flex-shrink-0">
+                        <img 
+                          src="/attached_assets/image_1759854164926.webp" 
+                          alt="Consulta familiar"
+                          className="w-24 h-24 object-contain rounded-2xl"
+                        />
+                      </div>
+                      <div className="flex-1 space-y-4">
+                        <h3 className="text-2xl font-bold text-gray-900">Consulta Familiar</h3>
+                        <p className="text-gray-600 leading-relaxed">
+                          Fortalecer la comunicación y el vínculo entre padres e hijos con enfoque sistémico. Trabajamos dinámicas familiares y resolución de conflictos.
+                        </p>
+                        <div className="flex flex-wrap gap-2">
+                          <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-emerald-100 text-emerald-700">
+                            <Clock className="w-4 h-4 mr-1" />
+                            50 min
+                          </span>
+                          <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-50 text-blue-700">
+                            <Users className="w-4 h-4 mr-1" />
+                            Presencial u Online
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
               </div>
-              
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">Consulta familiar con adolescentes</h3>
-              
-              <div className="space-y-4 text-sm text-gray-700">
-                <div>
-                  <p className="font-semibold text-gray-900 mb-2">Objetivo:</p>
-                  <p className="leading-relaxed">Fortalecer la comunicación y el vínculo entre padres e hijos.</p>
-                </div>
-                
-                <div>
-                  <p className="font-semibold text-gray-900 mb-2">Enfoque:</p>
-                  <p className="leading-relaxed">Visión sistémica, trabajando dinámicas familiares y resolución de conflictos.</p>
-                </div>
-                
-                <div>
-                  <p className="font-semibold text-gray-900 mb-1">Formato:</p>
-                  <p>Sesión de 50 minutos.</p>
-                </div>
-                
-                <div>
-                  <p className="font-semibold text-gray-900 mb-1">Modalidad:</p>
-                  <p>Presencial u online.</p>
-                </div>
-              </div>
-            </div>
 
-            {/* Service 3: Terapia de juego y arteterapia */}
-            <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow border border-gray-100">
-              <div className="mb-6">
-                <img 
-                  src="/attached_assets/arteterapia_adolescentes.webp" 
-                  alt="Terapia de juego y arteterapia"
-                  className="w-32 h-32 mx-auto object-contain"
-                />
-              </div>
-              
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">Terapia de juego y arteterapia</h3>
-              
-              <div className="space-y-4 text-sm text-gray-700">
-                <div>
-                  <p className="font-semibold text-gray-900 mb-2">Objetivo:</p>
-                  <p className="leading-relaxed">Generar un espacio creativo donde los adolescentes puedan expresarse y explorar sus emociones.</p>
-                </div>
+              {/* Service 3 */}
+              <div className="relative pl-0 md:pl-20" data-testid="service-3">
+                <div className="absolute left-6 top-6 w-5 h-5 bg-blue-500 rounded-full border-4 border-white shadow-lg hidden md:block"></div>
                 
-                <div>
-                  <p className="font-semibold text-gray-900 mb-2">Metodología:</p>
-                  <p className="leading-relaxed">Uso del arte, dibujo, collage y dinámicas lúdicas adaptadas a la edad.</p>
-                </div>
-                
-                <div>
-                  <p className="font-semibold text-gray-900 mb-1">Formato:</p>
-                  <p>Sesión de 50 minutos.</p>
-                </div>
-                
-                <div>
-                  <p className="font-semibold text-gray-900 mb-1">Modalidad:</p>
-                  <p>Presencial.</p>
-                </div>
+                <Card className="border-l-4 border-blue-500 hover:shadow-xl transition-all duration-300">
+                  <CardContent className="p-8">
+                    <div className="flex flex-col md:flex-row gap-6">
+                      <div className="flex-shrink-0">
+                        <img 
+                          src="/attached_assets/arteterapia_adolescentes.webp" 
+                          alt="Arteterapia"
+                          className="w-24 h-24 object-contain rounded-2xl"
+                        />
+                      </div>
+                      <div className="flex-1 space-y-4">
+                        <h3 className="text-2xl font-bold text-gray-900">Arteterapia y Terapia de Juego</h3>
+                        <p className="text-gray-600 leading-relaxed">
+                          Espacio creativo para que los adolescentes expresen y exploren emociones a través del arte, dibujo, collage y dinámicas lúdicas.
+                        </p>
+                        <div className="flex flex-wrap gap-2">
+                          <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-700">
+                            <Clock className="w-4 h-4 mr-1" />
+                            50 min
+                          </span>
+                          <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-purple-50 text-purple-700">
+                            <Palette className="w-4 h-4 mr-1" />
+                            Presencial
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
               </div>
             </div>
           </div>

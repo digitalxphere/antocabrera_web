@@ -92,11 +92,7 @@ export default function SobrePaula() {
                         <ul className="space-y-2">
                           <li className="flex items-start gap-3" data-testid="about-support-anxiety">
                             <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-1" />
-                            <span>Superar la ansiedad y la depresión</span>
-                          </li>
-                          <li className="flex items-start gap-3" data-testid="about-support-violence">
-                            <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-1" />
-                            <span>Sanar las heridas de la violencia de género</span>
+                            <span>Manejar la ansiedad y la depresión</span>
                           </li>
                           <li className="flex items-start gap-3" data-testid="about-support-identity">
                             <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-1" />

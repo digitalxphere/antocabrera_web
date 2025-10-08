@@ -247,28 +247,6 @@ export default function Home() {
       
       {/* Preload removido para evitar duplicación con ImagePreloader optimizado */}
 
-      {/* Sticky CTA Bar for Mobile */}
-      <div className="lg:hidden sticky top-16 z-40 bg-white/95 backdrop-blur-md border-b border-gray-200 shadow-sm">
-        <div className="max-w-7xl mx-auto px-4 py-3 flex gap-3">
-          <Button
-            onClick={handleWhatsApp}
-            className="flex-1 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold rounded-xl h-11"
-            data-testid="button-whatsapp-sticky"
-          >
-            <MessageCircle className="w-4 h-4 mr-2" />
-            WhatsApp
-          </Button>
-          <Button
-            onClick={handleSchedule}
-            className="flex-1 bg-primary hover:bg-primary/90 text-white font-semibold rounded-xl h-11"
-            data-testid="button-schedule-sticky"
-          >
-            <Calendar className="w-4 h-4 mr-2" />
-            Agendar
-          </Button>
-        </div>
-      </div>
-
       {/* Hero Section - Editorial Layout */}
       <section 
         ref={heroRef} 
@@ -285,40 +263,17 @@ export default function Home() {
                 </div>
                 
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight" data-testid="hero-title">
-                  Arteterapia y Terapia de Juego
+                  Psicóloga en Viña del Mar – Antonia Cabrera
                 </h1>
                 
-                <p className="text-xl sm:text-2xl text-gray-700 font-medium" data-testid="hero-subtitle">
-                  Acompañamiento terapéutico para adolescentes de 12 a 18 años en Viña del Mar
-                </p>
+                <h2 className="text-xl sm:text-2xl text-gray-700 font-semibold" data-testid="hero-subtitle">
+                  Especialista en adolescentes (12 a 18 años)
+                </h2>
                 
                 <p className="text-lg text-gray-600 max-w-2xl leading-relaxed" data-testid="hero-description">
-                  El arte y el juego son los puentes para la comunicación amable y la expresión de emociones. 
-                  Te acompaño en tu proceso con enfoque sistémico y herramientas creativas adaptadas a ti.
+                  Arteterapia y Terapia de Juego con Enfoque Sistémico. El arte y el juego son los puentes para la comunicación amable y la expresión de emociones. 
+                  Te acompaño en tu proceso con herramientas creativas adaptadas a ti.
                 </p>
-              </div>
-
-              {/* CTA Buttons - Desktop */}
-              <div className="hidden lg:flex gap-4 pt-4">
-                <Button
-                  onClick={handleWhatsApp}
-                  size="lg"
-                  className="bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-8 py-6 rounded-xl text-lg shadow-lg hover:shadow-xl transition-all"
-                  data-testid="button-whatsapp-hero"
-                >
-                  <MessageCircle className="w-5 h-5 mr-2" />
-                  Escribir por WhatsApp
-                </Button>
-                <Button
-                  onClick={handleSchedule}
-                  size="lg"
-                  variant="outline"
-                  className="border-2 border-primary text-primary hover:bg-primary hover:text-white font-semibold px-8 py-6 rounded-xl text-lg transition-all"
-                  data-testid="button-schedule-hero"
-                >
-                  <Calendar className="w-5 h-5 mr-2" />
-                  Agendar Hora
-                </Button>
               </div>
 
               {/* Key Info Pills */}
@@ -338,7 +293,7 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Right Column - Image & Quick CTA */}
+            {/* Right Column - Image */}
             <div className="flex flex-col gap-4">
               <Card className="overflow-hidden rounded-3xl shadow-2xl border-0">
                 <img 
@@ -348,18 +303,6 @@ export default function Home() {
                   loading="eager"
                 />
               </Card>
-              
-              {/* Mobile CTA */}
-              <div className="lg:hidden flex flex-col gap-3">
-                <Button
-                  onClick={handleWhatsApp}
-                  className="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-semibold py-6 rounded-xl text-base shadow-lg"
-                  data-testid="button-whatsapp-hero-mobile"
-                >
-                  <MessageCircle className="w-5 h-5 mr-2" />
-                  Escribir por WhatsApp
-                </Button>
-              </div>
             </div>
           </div>
         </div>

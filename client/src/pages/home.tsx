@@ -321,16 +321,16 @@ export default function Home() {
               </h2>
               
               <h3 className="text-xl text-primary mb-6 font-semibold" data-testid="about-preview-subtitle">
-                Psicóloga con muchas ganas de acompañar a adolescentes y familias
+                Psicóloga con muchas ganas de acompañar a niños, niñas, adolescentes y familias
               </h3>
               
               <div className="space-y-4 text-muted-foreground mb-8 text-justify">
                 <p className="text-lg" data-testid="about-preview-description">
-                  Soy Antonia, psicóloga diplomada en terapia infanto-juvenil por la Universidad de Valparaíso. Como terapeuta joven, conecto fácilmente con los adolescentes: entiendo su lenguaje, sus formas de expresarse y las emociones intensas que muchas veces cuesta poner en palabras.
+                  Soy Antonia, psicóloga diplomada en terapia infanto-juvenil por la Universidad de Valparaíso. Como terapeuta joven, conecto fácilmente con niños, niñas y adolescentes: entiendo su lenguaje, sus formas de expresarse y las emociones intensas que muchas veces cuesta poner en palabras.
                 </p>
                 
                 <p>
-                  Trabajo desde una mirada sistémica y familiar, porque creo que nadie crece solo. Acompaño tanto a los jóvenes como a sus familias para mejorar la comunicación, validar lo que sienten y construir relaciones más sanas y respetuosas.
+                  Trabajo desde una mirada sistémica y familiar, porque creo que nadie crece solo. Acompaño tanto a los niños, niñas y adolescentes como a sus familias para mejorar la comunicación, validar lo que sienten y construir relaciones más sanas y respetuosas.
                 </p>
                 
                 <p>

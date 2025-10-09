@@ -4,6 +4,7 @@ import { Calendar, MessageCircle, CheckCircle, GraduationCap, Tag, Palette, Doll
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import InstagramModule from "@/components/instagram-module";
+import BlogTerapiaJuego from "@/components/blog-terapia-juego";
 import { ServiceCard } from "@/components/service-card";
 import { FAQAccordion } from "@/components/faq-accordion";
 import { TestimonialCarousel } from "@/components/testimonial-carousel";
@@ -584,6 +585,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Blog Article - Terapia de Juego */}
+      <BlogTerapiaJuego />
 
       {/* FAQ Section */}
       <section ref={faqRef} className="py-8 sm:py-16 bg-card scroll-animation" data-testid="faq-section">

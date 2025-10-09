@@ -124,7 +124,7 @@ export default function Home() {
               "itemOffered": {
                 "@type": "Service",
                 "name": "Terapia Individual Infantojuvenil",
-                "description": "Arteterapia y terapia de juego para adolescentes de 12 a 18 años"
+                "description": "Arteterapia y terapia de juego para niños y adolescentes de 7 a 18 años"
               }
             },
             {
@@ -132,7 +132,7 @@ export default function Home() {
               "itemOffered": {
                 "@type": "Service",
                 "name": "Acompañamiento Neurodivergencias",
-                "description": "Atención especializada para adolescentes con TDAH, TEA y otras neurodivergencias"
+                "description": "Atención especializada para niños y adolescentes con TDAH, TEA y otras neurodivergencias"
               }
             },
             {
@@ -159,7 +159,7 @@ export default function Home() {
         "givenName": "Antonia",
         "familyName": "Cabrera",
         "jobTitle": "Psicóloga Especialista en Arteterapia y Terapia de Juego",
-        "description": "Psicóloga especialista en adolescentes de 12 a 18 años con diploma en estrategias de intervención infantojuvenil y conocimientos en arteterapia y terapia de juego.",
+        "description": "Psicóloga especialista infanto-juvenil (7 a 18 años) con diploma en estrategias de intervención infantojuvenil y conocimientos en arteterapia y terapia de juego.",
         "image": "https://antoniacabrerapsicologa.cl/attached_assets/PHOTO-2025-10-05-18-22-05_1759848903714.jpg",
         "worksFor": {
           "@id": "https://antoniacabrerapsicologa.cl/#business"
@@ -208,7 +208,7 @@ export default function Home() {
         "@id": "https://antoniacabrerapsicologa.cl/#website",
         "url": "https://antoniacabrerapsicologa.cl",
         "name": "Antonia Cabrera - Psicóloga Especialista en Arteterapia y Terapia de Juego",
-        "description": "Sitio web oficial de Antonia Cabrera, psicóloga especialista en adolescentes con arteterapia y terapia de juego en Viña del Mar",
+        "description": "Sitio web oficial de Antonia Cabrera, psicóloga especialista infanto-juvenil con arteterapia y terapia de juego en Viña del Mar",
         "publisher": {
           "@id": "https://antoniacabrerapsicologa.cl/#person"
         },
@@ -494,7 +494,7 @@ export default function Home() {
                       <div className="flex-1 space-y-4">
                         <h3 className="text-2xl font-bold text-gray-900">Psicoterapia Individual</h3>
                         <p className="text-gray-600 leading-relaxed">
-                          Acompañamiento especializado para adolescentes de 12 a 18 años. Trabajamos temas como ansiedad, autoestima, identidad y dificultades escolares.
+                          Acompañamiento especializado para niños y adolescentes de 7 a 18 años. Trabajamos temas como ansiedad, autoestima, identidad y dificultades escolares.
                         </p>
                         <div className="flex flex-wrap gap-2">
                           <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-primary/10 text-primary">
@@ -564,7 +564,7 @@ export default function Home() {
                       <div className="flex-1 space-y-4">
                         <h3 className="text-2xl font-bold text-gray-900">Arteterapia y Terapia de Juego</h3>
                         <p className="text-gray-600 leading-relaxed">
-                          Espacio creativo para que los adolescentes expresen y exploren emociones a través del arte, dibujo, collage y dinámicas lúdicas.
+                          Espacio creativo para que niños y adolescentes expresen y exploren emociones a través del arte, dibujo, collage y dinámicas lúdicas.
                         </p>
                         <div className="flex flex-wrap gap-2">
                           <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-700">
@@ -607,8 +607,8 @@ export default function Home() {
             <div className="max-w-4xl mx-auto space-y-3 mb-6">
               {[
                 {
-                  question: "¿Cómo puede ayudar la arteterapia a adolescentes con TEA?",
-                  answer: "La arteterapia ofrece un espacio de expresión no verbal donde adolescentes pueden explorar emociones, desarrollar habilidades sociales y fortalecer su autoestima a través de actividades creativas adaptadas a sus necesidades."
+                  question: "¿Cómo puede ayudar la arteterapia a niños y adolescentes con TEA?",
+                  answer: "La arteterapia ofrece un espacio de expresión no verbal donde niños y adolescentes pueden explorar emociones, desarrollar habilidades sociales y fortalecer su autoestima a través de actividades creativas adaptadas a sus necesidades."
                 },
                 {
                   question: "¿Cuánto dura el proceso terapéutico?",

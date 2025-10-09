@@ -3,7 +3,6 @@ import { Link } from "wouter";
 import { Calendar, MessageCircle, CheckCircle, GraduationCap, Tag, Palette, DollarSign, MapPin, Phone, BookOpen, Award, Users, Clock, FileText, Brain, User, Map as MapIcon, Heart } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import ModuloDolores from "@/components/modulo-dolores";
 import InstagramModule from "@/components/instagram-module";
 import { ServiceCard } from "@/components/service-card";
 import { FAQAccordion } from "@/components/faq-accordion";
@@ -585,9 +584,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      {/* Módulo Dolores */}
-      <ModuloDolores />
 
       {/* FAQ Section */}
       <section ref={faqRef} className="py-8 sm:py-16 bg-card scroll-animation" data-testid="faq-section">

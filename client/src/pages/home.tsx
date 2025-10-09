@@ -30,30 +30,23 @@ export default function Home() {
     checkMobile();
     window.addEventListener('resize', checkMobile);
     
-    // Preload the correct image immediately based on screen size
+    // Preload the correct responsive image based on screen size
     const img = new Image();
-    const imageSrc = '/attached_assets/image_1759849561201.webp';
+    const imageSrc = window.innerWidth < 768 
+      ? '/attached_assets/hero-mobile.webp' 
+      : '/attached_assets/hero-desktop.webp';
     
     img.onload = () => {
-      // Add a small delay to ensure smooth transition
       setTimeout(() => setImageLoaded(true), 100);
     };
     img.onerror = () => {
       console.warn('Image failed to load, showing fallback');
-      setImageLoaded(true); // Show fallback background
+      setImageLoaded(true);
     };
     
-    // Set optimized loading attributes
     img.decoding = 'async';
     img.loading = 'eager';
     img.crossOrigin = 'anonymous';
-    
-    // Try WebP first if supported, fallback to original
-    const supportsWebP = (() => {
-      const canvas = document.createElement('canvas');
-      return canvas.toDataURL ? canvas.toDataURL('image/webp').indexOf('data:image/webp') === 0 : false;
-    })();
-    
     img.src = imageSrc;
     
     return () => {
@@ -236,7 +229,8 @@ export default function Home() {
     <>
       {/* Preload critical images */}
       <ImagePreloader images={[
-        "/attached_assets/hero-adolescente-mobile.webp"
+        "/attached_assets/hero-mobile.webp",
+        "/attached_assets/hero-desktop.webp"
       ]} />
       <SEOHead 
         title="Psicóloga en Viña del Mar | Arteterapia y Terapia de Juego para Adolescentes 12-18 años"
@@ -250,12 +244,11 @@ export default function Home() {
       {/* Hero Section - Full Background with Glass Effect */}
       <section 
         ref={heroRef} 
-        className="relative scroll-animation min-h-[85vh] lg:min-h-[90vh] flex items-center bg-center bg-no-repeat" 
+        className="relative scroll-animation min-h-[85vh] lg:min-h-[90vh] flex items-center bg-cover bg-center bg-no-repeat" 
         style={{
-          backgroundImage: 'url(/attached_assets/hero-garden.webp)',
-          backgroundSize: 'contain',
-          backgroundPosition: 'center',
-          backgroundColor: '#f0f4f0'
+          backgroundImage: isMobile 
+            ? 'url(/attached_assets/hero-mobile.webp)' 
+            : 'url(/attached_assets/hero-desktop.webp)'
         }}
         data-testid="hero-section"
       >

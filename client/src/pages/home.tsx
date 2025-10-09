@@ -321,20 +321,20 @@ export default function Home() {
               </h2>
               
               <h3 className="text-xl text-primary mb-6 font-semibold" data-testid="about-preview-subtitle">
-                Psicóloga especialista en Arteterapia y Terapia de Juego con adolescentes
+                Psicóloga con muchas ganas de acompañar a adolescentes y familias
               </h3>
               
               <div className="space-y-4 text-muted-foreground mb-8 text-justify">
                 <p className="text-lg" data-testid="about-preview-description">
-                  Soy Antonia Cabrera, psicóloga especializada en el trabajo con adolescentes de 12 a 18 años. Mi enfoque integra el Arteterapia y el Enfoque Sistémico para acompañar procesos de crecimiento desde una mirada relacional.
+                  Soy Antonia, psicóloga diplomada en terapia infanto-juvenil por la Universidad de Valparaíso. Como terapeuta joven, conecto fácilmente con los adolescentes: entiendo su lenguaje, sus formas de expresarse y las emociones intensas que muchas veces cuesta poner en palabras.
                 </p>
                 
                 <p>
-                  Creo firmemente en el poder del arte y del juego como puentes para expresar emociones y generar cambios positivos. Estas herramientas me permiten establecer una comunicación cálida y cercana con adolescentes que encuentran en la creatividad una forma natural de expresarse.
+                  Trabajo desde una mirada sistémica y familiar, porque creo que nadie crece solo. Acompaño tanto a los jóvenes como a sus familias para mejorar la comunicación, validar lo que sienten y construir relaciones más sanas y respetuosas.
                 </p>
                 
                 <p>
-                  También brindo apoyo a personas con neurodivergencias como TDAH y TEA, ofreciendo un espacio seguro, respetuoso y adaptado a sus necesidades.
+                  Mi objetivo es crear un ambiente cercano, cálido y auténtico, donde cada persona pueda sentirse cómoda siendo quien es, sin miedo al juicio. Un espacio para encontrarse, liberarse y aprender a vivir con más calma y confianza.
                 </p>
               </div>
               

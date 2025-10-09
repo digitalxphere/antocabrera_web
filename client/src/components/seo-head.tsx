@@ -13,7 +13,7 @@ const defaultProps = {
   title: "Psicóloga Antonia Cabrera especialista en jóvenes y adolescentes - Viña del Mar",
   description: "Atención psicológica presencial y online para jóvenes y adolescentes en Viña del Mar. Evaluaciones, psicoterapia y talleres.",
   keywords: "psicóloga Viña del Mar, psicoterapia adolescentes, TEA autismo, neurodiversidad, arteterapia, psicoterapia online, psicóloga juvenil, terapia familiar, Antonia Cabrera",
-  ogImage: "https://antoniacabrerapsicologa.cl/og-image.png",
+  ogImage: "https://antoniacabrerapsicologa.cl/og-image.jpg",
   canonical: "https://antoniacabrerapsicologa.cl"
 };
 

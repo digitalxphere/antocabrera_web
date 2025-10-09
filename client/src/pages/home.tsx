@@ -250,11 +250,12 @@ export default function Home() {
       {/* Hero Section - Full Background with Glass Effect */}
       <section 
         ref={heroRef} 
-        className="relative scroll-animation min-h-[85vh] lg:min-h-[90vh] flex items-center bg-cover bg-center bg-no-repeat" 
+        className="relative scroll-animation min-h-[85vh] lg:min-h-[90vh] flex items-center bg-center bg-no-repeat" 
         style={{
-          backgroundImage: 'url(/attached_assets/hero-garden.jpg)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center'
+          backgroundImage: 'url(/attached_assets/hero-garden.webp)',
+          backgroundSize: 'contain',
+          backgroundPosition: 'center',
+          backgroundColor: '#f0f4f0'
         }}
         data-testid="hero-section"
       >

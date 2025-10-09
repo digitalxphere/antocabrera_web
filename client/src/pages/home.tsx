@@ -98,8 +98,7 @@ export default function Home() {
           "longitude": -71.5279
         },
         "openingHours": [
-          "Mo-Fr 10:00-19:00",
-          "Sa 10:00-14:00"
+          "Mo-Fr 11:00-19:00"
         ],
         "serviceArea": [
           {
@@ -719,7 +718,7 @@ export default function Home() {
                     </p>
                     <div className="flex items-center gap-2 text-xs text-muted-foreground">
                       <Clock className="w-3 h-3" />
-                      <span>Lunes a Viernes: 10:00 - 19:00</span>
+                      <span>Lunes a Viernes: 11:00 - 19:00</span>
                     </div>
                   </div>
                 </div>

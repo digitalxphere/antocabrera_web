@@ -78,7 +78,7 @@ export default function Home() {
         "@id": "https://antoniacabrerapsicologa.cl/#business",
         "name": "Antonia Cabrera - Psicóloga Especialista en Arteterapia y Terapia de Juego",
         "alternateName": "Consulta Psicológica Antonia Cabrera",
-        "description": "Psicóloga en Viña del Mar, especialista en adolescentes de 12 a 18 años. Atención presencial y online con arteterapia y terapia de juego. Acompañamiento especializado para neurodivergencias (TDAH, TEA) con enfoque sistémico. El arte y el juego son los puentes para la comunicación amable y la expresión de emociones.",
+        "description": "Psicóloga en Viña del Mar, especialista en niños y adolescentes de 7 a 18 años. Atención presencial y online con arteterapia y terapia de juego. Acompañamiento especializado para neurodivergencias (TDAH, TEA) con enfoque sistémico. El arte y el juego son los puentes para la comunicación amable y la expresión de emociones.",
         "url": "https://antoniacabrerapsicologa.cl",
         "logo": "https://antoniacabrerapsicologa.cl/attached_assets/PHOTO-2025-10-05-18-22-05_1759848903714.jpg",
         "image": "https://antoniacabrerapsicologa.cl/attached_assets/PHOTO-2025-10-05-18-22-05_1759848903714.jpg",
@@ -233,8 +233,8 @@ export default function Home() {
         "/attached_assets/hero-desktop.webp"
       ]} />
       <SEOHead 
-        title="Psicóloga en Viña del Mar | Arteterapia y Terapia de Juego para Adolescentes 12-18 años"
-        description="Antonia Cabrera, psicóloga en Viña del Mar especialista en adolescentes de 12 a 18 años. Arteterapia y terapia de juego con enfoque sistémico. Atención presencial y online. Acompañamiento especializado para neurodivergencias (TDAH, TEA). El arte y el juego son los puentes para la comunicación amable y la expresión de emociones."
+        title="Psicóloga en Viña del Mar | Arteterapia y Terapia de Juego Infanto-Juvenil 7-18 años"
+        description="Antonia Cabrera, psicóloga en Viña del Mar especialista infanto-juvenil (7 a 18 años). Arteterapia y terapia de juego con enfoque sistémico. Atención presencial y online. Acompañamiento especializado para neurodivergencias (TDAH, TEA). El arte y el juego son los puentes para la comunicación amable y la expresión de emociones."
         canonical="https://antoniacabrerapsicologa.cl/"
         structuredData={structuredData}
       />
@@ -262,7 +262,7 @@ export default function Home() {
               <div className="space-y-6 lg:space-y-8">
                 <div className="space-y-4">
                   <div className="inline-block px-4 py-2 bg-primary/20 backdrop-blur-sm rounded-full">
-                    <p className="text-sm font-semibold text-primary">Atención Especializada en Adolescentes</p>
+                    <p className="text-sm font-semibold text-primary">Atención Especializada Infanto-Juvenil</p>
                   </div>
                   
                   <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white leading-tight" data-testid="hero-title">
@@ -270,7 +270,7 @@ export default function Home() {
                   </h1>
                   
                   <h2 className="text-xl sm:text-2xl text-gray-800 dark:text-gray-100 font-semibold" data-testid="hero-subtitle">
-                    Especialista en adolescentes (12 a 18 años)
+                    Especialista Infanto-Juvenil (7 a 18 años)
                   </h2>
                   
                   <p className="text-lg text-gray-700 dark:text-gray-200 max-w-2xl leading-relaxed" data-testid="hero-description">

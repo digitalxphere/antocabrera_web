@@ -102,7 +102,7 @@ export default function Servicios() {
                   <ul className="space-y-2 text-sm text-muted-foreground">
                     <li className="flex items-center gap-2">
                       <CheckCircle className="w-4 h-4 text-primary" />
-                      Adolescentes entre 12-18 años
+                      Niños y adolescentes entre 7-18 años
                     </li>
                     <li className="flex items-center gap-2">
                       <CheckCircle className="w-4 h-4 text-primary" />

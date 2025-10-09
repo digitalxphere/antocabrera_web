@@ -10,9 +10,9 @@ interface SEOHeadProps {
 }
 
 const defaultProps = {
-  title: "Psicóloga Antonia Cabrera especialista en jóvenes y adolescentes - Viña del Mar",
-  description: "Atención psicológica presencial y online para jóvenes y adolescentes en Viña del Mar. Evaluaciones, psicoterapia y talleres.",
-  keywords: "psicóloga Viña del Mar, psicoterapia adolescentes, TEA autismo, neurodiversidad, arteterapia, psicoterapia online, psicóloga juvenil, terapia familiar, Antonia Cabrera",
+  title: "Psicóloga Antonia Cabrera especialista infanto-juvenil - Viña del Mar",
+  description: "Atención psicológica presencial y online para niños y adolescentes de 7 a 18 años en Viña del Mar. Evaluaciones, psicoterapia y talleres.",
+  keywords: "psicóloga Viña del Mar, psicoterapia infanto-juvenil, TEA autismo, neurodiversidad, arteterapia, psicoterapia online, psicóloga infantojuvenil, terapia familiar, Antonia Cabrera",
   ogImage: "https://antoniacabrerapsicologa.cl/og-image.jpg",
   canonical: "https://antoniacabrerapsicologa.cl"
 };
@@ -57,10 +57,10 @@ export function SEOHead({
       <meta property="og:image" content={absoluteOgImage} />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
-      <meta property="og:image:alt" content="Antonia Cabrera - Psicóloga especialista en TEA y adolescentes" />
+      <meta property="og:image:alt" content="Antonia Cabrera - Psicóloga especialista infanto-juvenil" />
       <meta property="og:type" content="website" />
       <meta property="og:url" content={canonical} />
-      <meta property="og:site_name" content="Antonia Cabrera - Psicóloga Especialista en Jóvenes y Adolescentes" />
+      <meta property="og:site_name" content="Antonia Cabrera - Psicóloga Especialista Infanto-Juvenil" />
       <meta property="og:locale" content="es_CL" />
       
       {/* Twitter Card Meta Tags */}
@@ -74,7 +74,7 @@ export function SEOHead({
       <meta name="DC.title" content={title} />
       <meta name="DC.description" content={description} />
       <meta name="DC.creator" content="Antonia Cabrera" />
-      <meta name="DC.subject" content="Psicoterapia, TEA, Adolescentes, Neurodiversidad" />
+      <meta name="DC.subject" content="Psicoterapia, TEA, Infanto-Juvenil, Neurodiversidad" />
       <meta name="DC.language" content="es-CL" />
       
       {/* Google Analytics and Tag Manager - Only add if not already present */}

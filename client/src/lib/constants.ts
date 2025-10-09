@@ -2,13 +2,13 @@ import type { ServiceType, FAQItem, ContactInfo } from "@/types";
 
 export const SITE_CONFIG = {
   name: "Antonia Cabrera - Psicóloga",
-  description: "Psicóloga especialista en adolescentes 12-18 años con arteterapia y terapia de juego en Viña del Mar",
+  description: "Psicóloga especialista infanto-juvenil 7-18 años con arteterapia y terapia de juego en Viña del Mar",
   url: "https://antoniacabrerapsicologa.cl",
   author: "Antonia Cabrera",
   keywords: [
     "psicóloga Viña del Mar", 
-    "psicóloga adolescentes",
-    "arteterapia adolescentes",
+    "psicóloga infanto-juvenil",
+    "arteterapia niños adolescentes",
     "terapia de juego",
     "psicóloga infantojuvenil Viña del Mar",
     "neurodivergencias TDAH TEA",
@@ -31,7 +31,7 @@ export const SERVICES: ServiceType[] = [
     id: "individual",
     title: "Terapia Individual Infantojuvenil",
     subtitle: "Arteterapia y Terapia de Juego",
-    description: "Acompañamiento terapéutico utilizando el arte y el juego como vías principales para la comunicación amable y la expresión de emociones. Especialización en adolescentes de 12 a 18 años con enfoque sistémico.",
+    description: "Acompañamiento terapéutico utilizando el arte y el juego como vías principales para la comunicación amable y la expresión de emociones. Especialización infanto-juvenil de 7 a 18 años con enfoque sistémico.",
     features: ["Objetivo: expresión emocional y bienestar integral", "Duración: 50 min", "Modalidad: Presencial en Montenegro 136, Viña del Mar y online"],
     icon: "palette",
     color: "primary",
@@ -43,7 +43,7 @@ export const SERVICES: ServiceType[] = [
     id: "neurodiversity",
     title: "Acompañamiento Neurodivergencias",
     subtitle: "TDAH, TEA y otras condiciones",
-    description: "Soporte especializado para adolescentes neurodivergentes (12-18 años), utilizando estrategias de intervención infantojuvenil adaptadas a cada necesidad particular.",
+    description: "Soporte especializado para niños y adolescentes neurodivergentes (7-18 años), utilizando estrategias de intervención infantojuvenil adaptadas a cada necesidad particular.",
     features: ["Objetivo: apoyo integral y desarrollo de habilidades", "Formato: sesiones individuales personalizadas", "Modalidad: Presencial en Viña del Mar y online"],
     icon: "brain",
     color: "secondary",
@@ -68,7 +68,7 @@ export const FAQ_ITEMS: FAQItem[] = [
   {
     id: "1",
     question: "¿Desde qué edad atiende Antonia Cabrera?",
-    answer: "Atiende a niños desde los 7 años, adolescentes y adultos jóvenes."
+    answer: "Atiende a niños y adolescentes de 7 a 18 años, con especialización en el rango infanto-juvenil."
   },
   {
     id: "2",

@@ -494,7 +494,7 @@ export default function Home() {
                       <div className="flex-1 space-y-4">
                         <h3 className="text-2xl font-bold text-gray-900">Psicoterapia Individual</h3>
                         <p className="text-gray-600 leading-relaxed">
-                          Acompañamiento especializado para niños y adolescentes de 7 a 18 años. Trabajamos temas como ansiedad, autoestima, identidad y dificultades escolares.
+                          Acompañamiento de niñas, niños y adolescentes para el desarrollo de una personalidad sana y una buena integración en sus espacios sociales. Trabajamos temas como ansiedad, autoestima, identidad, regulación emocional y dificultades en las relaciones.
                         </p>
                         <div className="flex flex-wrap gap-2">
                           <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-primary/10 text-primary">

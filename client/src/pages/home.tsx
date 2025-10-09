@@ -562,7 +562,7 @@ export default function Home() {
                         />
                       </div>
                       <div className="flex-1 space-y-4">
-                        <h3 className="text-2xl font-bold text-gray-900">Arteterapia y Terapia de Juego</h3>
+                        <h3 className="text-2xl font-bold text-gray-900">Arteterapia y Terapia de Juego / Talleres Grupales</h3>
                         <p className="text-gray-600 leading-relaxed">
                           Espacio creativo para que niños y adolescentes expresen y exploren emociones a través del arte, dibujo, collage y dinámicas lúdicas.
                         </p>

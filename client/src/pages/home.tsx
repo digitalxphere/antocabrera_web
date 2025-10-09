@@ -447,7 +447,7 @@ export default function Home() {
                     <Heart className="w-7 h-7 text-teal-600" />
                   </div>
                   <div>
-                    <h3 className="font-bold text-gray-900 mb-1.5 text-lg">Espacio Inclusivo LGBTIQ+</h3>
+                    <h3 className="font-bold text-gray-900 mb-1.5 text-lg">Espacio Inclusivo y Neurodiversidad</h3>
                     <p className="text-gray-600 text-sm leading-relaxed">Trabajo inclusivo con diversidad sexual, de género y neurodivergencia. Espacio libre de juicios, respetuoso y empático</p>
                   </div>
                 </div>

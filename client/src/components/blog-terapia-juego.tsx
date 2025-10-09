@@ -27,11 +27,8 @@ export default function BlogTerapiaJuego() {
           </p>
           
           <div className="mt-8 pt-6 border-t border-border">
-            <p className="text-lg font-semibold text-foreground">
+            <p className="text-base italic text-foreground">
               <span className="text-primary mr-2">■</span>
-              En palabras simples:
-            </p>
-            <p className="mt-3 text-base italic">
               Cuando un niño juega en terapia, sana sin darse cuenta. El juego se convierte en su puente hacia el bienestar y en una herramienta poderosa para que pueda crecer más libre, más seguro y más en sintonía consigo mismo.
             </p>
           </div>

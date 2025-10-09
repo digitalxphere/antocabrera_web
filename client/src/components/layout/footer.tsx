@@ -23,7 +23,7 @@ export function Footer() {
               <p className="text-sm text-white">Psicóloga</p>
             </div>
             <p className="text-white text-sm">
-              Especialista en arteterapia y terapia de juego con adolescentes.
+              Diplomada en Terapia Infanto Juvenil - Especialista en niñas, niños y adolescentes (7 - 18 años).
             </p>
           </div>
           

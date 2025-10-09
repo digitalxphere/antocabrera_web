@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "wouter";
-import { Calendar, MessageCircle, CheckCircle, GraduationCap, Tag, Palette, DollarSign, MapPin, Phone, BookOpen, Award, Users, Clock, FileText, Brain, User, Map as MapIcon } from "lucide-react";
+import { Calendar, MessageCircle, CheckCircle, GraduationCap, Tag, Palette, DollarSign, MapPin, Phone, BookOpen, Award, Users, Clock, FileText, Brain, User, Map as MapIcon, Heart } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import ModuloDolores from "@/components/modulo-dolores";
@@ -422,7 +422,7 @@ export default function Home() {
                   </div>
                   <div>
                     <h3 className="font-bold text-gray-900 mb-1.5 text-lg">Arteterapia y Terapia de Juego</h3>
-                    <p className="text-gray-600 text-sm leading-relaxed">Herramientas creativas aplicadas a adolescentes</p>
+                    <p className="text-gray-600 text-sm leading-relaxed">Acceso al mundo interno a través de la creatividad, expresión simbólica y lenguaje no verbal para comunicar emociones</p>
                   </div>
                 </div>
               </div>
@@ -434,21 +434,21 @@ export default function Home() {
                     <Users className="w-7 h-7 text-orange-600" />
                   </div>
                   <div>
-                    <h3 className="font-bold text-gray-900 mb-1.5 text-lg">Enfoque Sistémico</h3>
-                    <p className="text-gray-600 text-sm leading-relaxed">Visión relacional y trabajo con familias</p>
+                    <h3 className="font-bold text-gray-900 mb-1.5 text-lg">Enfoque Sistémico Familiar</h3>
+                    <p className="text-gray-600 text-sm leading-relaxed">Comprende a las personas dentro de sus vínculos significativos: familia, amistades, escuela y cómo transformar esas dinámicas</p>
                   </div>
                 </div>
               </div>
               
-              {/* Neurodivergencias */}
+              {/* Inclusión */}
               <div className="bg-white rounded-2xl p-6 shadow-md hover:shadow-lg transition-shadow border border-gray-100">
                 <div className="flex flex-col items-center text-center gap-4">
                   <div className="w-14 h-14 bg-teal-100 rounded-xl flex items-center justify-center flex-shrink-0">
-                    <Brain className="w-7 h-7 text-teal-600" />
+                    <Heart className="w-7 h-7 text-teal-600" />
                   </div>
                   <div>
-                    <h3 className="font-bold text-gray-900 mb-1.5 text-lg">Neurodivergencias</h3>
-                    <p className="text-gray-600 text-sm leading-relaxed">Acompañamiento TDAH y TEA</p>
+                    <h3 className="font-bold text-gray-900 mb-1.5 text-lg">Espacio Inclusivo LGBTIQ+</h3>
+                    <p className="text-gray-600 text-sm leading-relaxed">Trabajo inclusivo con diversidad sexual y de género. Espacio libre de juicios, respetuoso y empático</p>
                   </div>
                 </div>
               </div>

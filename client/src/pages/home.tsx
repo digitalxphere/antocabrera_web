@@ -247,62 +247,60 @@ export default function Home() {
       
       {/* Preload removido para evitar duplicación con ImagePreloader optimizado */}
 
-      {/* Hero Section - Editorial Layout */}
+      {/* Hero Section - Full Background with Glass Effect */}
       <section 
         ref={heroRef} 
-        className="relative scroll-animation bg-[radial-gradient(circle_at_top_left,_hsl(35,95%,90%)_0%,_hsl(210,90%,92%)_45%,_white_100%)]" 
+        className="relative scroll-animation min-h-[85vh] lg:min-h-[90vh] flex items-center bg-cover bg-center bg-no-repeat" 
+        style={{
+          backgroundImage: 'url(/attached_assets/hero-garden.jpg)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center'
+        }}
         data-testid="hero-section"
       >
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-20">
-          <div className="grid lg:grid-cols-[1fr_380px] gap-8 lg:gap-12 items-center lg:min-h-[70vh]">
-            {/* Left Column - Content */}
-            <div className="space-y-6 lg:space-y-8">
-              <div className="space-y-4">
-                <div className="inline-block px-4 py-2 bg-primary/10 rounded-full">
-                  <p className="text-sm font-semibold text-primary">Atención Especializada en Adolescentes</p>
+        {/* Overlay opcional para mejorar contraste */}
+        <div className="absolute inset-0 bg-black/5"></div>
+        
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-20 w-full">
+          <div className="max-w-3xl">
+            {/* Glass Container */}
+            <div className="backdrop-blur-xl bg-white/70 dark:bg-gray-900/70 rounded-3xl p-8 lg:p-12 shadow-2xl border border-white/20">
+              <div className="space-y-6 lg:space-y-8">
+                <div className="space-y-4">
+                  <div className="inline-block px-4 py-2 bg-primary/20 backdrop-blur-sm rounded-full">
+                    <p className="text-sm font-semibold text-primary">Atención Especializada en Adolescentes</p>
+                  </div>
+                  
+                  <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white leading-tight" data-testid="hero-title">
+                    Psicóloga en Viña del Mar – Antonia Cabrera
+                  </h1>
+                  
+                  <h2 className="text-xl sm:text-2xl text-gray-800 dark:text-gray-100 font-semibold" data-testid="hero-subtitle">
+                    Especialista en adolescentes (12 a 18 años)
+                  </h2>
+                  
+                  <p className="text-lg text-gray-700 dark:text-gray-200 max-w-2xl leading-relaxed" data-testid="hero-description">
+                    Arteterapia y Terapia de Juego con Enfoque Sistémico. El arte y el juego son los puentes para la comunicación amable y la expresión de emociones. 
+                    Te acompaño en tu proceso con herramientas creativas adaptadas a ti.
+                  </p>
                 </div>
-                
-                <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight" data-testid="hero-title">
-                  Psicóloga en Viña del Mar – Antonia Cabrera
-                </h1>
-                
-                <h2 className="text-xl sm:text-2xl text-gray-700 font-semibold" data-testid="hero-subtitle">
-                  Especialista en adolescentes (12 a 18 años)
-                </h2>
-                
-                <p className="text-lg text-gray-600 max-w-2xl leading-relaxed" data-testid="hero-description">
-                  Arteterapia y Terapia de Juego con Enfoque Sistémico. El arte y el juego son los puentes para la comunicación amable y la expresión de emociones. 
-                  Te acompaño en tu proceso con herramientas creativas adaptadas a ti.
-                </p>
-              </div>
 
-              {/* Key Info Pills */}
-              <div className="flex flex-wrap gap-3 pt-2">
-                <div className="flex items-center gap-2 px-4 py-2 bg-white/80 rounded-full border border-gray-200">
-                  <MapPin className="w-4 h-4 text-primary" />
-                  <span className="text-sm font-medium text-gray-700">Montenegro 136, Viña del Mar</span>
-                </div>
-                <div className="flex items-center gap-2 px-4 py-2 bg-white/80 rounded-full border border-gray-200">
-                  <Clock className="w-4 h-4 text-primary" />
-                  <span className="text-sm font-medium text-gray-700">50 minutos</span>
-                </div>
-                <div className="flex items-center gap-2 px-4 py-2 bg-white/80 rounded-full border border-gray-200">
-                  <CheckCircle className="w-4 h-4 text-primary" />
-                  <span className="text-sm font-medium text-gray-700">Presencial u Online</span>
+                {/* Key Info Pills */}
+                <div className="flex flex-wrap gap-3 pt-2">
+                  <div className="flex items-center gap-2 px-4 py-2 bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-full border border-white/30">
+                    <MapPin className="w-4 h-4 text-primary" />
+                    <span className="text-sm font-medium text-gray-700 dark:text-gray-200">Montenegro 136, Viña del Mar</span>
+                  </div>
+                  <div className="flex items-center gap-2 px-4 py-2 bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-full border border-white/30">
+                    <Clock className="w-4 h-4 text-primary" />
+                    <span className="text-sm font-medium text-gray-700 dark:text-gray-200">50 minutos</span>
+                  </div>
+                  <div className="flex items-center gap-2 px-4 py-2 bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-full border border-white/30">
+                    <CheckCircle className="w-4 h-4 text-primary" />
+                    <span className="text-sm font-medium text-gray-700 dark:text-gray-200">Presencial u Online</span>
+                  </div>
                 </div>
               </div>
-            </div>
-
-            {/* Right Column - Image */}
-            <div className="flex flex-col gap-4">
-              <Card className="overflow-hidden rounded-3xl shadow-2xl border-0">
-                <img 
-                  src="/attached_assets/hero-adolescente-desktop.webp"
-                  alt="Adolescente pintando arcoíris - Arteterapia y expresión creativa"
-                  className="w-full h-auto object-cover"
-                  loading="eager"
-                />
-              </Card>
             </div>
           </div>
         </div>

@@ -75,62 +75,28 @@
     }
     </script>
 
-    <!-- Local Business Structured Data -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": ["LocalBusiness", "ProfessionalService"],
-      "name": "Consulta de Psicología Antonia Cabrera",
-      "image": "https://antoniacabrerapsicologa.cl/og-image.jpg",
-      "url": "https://antoniacabrerapsicologa.cl/",
-      "telephone": "+56 9 5306 5780",
-      "email": "ps.antoniapaz@gmail.com",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Montenegro 136",
-        "addressLocality": "Viña del Mar",
-        "addressRegion": "Valparaíso",
-        "addressCountry": "CL"
-      },
-      "areaServed": [
-        {
-          "@type": "City",
-          "name": "Viña del Mar",
-          "containedInPlace": {
-            "@type": "State",
-            "name": "Valparaíso"
-          }
-        }
-      ],
-      "knowsAbout": ["psicoterapia adolescentes", "arteterapia", "terapia de juego", "enfoque sistémico", "terapia narrativa", "neurodiversidad", "TDAH", "TEA"],
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": -33.0245,
-        "longitude": -71.5516
-      },
-      "priceRange": "$$",
-      "openingHoursSpecification": [{
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
-        "opens": "11:00",
-        "closes": "19:00"
-      }]
-    }
-    </script>
-
     <!-- Person Structured Data -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Person",
+      "@id": "https://antoniacabrerapsicologa.cl/#person",
       "name": "Antonia Cabrera",
       "alternateName": "Antonia Paz Cabrera",
       "jobTitle": "Psicóloga",
+      "description": "Psicóloga Universidad de Valparaíso, especializada en adolescentes, arteterapia y terapia de juego con enfoque sistémico",
       "url": "https://antoniacabrerapsicologa.cl/sobre-antonia",
+      "image": "https://antoniacabrerapsicologa.cl/og-image.jpg",
       "sameAs": [
-        "https://www.instagram.com/ps.antoniapaz/"
+        "https://www.instagram.com/ps.antoniapaz/",
+        "https://www.google.com/maps/place/Montenegro+136,+Vi%C3%B1a+del+Mar,+Valpara%C3%ADso/@-33.0245,-71.5516,17z"
       ],
-      "knowsAbout": ["psicoterapia", "adolescentes", "arteterapia", "terapia de juego", "enfoque sistémico", "neurodiversidad", "TDAH", "TEA"]
+      "worksFor": {
+        "@id": "https://antoniacabrerapsicologa.cl/#organization"
+      },
+      "knowsAbout": ["psicoterapia", "adolescentes", "arteterapia", "terapia de juego", "enfoque sistémico", "neurodiversidad", "TDAH", "TEA"],
+      "telephone": "+56 9 5306 5780",
+      "email": "ps.antoniapaz@gmail.com"
     }
     </script>
 
@@ -149,30 +115,56 @@
        "@type":"Question",
        "name":"¿Qué tipo de terapias utiliza?",
        "acceptedAnswer":{"@type":"Answer","text":"Su enfoque principal es la Arteterapia y la Terapia de Juego, complementadas con un Enfoque Sistémico y Terapia Narrativa."}
+      },
+      {
+       "@type":"Question",
+       "name":"¿Dónde está ubicada la consulta?",
+       "acceptedAnswer":{"@type":"Answer","text":"La consulta se encuentra en Montenegro 136, Viña del Mar, Región de Valparaíso. Ofrece atención presencial y online."}
+      },
+      {
+       "@type":"Question",
+       "name":"¿Trabaja con neurodivergencias como TDAH o TEA?",
+       "acceptedAnswer":{"@type":"Answer","text":"Sí, Antonia tiene experiencia en acompañamiento de neurodivergencias, incluyendo TDAH, TEA y otras condiciones, con un enfoque respetuoso y adaptado a cada persona."}
+      },
+      {
+       "@type":"Question",
+       "name":"¿Cuánto dura una sesión de terapia?",
+       "acceptedAnswer":{"@type":"Answer","text":"Las sesiones tienen una duración de 50 minutos y se realizan en modalidad presencial u online, según las necesidades de cada persona."}
       }
      ]
     }
     </script>
 
-    <!-- Psicóloga Viña del Mar JSON-LD Schema -->
+    <!-- Local Business & Psychological Service Consolidated -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": ["PsychologicalService", "LocalBusiness", "HealthAndBeautyBusiness"],
-      "@id": "https://antoniacabrerapsicologa.cl/#psicologa-vina-del-mar",
+      "@type": "PsychologicalService",
+      "@id": "https://antoniacabrerapsicologa.cl/#organization",
       "name": "Antonia Cabrera - Psicóloga Viña del Mar",
-      "alternateName": "Psicóloga Especialista Adolescentes Viña del Mar",
-      "description": "Psicóloga especialista en adolescentes de 12 a 18 años. Arteterapia, Terapia de Juego y Enfoque Sistémico en Viña del Mar. Universidad de Valparaíso.",
+      "alternateName": "Consulta de Psicología Antonia Cabrera",
+      "description": "Psicóloga especialista en adolescentes de 12 a 18 años. Arteterapia, Terapia de Juego y Enfoque Sistémico en Viña del Mar.",
       "url": "https://antoniacabrerapsicologa.cl/",
       "telephone": "+56 9 5306 5780",
       "email": "ps.antoniapaz@gmail.com",
       "image": "https://antoniacabrerapsicologa.cl/og-image.jpg",
       "logo": "https://antoniacabrerapsicologa.cl/og-image.jpg",
+      "sameAs": [
+        "https://www.instagram.com/ps.antoniapaz/",
+        "https://www.google.com/maps/place/Montenegro+136,+Vi%C3%B1a+del+Mar,+Valpara%C3%ADso/@-33.0245,-71.5516,17z"
+      ],
+      "founder": {
+        "@id": "https://antoniacabrerapsicologa.cl/#person"
+      },
+      "employee": {
+        "@id": "https://antoniacabrerapsicologa.cl/#person"
+      },
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Montenegro 136",
         "addressLocality": "Viña del Mar",
         "addressRegion": "Valparaíso",
+        "postalCode": "2520000",
         "addressCountry": "CL"
       },
       "geo": {
@@ -188,16 +180,14 @@
           "closes": "19:00"
         }
       ],
-      "serviceArea": [
-        {
-          "@type": "City",
-          "name": "Viña del Mar",
-          "containedInPlace": {
-            "@type": "State",
-            "name": "Valparaíso"
-          }
+      "areaServed": {
+        "@type": "City",
+        "name": "Viña del Mar",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Valparaíso"
         }
-      ],
+      },
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
         "name": "Servicios Psicológicos Especializados",
@@ -209,8 +199,7 @@
               "name": "Terapia Individual Infantojuvenil",
               "description": "Arteterapia y Terapia de Juego para adolescentes de 12 a 18 años",
               "provider": {
-                "@type": "Person",
-                "name": "Antonia Cabrera"
+                "@id": "https://antoniacabrerapsicologa.cl/#person"
               }
             }
           },
@@ -221,8 +210,7 @@
               "name": "Acompañamiento Neurodivergencias",
               "description": "Soporte especializado para TDAH, TEA y otras neurodivergencias",
               "provider": {
-                "@type": "Person",
-                "name": "Antonia Cabrera"
+                "@id": "https://antoniacabrerapsicologa.cl/#person"
               }
             }
           },
@@ -233,8 +221,7 @@
               "name": "Talleres de Arteterapia y Juego",
               "description": "Espacios grupales con enfoque sistémico",
               "provider": {
-                "@type": "Person",
-                "name": "Antonia Cabrera"
+                "@id": "https://antoniacabrerapsicologa.cl/#person"
               }
             }
           },
@@ -245,49 +232,16 @@
               "name": "Terapia Familiar",
               "description": "Orientación familiar con enfoque sistémico",
               "provider": {
-                "@type": "Person",
-                "name": "Antonia Cabrera"
+                "@id": "https://antoniacabrerapsicologa.cl/#person"
               }
             }
           }
         ]
       },
-      "founder": {
-        "@type": "Person",
-        "name": "Antonia Cabrera",
-        "alternateName": "Antonia Paz Cabrera",
-        "jobTitle": "Psicóloga",
-        "description": "Psicóloga Universidad de Valparaíso, especializada en adolescentes, arteterapia y terapia de juego",
-        "knowsAbout": ["Arteterapia", "Terapia de Juego", "Enfoque Sistémico", "Adolescentes", "TDAH", "TEA", "Neurodiversidad"]
-      },
       "priceRange": "$$",
       "currenciesAccepted": "CLP",
-      "paymentAccepted": ["Cash", "Credit Card", "Bank Transfer"]
-    }
-    </script>
-
-    <!-- Organization JSON-LD -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "Antonia Cabrera Psicóloga",
-      "url": "https://antoniacabrerapsicologa.cl",
-      "logo": "https://antoniacabrerapsicologa.cl/og-image.jpg",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Montenegro 136",
-        "addressLocality": "Viña del Mar",
-        "addressRegion": "Valparaíso",
-        "addressCountry": "CL"
-      },
-      "contactPoint": [{
-        "@type": "ContactPoint",
-        "contactType": "customer support",
-        "telephone": "+56-9-5306-5780",
-        "email": "ps.antoniapaz@gmail.com",
-        "areaServed": "CL"
-      }]
+      "paymentAccepted": ["Cash", "Credit Card", "Bank Transfer"],
+      "knowsAbout": ["psicoterapia adolescentes", "arteterapia", "terapia de juego", "enfoque sistémico", "terapia narrativa", "neurodiversidad", "TDAH", "TEA"]
     }
     </script>
   </head>

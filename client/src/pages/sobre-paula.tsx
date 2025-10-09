@@ -76,34 +76,20 @@ export default function SobrePaula() {
                     
                     <div className="space-y-6 text-muted-foreground text-lg leading-relaxed text-justify">
                       <p data-testid="about-description-1">
-                        Soy Antonia Cabrera, psicóloga especializada en el trabajo con adolescentes y jóvenes adultos. Mi enfoque integra el Arteterapia, la Terapia de Juego y el Enfoque Sistémico para acompañar procesos de crecimiento desde una mirada relacional.
+                        Soy Antonia, psicóloga con muchas ganas de acompañar a adolescentes y familias en sus procesos de crecimiento y bienestar emocional. Me diplomé en terapia infanto-juvenil en la Universidad de Valparaíso, donde también realicé mis estudios de pregrado.
                       </p>
                       
                       <p data-testid="about-description-2">
-                        Creo firmemente en el poder del arte y del juego como puentes para expresar emociones y generar cambios positivos. Estas herramientas me permiten establecer una comunicación cálida y cercana con adolescentes que encuentran en la creatividad una forma natural de expresarse.
+                        Como terapeuta joven, conecto fácilmente con los adolescentes: entiendo su lenguaje, sus formas de expresarse y las emociones intensas que muchas veces cuesta poner en palabras. Mi objetivo es que en terapia puedan sentirse cómodos siendo quienes son, sin miedo al juicio, en un espacio donde puedan expresarse con libertad y encontrar nuevas maneras de entenderse.
                       </p>
                       
                       <p data-testid="about-description-3">
-                        También brindo apoyo a personas con neurodivergencias como TDAH y TEA, ofreciendo un espacio seguro, respetuoso y adaptado a sus necesidades.
+                        Trabajo desde una mirada sistémica y familiar, porque creo que nadie crece solo; las relaciones y los vínculos que tenemos influyen mucho en cómo nos sentimos. Acompaño tanto a los jóvenes como a sus familias para mejorar la comunicación, validar lo que sienten y construir relaciones más sanas y respetuosas.
                       </p>
 
-                      <div className="pt-4">
-                        <h5 className="text-xl font-semibold text-foreground mb-4" data-testid="about-support-title">Te ofrezco apoyo para trabajar en:</h5>
-                        <ul className="space-y-2">
-                          <li className="flex items-start gap-3" data-testid="about-support-anxiety">
-                            <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-1" />
-                            <span>Manejar la ansiedad y la depresión</span>
-                          </li>
-                          <li className="flex items-start gap-3" data-testid="about-support-identity">
-                            <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-1" />
-                            <span>Fortalecer tu autoestima y construir una identidad auténtica</span>
-                          </li>
-                          <li className="flex items-start gap-3" data-testid="about-support-neurodiversity">
-                            <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-1" />
-                            <span>Comprender y manejar la sintomatología asociada al Espectro Autista y al Déficit de Atención</span>
-                          </li>
-                        </ul>
-                      </div>
+                      <p data-testid="about-description-4">
+                        Me gusta crear un ambiente cercano, cálido y auténtico, donde hablar de emociones sea algo natural. Creo profundamente que cada persona tiene su propio ritmo y su manera única de sanar. Mi meta es que cada proceso terapéutico se sienta como un espacio para encontrarse, liberarse y aprender a vivir con más calma y confianza.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -148,7 +134,7 @@ export default function SobrePaula() {
                       Mi enfoque terapéutico
                     </h2>
                     <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 text-center text-sm font-medium text-muted-foreground">
-                      <span data-testid="about-adolescents-title">Adolescentes 12-18 años</span>
+                      <span data-testid="about-adolescents-title">Infanto-Juvenil 7-18 años</span>
                       <span data-testid="about-arttherapy-title">Arteterapia</span>
                       <span data-testid="about-playtherapy-title">Terapia de Juego</span>
                       <span data-testid="about-neurodiversity-title">Neurodivergencias</span>

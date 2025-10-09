@@ -326,7 +326,7 @@ export default function Home() {
               
               <div className="space-y-4 text-muted-foreground mb-8 text-justify">
                 <p className="text-lg" data-testid="about-preview-description">
-                  Soy Antonia, psicóloga diplomada en terapia infanto-juvenil por la Universidad de Valparaíso. Como terapeuta joven, conecto fácilmente con niños, niñas y adolescentes: entiendo su lenguaje, sus formas de expresarse y las emociones intensas que muchas veces cuesta poner en palabras.
+                  Soy Antonia, psicóloga diplomada en terapia <strong className="font-semibold text-foreground">infanto-juvenil</strong> por la Universidad de Valparaíso. Trabajo en <strong className="font-semibold text-foreground">Viña del Mar</strong>, acompañando a niños, niñas y adolescentes. Como terapeuta joven, conecto fácilmente con ellos: entiendo su lenguaje, sus formas de expresarse y las emociones intensas que muchas veces cuesta poner en palabras.
                 </p>
                 
                 <p>
